@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\labels.tmp" -fI -W+ie -C V2E -o "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\maticovka.hex" -d "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\maticovka.obj" -e "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\maticovka.eep" -m "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\maticovka.map" "D:\Google drive\SPŠCV\A4\PRAXE\2. Maticový displej\maticovka\maticovka.asm"

@@ -1,0 +1,30 @@
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.exe.config
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.exe
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.pdb
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csprojAssemblyReference.cache
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\MainWindow.g.cs
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\App.g.cs
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController_MarkupCompile.cache
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController_MarkupCompile.lref
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\MainWindow.baml
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.g.resources
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.Properties.Resources.resources
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csproj.GenerateResource.cache
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csproj.CoreCompileInputs.cache
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.exe
+D:\OneDrive\SPŠCV\A4\Praxe\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.pdb
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.exe.config
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.exe
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\bin\Debug\serialPortController.pdb
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csprojAssemblyReference.cache
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\MainWindow.g.cs
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\App.g.cs
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController_MarkupCompile.cache
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController_MarkupCompile.lref
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\MainWindow.baml
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.g.resources
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.Properties.Resources.resources
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csproj.GenerateResource.cache
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.csproj.CoreCompileInputs.cache
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.exe
+D:\Google drive\SPŠCV\A4\PRAXE\1. Seriova komunikace\serialPortController\serialPortController\obj\Debug\serialPortController.pdb
