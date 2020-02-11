@@ -1,0 +1,100 @@
+Pinlist
+
+Exported from cv09_dobes.brd at 19.11.2018 10:26
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Part     Pad      Net
+
+1+       1        N$10
+         2        N$9
+
+C1       1        N$4
+         2        N$9
+
+D1       A        N$3
+         C        N$4
+
+IC1      1        N$11
+         2        N$9
+         3        N$10
+         4        N$9
+         5        N$4
+         6        N$7
+         7        N$5
+         8        N$9
+         9        N$6
+         10       N$20
+         11       N$19
+         12       N$18
+         13       N$17
+         14       N$16
+         15       N$15
+         16       N$14
+         17       N$13
+         18       N$12
+
+JP0      1        N$6
+         2        N$10
+
+LED1     A        N$10
+         K        N$11
+
+LED2     A        N$10
+         K        N$12
+
+LED3     A        N$10
+         K        N$13
+
+LED4     A        N$10
+         K        N$14
+
+LED5     A        N$10
+         K        N$15
+
+LED6     A        N$10
+         K        N$16
+
+LED7     A        N$10
+         K        N$17
+
+LED8     A        N$10
+         K        N$18
+
+LED9     A        N$10
+         K        N$19
+
+LED10    A        N$10
+         K        N$20
+
+MONO.IN  1        N$1
+         2        N$9
+
+R1       1        N$7
+         2        N$22
+
+R2       1        N$9
+         2        N$21
+
+R3       1        N$9
+         2        N$23
+
+R4       1        N$3
+         2        N$2
+         3        N$9
+
+R5       1        N$8
+         2        N$1
+
+R6       1        N$2
+         2        N$8
+
+R7       1        N$22
+         2        N$5
+
+R8       1        N$21
+         2        N$5
+
+R9       1        N$23
+         2        N$4
+

@@ -1,0 +1,28 @@
+úloha 5
+
+cvièení 5. – Eagle: zpìtná dokumentace
+
+1. Pro zadanou osazenou desku plošných spojù vytvoøte novou
+   dokumentaci,
+
+2. Zmìøte rozmìry desky a vytvoøte její obrys v editoru
+   plošných spojù,
+
+3. Rozpoznejte jednotlivé druhy souèástek a zjistìte podle
+   oznaèení (kde je to možné) jejich typ a hodnotu,
+
+4. V knihovnách Eaglu najdìte nejbližší podobné typy
+   a rozmístìte je na DPS podle skuteènosti,
+
+5. Nakreslete spoje mezi vývody souèástek
+   (nejdøíve jako vzdušné spoje, potom ve vrstvì bottom),
+
+6. Souèasnì s kreslením spojù po pøepnutí do editoru schéma
+   upravujte schéma tak, aby vznikl soulad mezi spoji na desce
+   a schématem,
+
+7. Pracovní soubory Eaglu pojmenujte cv05xxx.brd a cv05xxx.sch
+   (kde xxx nahradíte svým pøíjmením psaným malými písmeny
+   a bez diakritických znamének jako jsou háèky, èárky atd.),
+
+8. Oba soubory odešlete na e-mail vyuèujícího.

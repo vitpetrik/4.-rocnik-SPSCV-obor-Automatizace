@@ -1,0 +1,1404 @@
+
+2019.02.04 10:09:20.028  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:09:20.028  SYSTEM: New directory: C:\Users\Dobes38205\Documents\US\PROMOTIC_1\Temp
+2019.02.04 10:09:48.440  SYSTEM: New directory: C:\Users\Dobes38205\Documents\US\PROMOTIC_1\Resource
+2019.02.04 10:09:48.440  SYSTEM: New directory: C:\Users\Dobes38205\Documents\US\PROMOTIC_1\Data
+2019.02.04 10:09:48.440  SYSTEM: New directory: C:\Users\Dobes38205\Documents\US\PROMOTIC_1\Cfg
+2019.02.04 10:09:48.471  SYSTEM: New directory: C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup
+2019.02.04 10:09:48.471  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_100948_auto
+2019.02.04 10:09:48.612  SYSTEM: Licence:  0
+2019.02.04 10:09:48.643  SYSTEM: SaveAll App
+2019.02.04 10:09:48.721  SAVE TREE: /
+2019.02.04 10:09:49.034  SYSTEM: Open App Done (29.031 s)
+2019.02.04 10:11:35.645  SAVE OBJECT: /Regulace_Telesne_Teploty
+2019.02.04 10:11:37.736  SYSTEM: Close App
+2019.02.04 10:11:37.752  SYSTEM: Close App Done
+
+2019.02.04 10:11:45.411  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:11:45.505  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 10:11:45.536  SYSTEM: CountersDt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2019.02.04 10:11:45.551  SYSTEM: Open App Done (0.187 s)
+2019.02.04 10:12:02.213  SYSTEM: Calling StopProject: nAction=3
+2019.02.04 10:12:02.323  SYSTEM: Close App
+2019.02.04 10:12:02.338  SYSTEM: Close App Done
+
+2019.02.04 10:13:53.441  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:13:53.535  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 10:13:53.566  SYSTEM: CountersDt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2019.02.04 10:13:53.582  SYSTEM: Open App Done (0.188 s)
+2019.02.04 10:14:03.851  SAVE OBJECT: /Folder
+2019.02.04 10:14:03.867  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_101403_auto
+2019.02.04 10:15:41.117  SYSTEM: Calling StopProject: nAction=3
+2019.02.04 10:15:41.211  SYSTEM: Close App
+2019.02.04 10:15:41.211  SYSTEM: Close App Done
+
+2019.02.04 10:15:43.337  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:15:43.431  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 10:15:43.462  SYSTEM: CountersDt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:15:43.462  SYSTEM: Open App Done (0.172 s)
+2019.02.04 10:16:11.351  SYSTEM: Calling StopProject: nAction=3
+2019.02.04 10:16:11.445  SYSTEM: Close App
+2019.02.04 10:16:11.445  SYSTEM: Close App Done
+
+2019.02.04 10:16:14.608  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:16:14.702  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 10:16:14.749  SYSTEM: CountersDt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:16:14.749  SYSTEM: Open App Done (0.157 s)
+2019.02.04 10:16:32.452  SYSTEM: Start Rt
+2019.02.04 10:16:32.593  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 10:16:32.593  SYSTEM: Start Rt-Start
+2019.02.04 10:16:32.608  SYSTEM: Start Rt-0
+2019.02.04 10:16:32.624  SYSTEM: Start Rt-1
+2019.02.04 10:16:32.639  SYSTEM: Start WebServer1_80
+2019.02.04 10:16:32.639  SYSTEM: Start Rt-2a
+2019.02.04 10:16:32.686  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:16:32.686  SYSTEM: Start Rt-2
+2019.02.04 10:16:32.686  SYSTEM: Start Rt-Done (0.281 s)
+2019.02.04 10:16:32.702  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:16:40.936  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:16:51.983  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:16:51.983  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:16:51.983  SYSTEM: Executing AppStop
+2019.02.04 10:16:51.983  SYSTEM: Stop Rt-Pre
+2019.02.04 10:16:51.999  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:16:51.999  SYSTEM: Stop Rt
+2019.02.04 10:16:51.999  SYSTEM: INFO/Statistics = Scripts-Run:90, Panels-Open:2, Panels-Close:2, Panels-Refresh:61, Workspace-Open:1, TreePmObject:324
+2019.02.04 10:16:51.999  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:16:52.014  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:16:52.014  SYSTEM: Stop WebServer1_80
+2019.02.04 10:16:52.030  SYSTEM: Stop Rt-0
+2019.02.04 10:16:52.061  SYSTEM: Stop Rt-1
+2019.02.04 10:16:52.405  SYSTEM: Stop Rt-Done
+2019.02.04 10:17:23.320  SYSTEM: Start Rt
+2019.02.04 10:17:23.445  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 10:17:23.460  SYSTEM: Start Rt-Start
+2019.02.04 10:17:23.476  SYSTEM: Start Rt-0
+2019.02.04 10:17:23.492  SYSTEM: Start Rt-1
+2019.02.04 10:17:23.507  SYSTEM: Start WebServer1_80
+2019.02.04 10:17:23.507  SYSTEM: Start Rt-2a
+2019.02.04 10:17:23.554  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:17:23.554  SYSTEM: Start Rt-2
+2019.02.04 10:17:23.554  SYSTEM: Start Rt-Done (0.281 s)
+2019.02.04 10:17:23.570  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:17:26.460  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:17:54.475  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:17:54.475  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:17:54.475  SYSTEM: Executing AppStop
+2019.02.04 10:17:54.475  SYSTEM: Stop Rt-Pre
+2019.02.04 10:17:54.475  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:17:54.491  SYSTEM: Stop Rt
+2019.02.04 10:17:54.491  SYSTEM: INFO/Statistics = Scripts-Run:166, Panels-Open:2, Panels-Close:2, Panels-Refresh:118, Workspace-Open:1, TreePmObject:508
+2019.02.04 10:17:54.491  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:17:54.491  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:17:54.491  SYSTEM: Stop WebServer1_80
+2019.02.04 10:17:54.506  SYSTEM: Stop Rt-0
+2019.02.04 10:17:54.553  SYSTEM: Stop Rt-1
+2019.02.04 10:17:54.819  SYSTEM: Stop Rt-Done
+2019.02.04 10:21:09.970  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_102109_auto
+2019.02.04 10:22:06.275  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data_Promenne
+2019.02.04 10:22:06.603  SYSTEM: Start Rt
+2019.02.04 10:22:06.791  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:22:06.807  SYSTEM: Start Rt-Start
+2019.02.04 10:22:06.807  SYSTEM: Start Rt-0
+2019.02.04 10:22:06.838  SYSTEM: Start Rt-1
+2019.02.04 10:22:06.838  SYSTEM: Start WebServer1_80
+2019.02.04 10:22:06.853  SYSTEM: Start Rt-2a
+2019.02.04 10:22:06.885  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:22:06.900  SYSTEM: Start Rt-2
+2019.02.04 10:22:06.900  SYSTEM: Start Rt-Done (0.328 s)
+2019.02.04 10:22:06.900  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:22:07.338  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.338  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_panelu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.338  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Vrtule) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.338  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Startstop) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.338  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Teplota) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.353  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/PozadovanaTeplota) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.353  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Vykon) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.353  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Otacky) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:07.353  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [19,1] Note:Je požadován objekt.: 'oTeplota'
+2019.02.04 10:22:10.322  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Pane', 'CProp', 'PP', '../Data0/#vars/Barva_textu', 'Value'
+2019.02.04 10:22:10.322  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Value', 'CProp', 'PP', '../Data0/#vars/Teplota', 'Value'
+2019.02.04 10:22:10.322  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/BarPane', 'Variable', 'CProp', 'PP', '../Data0/#vars/Teplota', 'Value'
+2019.02.04 10:22:10.322  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/BarPane/$bar', 'Bar', 'CProp', 'PP', '../Data0/#vars/Barva_panelu', 'Value'
+2019.02.04 10:22:10.322  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text0', 'Value', 'CProp', 'PP', '../Data0/#vars/Vykon', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/SlidPane/$slid', 'Dark', 'CProp', 'PP', '../Data0/#vars/Vykon', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg0', 'Play', 'CProp', 'PP', '../Data0/#vars/Vrtule', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/ButtTwo', 'State', 'CProp', 'PP', '../Data0/#vars/Startstop', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text4', 'Value', 'CProp', 'PP', '../Data0/#vars/Otacky', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Canvas1/Dynamic', 'val', 'CProp', 'PP', '../Data0/#vars/Otacky', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/SlidPane0/$slid', 'Dark', 'CProp', 'PP', '../Data0/#vars/PozadovanaTeplota', 'Value'
+2019.02.04 10:22:10.338  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text6', 'Value', 'CProp', 'PP', '../Data0/#vars/PozadovanaTeplota', 'Value'
+2019.02.04 10:22:19.963  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:22:19.963  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:22:19.963  SYSTEM: Executing AppStop
+2019.02.04 10:22:19.963  SYSTEM: Stop Rt-Pre
+2019.02.04 10:22:19.979  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:22:19.979  SYSTEM: Stop Rt
+2019.02.04 10:22:19.979  SYSTEM: INFO/Statistics = Scripts-Run:66, Scripts-Errors:26, Panels-Open:2, Panels-Close:2, Panels-Refresh:47, Workspace-Open:1, TreePmObject:228
+2019.02.04 10:22:19.979  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:22:19.979  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:22:19.994  SYSTEM: Stop WebServer1_80
+2019.02.04 10:22:19.994  SYSTEM: Stop Rt-0
+2019.02.04 10:22:20.041  SYSTEM: Stop Rt-1
+2019.02.04 10:22:20.277  SYSTEM: Stop Rt-Done
+2019.02.04 10:22:32.657  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data_Promenne
+2019.02.04 10:22:32.953  SYSTEM: Start Rt
+2019.02.04 10:22:33.110  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:22:33.110  SYSTEM: Start Rt-Start
+2019.02.04 10:22:33.125  SYSTEM: Start Rt-0
+2019.02.04 10:22:33.156  SYSTEM: Start Rt-1
+2019.02.04 10:22:33.156  SYSTEM: Start WebServer1_80
+2019.02.04 10:22:33.172  SYSTEM: Start Rt-2a
+2019.02.04 10:22:33.203  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:22:33.203  SYSTEM: Start Rt-2
+2019.02.04 10:22:33.203  SYSTEM: Start Rt-Done (0.282 s)
+2019.02.04 10:22:33.219  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_panelu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Vrtule) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Startstop) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Teplota) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.657  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/PozadovanaTeplota) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.672  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Vykon) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.672  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Otacky) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.04 10:22:33.672  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [19,1] Note:Je požadován objekt.: 'oTeplota'
+2019.02.04 10:22:36.719  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Pane', 'CProp', 'PP', '../Data0/#vars/Barva_textu', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Value', 'CProp', 'PP', '../Data0/#vars/Teplota', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/BarPane', 'Variable', 'CProp', 'PP', '../Data0/#vars/Teplota', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/BarPane/$bar', 'Bar', 'CProp', 'PP', '../Data0/#vars/Barva_panelu', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text0', 'Value', 'CProp', 'PP', '../Data0/#vars/Vykon', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/SlidPane/$slid', 'Dark', 'CProp', 'PP', '../Data0/#vars/Vykon', 'Value'
+2019.02.04 10:22:36.734  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg0', 'Play', 'CProp', 'PP', '../Data0/#vars/Vrtule', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/ButtTwo', 'State', 'CProp', 'PP', '../Data0/#vars/Startstop', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text4', 'Value', 'CProp', 'PP', '../Data0/#vars/Otacky', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Canvas1/Dynamic', 'val', 'CProp', 'PP', '../Data0/#vars/Otacky', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/SlidPane0/$slid', 'Dark', 'CProp', 'PP', '../Data0/#vars/PozadovanaTeplota', 'Value'
+2019.02.04 10:22:36.750  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text6', 'Value', 'CProp', 'PP', '../Data0/#vars/PozadovanaTeplota', 'Value'
+2019.02.04 10:22:48.468  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:22:48.468  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:22:48.468  SYSTEM: Executing AppStop
+2019.02.04 10:22:48.468  SYSTEM: Stop Rt-Pre
+2019.02.04 10:22:48.484  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:22:48.484  SYSTEM: Stop Rt
+2019.02.04 10:22:48.484  SYSTEM: INFO/Statistics = Scripts-Run:74, Scripts-Errors:30, Panels-Open:2, Panels-Close:2, Panels-Refresh:54, Workspace-Open:1, TreePmObject:260
+2019.02.04 10:22:48.484  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:22:48.484  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:22:48.484  SYSTEM: Stop WebServer1_80
+2019.02.04 10:22:48.499  SYSTEM: Stop Rt-0
+2019.02.04 10:22:48.562  SYSTEM: Stop Rt-1
+2019.02.04 10:22:48.781  SYSTEM: Stop Rt-Done
+2019.02.04 10:22:59.764  SYSTEM: Start Rt
+2019.02.04 10:22:59.905  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:22:59.920  SYSTEM: Start Rt-Start
+2019.02.04 10:22:59.936  SYSTEM: Start Rt-0
+2019.02.04 10:22:59.967  SYSTEM: Start Rt-1
+2019.02.04 10:22:59.967  SYSTEM: Start WebServer1_80
+2019.02.04 10:22:59.967  SYSTEM: Start Rt-2a
+2019.02.04 10:22:59.983  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:22:59.998  SYSTEM: Start Rt-2
+2019.02.04 10:23:00.014  SYSTEM: Start Rt-Done (0.297 s)
+2019.02.04 10:23:00.030  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:23:02.561  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:23:18.294  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:23:18.294  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:23:18.310  SYSTEM: Executing AppStop
+2019.02.04 10:23:18.310  SYSTEM: Stop Rt-Pre
+2019.02.04 10:23:18.310  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:23:18.310  SYSTEM: Stop Rt
+2019.02.04 10:23:18.310  SYSTEM: INFO/Statistics = Scripts-Run:86, Panels-Open:2, Panels-Close:2, Panels-Refresh:68, Workspace-Open:1, TreePmObject:308
+2019.02.04 10:23:18.326  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:23:18.326  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:23:18.326  SYSTEM: Stop WebServer1_80
+2019.02.04 10:23:18.326  SYSTEM: Stop Rt-0
+2019.02.04 10:23:18.357  SYSTEM: Stop Rt-1
+2019.02.04 10:23:18.654  SYSTEM: Stop Rt-Done
+2019.02.04 10:23:34.710  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.04 10:23:35.038  SYSTEM: Start Rt
+2019.02.04 10:23:35.179  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:23:35.194  SYSTEM: Start Rt-Start
+2019.02.04 10:23:35.210  SYSTEM: Start Rt-0
+2019.02.04 10:23:35.241  SYSTEM: Start Rt-1
+2019.02.04 10:23:35.241  SYSTEM: Start WebServer1_80
+2019.02.04 10:23:35.257  SYSTEM: Start Rt-2a
+2019.02.04 10:23:35.288  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:23:35.288  SYSTEM: Start Rt-2
+2019.02.04 10:23:35.304  SYSTEM: Start Rt-Done (0.296 s)
+2019.02.04 10:23:35.304  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:23:37.523  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:24:53.692  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:24:53.692  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:24:53.692  SYSTEM: Executing AppStop
+2019.02.04 10:24:53.692  SYSTEM: Stop Rt-Pre
+2019.02.04 10:24:53.692  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:24:53.707  SYSTEM: Stop Rt
+2019.02.04 10:24:53.707  SYSTEM: INFO/Statistics = Scripts-Run:422, Panels-Open:2, Panels-Close:2, Panels-Refresh:309, Workspace-Open:1, TreePmObject:1268
+2019.02.04 10:24:53.707  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:24:53.707  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:24:53.707  SYSTEM: Stop WebServer1_80
+2019.02.04 10:24:53.723  SYSTEM: Stop Rt-0
+2019.02.04 10:24:53.770  SYSTEM: Stop Rt-1
+2019.02.04 10:24:54.051  SYSTEM: Stop Rt-Done
+2019.02.04 10:25:05.299  SYSTEM: Start Rt
+2019.02.04 10:25:05.455  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:25:05.471  SYSTEM: Start Rt-Start
+2019.02.04 10:25:05.486  SYSTEM: Start Rt-0
+2019.02.04 10:25:05.502  SYSTEM: Start Rt-1
+2019.02.04 10:25:05.502  SYSTEM: Start WebServer1_80
+2019.02.04 10:25:05.502  SYSTEM: Start Rt-2a
+2019.02.04 10:25:05.533  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:25:05.533  SYSTEM: Start Rt-2
+2019.02.04 10:25:05.549  SYSTEM: Start Rt-Done (0.265 s)
+2019.02.04 10:25:05.549  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:25:09.627  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:25:18.064  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:25:18.064  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:25:18.064  SYSTEM: Executing AppStop
+2019.02.04 10:25:18.064  SYSTEM: Stop Rt-Pre
+2019.02.04 10:25:18.064  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:25:18.080  SYSTEM: Stop Rt
+2019.02.04 10:25:18.080  SYSTEM: INFO/Statistics = Scripts-Run:75, Panels-Open:2, Panels-Close:2, Panels-Refresh:43, Workspace-Open:1, TreePmObject:220
+2019.02.04 10:25:18.080  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:25:18.080  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:25:18.080  SYSTEM: Stop WebServer1_80
+2019.02.04 10:25:18.095  SYSTEM: Stop Rt-0
+2019.02.04 10:25:18.142  SYSTEM: Stop Rt-1
+2019.02.04 10:25:18.392  SYSTEM: Stop Rt-Done
+2019.02.04 10:36:08.149  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 10:38:03.747  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 10:38:03.763  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_103803_auto
+2019.02.04 10:38:04.153  SYSTEM: Start Rt
+2019.02.04 10:38:04.263  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:38:04.278  SYSTEM: Start Rt-Start
+2019.02.04 10:38:04.294  SYSTEM: Start Rt-0
+2019.02.04 10:38:04.325  SYSTEM: Start Rt-1
+2019.02.04 10:38:04.325  SYSTEM: Start WebServer1_80
+2019.02.04 10:38:04.325  SYSTEM: Start Rt-2a
+2019.02.04 10:38:04.372  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:38:04.388  SYSTEM: Start Rt-2
+2019.02.04 10:38:04.388  SYSTEM: Start Rt-Done (0.281 s)
+2019.02.04 10:38:04.403  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:38:10.653  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:38:18.606  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:38:18.606  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:38:18.606  SYSTEM: Executing AppStop
+2019.02.04 10:38:18.622  SYSTEM: Stop Rt-Pre
+2019.02.04 10:38:18.622  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:38:18.622  SYSTEM: Stop Rt
+2019.02.04 10:38:18.622  SYSTEM: INFO/Statistics = Scripts-Run:70, Panels-Open:2, Panels-Close:2, Panels-Refresh:45, Workspace-Open:1, TreePmObject:244
+2019.02.04 10:38:18.622  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:38:18.638  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:38:18.638  SYSTEM: Stop WebServer1_80
+2019.02.04 10:38:18.653  SYSTEM: Stop Rt-0
+2019.02.04 10:38:18.669  SYSTEM: Stop Rt-1
+2019.02.04 10:38:18.919  SYSTEM: Stop Rt-Done
+2019.02.04 10:38:33.916  SYSTEM: Start Rt
+2019.02.04 10:38:34.025  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:38:34.025  SYSTEM: Start Rt-Start
+2019.02.04 10:38:34.057  SYSTEM: Start Rt-0
+2019.02.04 10:38:34.072  SYSTEM: Start Rt-1
+2019.02.04 10:38:34.072  SYSTEM: Start WebServer1_80
+2019.02.04 10:38:34.104  SYSTEM: Start Rt-2a
+2019.02.04 10:38:34.119  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:38:34.135  SYSTEM: Start Rt-2
+2019.02.04 10:38:34.135  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.04 10:38:34.135  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:38:38.229  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:38:43.729  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:38:43.729  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:38:43.729  SYSTEM: Executing AppStop
+2019.02.04 10:38:43.729  SYSTEM: Stop Rt-Pre
+2019.02.04 10:38:43.729  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:38:43.744  SYSTEM: Stop Rt
+2019.02.04 10:38:43.744  SYSTEM: INFO/Statistics = Scripts-Run:52, Panels-Open:2, Panels-Close:2, Panels-Refresh:31, Workspace-Open:1, TreePmObject:172
+2019.02.04 10:38:43.744  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:38:43.744  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:38:43.744  SYSTEM: Stop WebServer1_80
+2019.02.04 10:38:43.760  SYSTEM: Stop Rt-0
+2019.02.04 10:38:43.791  SYSTEM: Stop Rt-1
+2019.02.04 10:38:44.057  SYSTEM: Stop Rt-Done
+2019.02.04 10:38:52.890  SYSTEM: Start Rt
+2019.02.04 10:38:52.983  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:38:52.983  SYSTEM: Start Rt-Start
+2019.02.04 10:38:53.015  SYSTEM: Start Rt-0
+2019.02.04 10:38:53.030  SYSTEM: Start Rt-1
+2019.02.04 10:38:53.030  SYSTEM: Start WebServer1_80
+2019.02.04 10:38:53.046  SYSTEM: Start Rt-2a
+2019.02.04 10:38:53.077  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:38:53.093  SYSTEM: Start Rt-2
+2019.02.04 10:38:53.093  SYSTEM: Start Rt-Done (0.234 s)
+2019.02.04 10:38:53.093  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:38:56.530  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:39:03.639  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:39:03.639  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:39:03.639  SYSTEM: Executing AppStop
+2019.02.04 10:39:03.639  SYSTEM: Stop Rt-Pre
+2019.02.04 10:39:03.639  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:39:03.655  SYSTEM: Stop Rt
+2019.02.04 10:39:03.655  SYSTEM: INFO/Statistics = Scripts-Run:58, Panels-Open:3, Panels-Close:3, Panels-Refresh:37, Workspace-Open:1, TreePmObject:190
+2019.02.04 10:39:03.655  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:39:03.655  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:39:03.655  SYSTEM: Stop WebServer1_80
+2019.02.04 10:39:03.671  SYSTEM: Stop Rt-0
+2019.02.04 10:39:03.702  SYSTEM: Stop Rt-1
+2019.02.04 10:39:03.936  SYSTEM: Stop Rt-Done
+2019.02.04 10:39:59.013  SYSTEM: Start Rt
+2019.02.04 10:39:59.138  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:39:59.169  SYSTEM: Start Rt-Start
+2019.02.04 10:39:59.185  SYSTEM: Start Rt-0
+2019.02.04 10:39:59.200  SYSTEM: Start Rt-1
+2019.02.04 10:39:59.216  SYSTEM: Start WebServer1_80
+2019.02.04 10:39:59.216  SYSTEM: Start Rt-2a
+2019.02.04 10:39:59.247  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:39:59.263  SYSTEM: Start Rt-2
+2019.02.04 10:39:59.263  SYSTEM: Start Rt-Done (0.281 s)
+2019.02.04 10:39:59.263  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:40:03.763  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:40:13.450  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:40:13.450  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:40:13.450  SYSTEM: Executing AppStop
+2019.02.04 10:40:13.450  SYSTEM: Stop Rt-Pre
+2019.02.04 10:40:13.466  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:40:13.466  SYSTEM: Stop Rt
+2019.02.04 10:40:13.466  SYSTEM: INFO/Statistics = Scripts-Run:76, Panels-Open:2, Panels-Close:2, Panels-Refresh:48, Workspace-Open:1, TreePmObject:244
+2019.02.04 10:40:13.466  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:40:13.466  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:40:13.482  SYSTEM: Stop WebServer1_80
+2019.02.04 10:40:13.497  SYSTEM: Stop Rt-0
+2019.02.04 10:40:13.513  SYSTEM: Stop Rt-1
+2019.02.04 10:40:13.747  SYSTEM: Stop Rt-Done
+2019.02.04 10:41:08.604  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty
+2019.02.04 10:41:22.540  SYSTEM: Start Rt
+2019.02.04 10:41:22.634  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:41:22.634  SYSTEM: Start Rt-Start
+2019.02.04 10:41:22.650  SYSTEM: Start Rt-0
+2019.02.04 10:41:22.681  SYSTEM: Start Rt-1
+2019.02.04 10:41:22.681  SYSTEM: Start WebServer1_80
+2019.02.04 10:41:22.696  SYSTEM: Start Rt-2a
+2019.02.04 10:41:22.743  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:41:22.743  SYSTEM: Start Rt-2
+2019.02.04 10:41:22.743  SYSTEM: Start Rt-Done (0.235 s)
+2019.02.04 10:41:22.743  SYSTEM: CountersRt = PmFolder:2, PmPanel:3, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:10
+2019.02.04 10:41:25.181  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:41:36.696  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:41:36.696  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:41:36.696  SYSTEM: Executing AppStop
+2019.02.04 10:41:36.696  SYSTEM: Stop Rt-Pre
+2019.02.04 10:41:36.696  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:41:36.712  SYSTEM: Stop Rt
+2019.02.04 10:41:36.712  SYSTEM: INFO/Statistics = Scripts-Run:69, Panels-Open:2, Panels-Close:2, Panels-Refresh:51, Workspace-Open:1, TreePmObject:244
+2019.02.04 10:41:36.712  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:41:36.712  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:41:36.712  SYSTEM: Stop WebServer1_80
+2019.02.04 10:41:36.727  SYSTEM: Stop Rt-0
+2019.02.04 10:41:36.743  SYSTEM: Stop Rt-1
+2019.02.04 10:41:37.024  SYSTEM: Stop Rt-Done
+2019.02.04 10:41:55.166  SYSTEM: Start Rt
+2019.02.04 10:41:55.275  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:41:55.275  SYSTEM: Start Rt-Start
+2019.02.04 10:41:55.291  SYSTEM: Start Rt-0
+2019.02.04 10:41:55.307  SYSTEM: Start Rt-1
+2019.02.04 10:41:55.307  SYSTEM: Start WebServer1_80
+2019.02.04 10:41:55.307  SYSTEM: Start Rt-2a
+2019.02.04 10:41:55.354  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:41:55.354  SYSTEM: Start Rt-2
+2019.02.04 10:41:55.354  SYSTEM: Start Rt-Done (0.219 s)
+2019.02.04 10:41:55.369  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:41:56.666  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:42:10.400  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:42:10.416  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:42:10.416  SYSTEM: Executing AppStop
+2019.02.04 10:42:10.416  SYSTEM: Stop Rt-Pre
+2019.02.04 10:42:10.416  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:42:10.432  SYSTEM: Stop Rt
+2019.02.04 10:42:10.432  SYSTEM: INFO/Statistics = Scripts-Run:86, Panels-Open:2, Panels-Close:2, Panels-Refresh:59, Workspace-Open:1, TreePmObject:259
+2019.02.04 10:42:10.432  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:42:10.432  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:42:10.432  SYSTEM: Stop WebServer1_80
+2019.02.04 10:42:10.447  SYSTEM: Stop Rt-0
+2019.02.04 10:42:10.479  SYSTEM: Stop Rt-1
+2019.02.04 10:42:10.760  SYSTEM: Stop Rt-Done
+2019.02.04 10:43:21.355  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota
+2019.02.04 10:44:50.048  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 10:44:50.407  SYSTEM: Start Rt
+2019.02.04 10:44:50.516  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:44:50.532  SYSTEM: Start Rt-Start
+2019.02.04 10:44:50.563  SYSTEM: Start Rt-0
+2019.02.04 10:44:50.579  SYSTEM: Start Rt-1
+2019.02.04 10:44:50.579  SYSTEM: Start WebServer1_80
+2019.02.04 10:44:50.595  SYSTEM: Start Rt-2a
+2019.02.04 10:44:50.626  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:44:50.626  SYSTEM: Start Rt-2
+2019.02.04 10:44:50.626  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.04 10:44:50.641  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:44:52.657  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:45:10.766  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:45:10.766  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:45:10.766  SYSTEM: Executing AppStop
+2019.02.04 10:45:10.766  SYSTEM: Stop Rt-Pre
+2019.02.04 10:45:10.766  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:45:10.782  SYSTEM: Stop Rt
+2019.02.04 10:45:10.782  SYSTEM: INFO/Statistics = Scripts-Run:112, Panels-Open:2, Panels-Close:2, Panels-Refresh:77, Workspace-Open:1, TreePmObject:339
+2019.02.04 10:45:10.782  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:45:10.782  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:45:10.782  SYSTEM: Stop WebServer1_80
+2019.02.04 10:45:10.798  SYSTEM: Stop Rt-0
+2019.02.04 10:45:10.829  SYSTEM: Stop Rt-1
+2019.02.04 10:45:11.094  SYSTEM: Stop Rt-Done
+2019.02.04 10:50:26.114  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 10:50:27.168  SYSTEM: Start Rt
+2019.02.04 10:50:27.293  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:50:27.293  SYSTEM: Start Rt-Start
+2019.02.04 10:50:27.309  SYSTEM: Start Rt-0
+2019.02.04 10:50:27.324  SYSTEM: Start Rt-1
+2019.02.04 10:50:27.340  SYSTEM: Start WebServer1_80
+2019.02.04 10:50:27.340  SYSTEM: Start Rt-2a
+2019.02.04 10:50:27.387  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:50:27.387  SYSTEM: Start Rt-2
+2019.02.04 10:50:27.387  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.04 10:50:27.387  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:50:28.996  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:52:08.325  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:52:08.325  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:52:08.325  SYSTEM: Executing AppStop
+2019.02.04 10:52:08.325  SYSTEM: Stop Rt-Pre
+2019.02.04 10:52:08.325  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:52:08.340  SYSTEM: Stop Rt
+2019.02.04 10:52:08.340  SYSTEM: INFO/Statistics = Scripts-Run:454, Panels-Open:2, Panels-Close:2, Panels-Refresh:400, Workspace-Open:1, TreePmObject:1627
+2019.02.04 10:52:08.340  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:52:08.340  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:52:08.340  SYSTEM: Stop WebServer1_80
+2019.02.04 10:52:08.356  SYSTEM: Stop Rt-0
+2019.02.04 10:52:08.387  SYSTEM: Stop Rt-1
+2019.02.04 10:52:08.622  SYSTEM: Stop Rt-Done
+2019.02.04 10:52:09.893  SYSTEM: Start Rt
+2019.02.04 10:52:09.987  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 10:52:09.987  SYSTEM: Start Rt-Start
+2019.02.04 10:52:10.002  SYSTEM: Start Rt-0
+2019.02.04 10:52:10.018  SYSTEM: Start Rt-1
+2019.02.04 10:52:10.018  SYSTEM: Start WebServer1_80
+2019.02.04 10:52:10.033  SYSTEM: Start Rt-2a
+2019.02.04 10:52:10.065  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:52:10.080  SYSTEM: Start Rt-2
+2019.02.04 10:52:10.080  SYSTEM: Start Rt-Done (0.203 s)
+2019.02.04 10:52:10.080  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:52:12.815  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:52:25.253  SYSTEM: Calling StopProject: nAction=2
+2019.02.04 10:52:25.253  SYSTEM: Executing AppStop
+2019.02.04 10:52:25.253  SYSTEM: Stop Rt-Pre
+2019.02.04 10:52:25.253  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:52:25.253  SYSTEM: Stop Rt
+2019.02.04 10:52:25.268  SYSTEM: INFO/Statistics = Scripts-Run:93, Panels-Open:2, Panels-Close:2, Panels-Refresh:56, Workspace-Open:1, TreePmObject:259
+2019.02.04 10:52:25.268  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:52:25.268  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:52:25.268  SYSTEM: Stop WebServer1_80
+2019.02.04 10:52:25.284  SYSTEM: Stop Rt-0
+2019.02.04 10:52:25.315  SYSTEM: Stop Rt-1
+2019.02.04 10:52:25.518  SYSTEM: Stop Rt-Done
+2019.02.04 10:52:25.721  SYSTEM: Close App
+2019.02.04 10:52:25.721  SYSTEM: Close App Done
+
+2019.02.04 10:52:39.520  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 10:52:39.630  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 10:52:39.661  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:52:39.677  SYSTEM: Open App Done (0.187 s)
+2019.02.04 10:53:06.295  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_105306_auto
+2019.02.04 10:53:09.678  SYSTEM: Start Rt
+2019.02.04 10:53:09.818  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 10:53:09.818  SYSTEM: Start Rt-Start
+2019.02.04 10:53:09.834  SYSTEM: Start Rt-0
+2019.02.04 10:53:09.865  SYSTEM: Start Rt-1
+2019.02.04 10:53:09.865  SYSTEM: Start WebServer1_80
+2019.02.04 10:53:09.865  SYSTEM: Start Rt-2a
+2019.02.04 10:53:09.912  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:53:09.912  SYSTEM: Start Rt-2
+2019.02.04 10:53:09.928  SYSTEM: Start Rt-Done (0.297 s)
+2019.02.04 10:53:09.928  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:53:11.131  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:53:14.678  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:53:14.693  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:53:14.693  SYSTEM: Executing AppStop
+2019.02.04 10:53:14.693  SYSTEM: Stop Rt-Pre
+2019.02.04 10:53:14.693  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:53:14.709  SYSTEM: Stop Rt
+2019.02.04 10:53:14.709  SYSTEM: INFO/Statistics = Scripts-Run:32, Panels-Open:2, Panels-Close:2, Panels-Refresh:17, Workspace-Open:1, TreePmObject:91
+2019.02.04 10:53:14.709  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:53:14.709  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:53:14.709  SYSTEM: Stop WebServer1_80
+2019.02.04 10:53:14.724  SYSTEM: Stop Rt-0
+2019.02.04 10:53:14.771  SYSTEM: Stop Rt-1
+2019.02.04 10:53:15.021  SYSTEM: Stop Rt-Done
+2019.02.04 10:55:28.596  SYSTEM: Start Rt
+2019.02.04 10:55:28.752  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 10:55:28.752  SYSTEM: Start Rt-Start
+2019.02.04 10:55:28.768  SYSTEM: Start Rt-0
+2019.02.04 10:55:28.784  SYSTEM: Start Rt-1
+2019.02.04 10:55:28.784  SYSTEM: Start WebServer1_80
+2019.02.04 10:55:28.799  SYSTEM: Start Rt-2a
+2019.02.04 10:55:28.815  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:55:28.830  SYSTEM: Start Rt-2
+2019.02.04 10:55:28.830  SYSTEM: Start Rt-Done (0.265 s)
+2019.02.04 10:55:28.830  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:55:31.424  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:55:40.564  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:55:40.564  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:55:40.580  SYSTEM: Executing AppStop
+2019.02.04 10:55:40.580  SYSTEM: Stop Rt-Pre
+2019.02.04 10:55:40.580  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:55:40.580  SYSTEM: Stop Rt
+2019.02.04 10:55:40.580  SYSTEM: INFO/Statistics = Scripts-Run:60, Panels-Open:2, Panels-Close:2, Panels-Refresh:42, Workspace-Open:1, TreePmObject:203
+2019.02.04 10:55:40.596  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:55:40.596  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:55:40.596  SYSTEM: Stop WebServer1_80
+2019.02.04 10:55:40.611  SYSTEM: Stop Rt-0
+2019.02.04 10:55:40.674  SYSTEM: Stop Rt-1
+2019.02.04 10:55:40.924  SYSTEM: Stop Rt-Done
+2019.02.04 10:56:36.278  SYSTEM: Start Rt
+2019.02.04 10:56:36.434  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 10:56:36.450  SYSTEM: Start Rt-Start
+2019.02.04 10:56:36.466  SYSTEM: Start Rt-0
+2019.02.04 10:56:36.481  SYSTEM: Start Rt-1
+2019.02.04 10:56:36.497  SYSTEM: Start WebServer1_80
+2019.02.04 10:56:36.497  SYSTEM: Start Rt-2a
+2019.02.04 10:56:36.528  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 10:56:36.544  SYSTEM: Start Rt-2
+2019.02.04 10:56:36.544  SYSTEM: Start Rt-Done (0.312 s)
+2019.02.04 10:56:36.559  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 10:56:38.591  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/AImg', 'On', 'CProp', 'PP', '/Room1/Kotel/Data0/#vars/Startstop', 'Value'
+2019.02.04 10:56:51.762  SYSTEM: Calling Pm.AppStop
+2019.02.04 10:56:51.762  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 10:56:51.762  SYSTEM: Executing AppStop
+2019.02.04 10:56:51.762  SYSTEM: Stop Rt-Pre
+2019.02.04 10:56:51.762  SYSTEM: Stop Rt-Pre2
+2019.02.04 10:56:51.777  SYSTEM: Stop Rt
+2019.02.04 10:56:51.777  SYSTEM: INFO/Statistics = Scripts-Run:86, Panels-Open:2, Panels-Close:2, Panels-Refresh:57, Workspace-Open:1, TreePmObject:259
+2019.02.04 10:56:51.777  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 10:56:51.777  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 10:56:51.777  SYSTEM: Stop WebServer1_80
+2019.02.04 10:56:51.793  SYSTEM: Stop Rt-0
+2019.02.04 10:56:51.824  SYSTEM: Stop Rt-1
+2019.02.04 10:56:52.105  SYSTEM: Stop Rt-Done
+2019.02.04 10:58:56.932  SYSTEM: Calling StopProject: nAction=2
+2019.02.04 10:58:56.979  SYSTEM: Close App
+2019.02.04 10:58:57.010  SYSTEM: Close App Done
+
+2019.02.04 11:01:43.588  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.04 11:01:43.682  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.04 11:01:43.713  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:01:43.729  SYSTEM: Open App Done (0.188 s)
+2019.02.04 11:02:40.270  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190204_110240_auto
+2019.02.04 11:02:48.241  SYSTEM: Start Rt
+2019.02.04 11:02:48.397  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.04 11:02:48.397  SYSTEM: Start Rt-Start
+2019.02.04 11:02:48.413  SYSTEM: Start Rt-0
+2019.02.04 11:02:48.444  SYSTEM: Start Rt-1
+2019.02.04 11:02:48.444  SYSTEM: Start WebServer1_80
+2019.02.04 11:02:48.460  SYSTEM: Start Rt-2a
+2019.02.04 11:02:48.491  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:02:48.491  SYSTEM: Start Rt-2
+2019.02.04 11:02:48.507  SYSTEM: Start Rt-Done (0.313 s)
+2019.02.04 11:02:48.507  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:03:34.130  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:03:34.130  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:03:34.130  SYSTEM: Executing AppStop
+2019.02.04 11:03:34.130  SYSTEM: Stop Rt-Pre
+2019.02.04 11:03:34.146  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:03:34.146  SYSTEM: Stop Rt
+2019.02.04 11:03:34.146  SYSTEM: INFO/Statistics = Scripts-Run:238, Panels-Open:2, Panels-Close:2, Panels-Refresh:178, Workspace-Open:1, TreePmObject:747
+2019.02.04 11:03:34.146  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:03:34.146  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:03:34.146  SYSTEM: Stop WebServer1_80
+2019.02.04 11:03:34.177  SYSTEM: Stop Rt-0
+2019.02.04 11:03:34.209  SYSTEM: Stop Rt-1
+2019.02.04 11:03:34.474  SYSTEM: Stop Rt-Done
+2019.02.04 11:03:52.640  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.04 11:03:52.968  SYSTEM: Start Rt
+2019.02.04 11:03:53.093  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:03:53.093  SYSTEM: Start Rt-Start
+2019.02.04 11:03:53.124  SYSTEM: Start Rt-0
+2019.02.04 11:03:53.156  SYSTEM: Start Rt-1
+2019.02.04 11:03:53.156  SYSTEM: Start WebServer1_80
+2019.02.04 11:03:53.171  SYSTEM: Start Rt-2a
+2019.02.04 11:03:53.202  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:03:53.202  SYSTEM: Start Rt-2
+2019.02.04 11:03:53.218  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.04 11:03:53.218  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:04:44.577  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:04:44.593  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:04:44.593  SYSTEM: Executing AppStop
+2019.02.04 11:04:44.593  SYSTEM: Stop Rt-Pre
+2019.02.04 11:04:44.593  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:04:44.608  SYSTEM: Stop Rt
+2019.02.04 11:04:44.608  SYSTEM: INFO/Statistics = Scripts-Run:306, Panels-Open:2, Panels-Close:2, Panels-Refresh:203, Workspace-Open:1, TreePmObject:835
+2019.02.04 11:04:44.608  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:04:44.608  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:04:44.608  SYSTEM: Stop WebServer1_80
+2019.02.04 11:04:44.640  SYSTEM: Stop Rt-0
+2019.02.04 11:04:44.671  SYSTEM: Stop Rt-1
+2019.02.04 11:04:44.921  SYSTEM: Stop Rt-Done
+2019.02.04 11:05:47.862  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:05:48.784  SYSTEM: Start Rt
+2019.02.04 11:05:48.909  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:05:48.909  SYSTEM: Start Rt-Start
+2019.02.04 11:05:48.925  SYSTEM: Start Rt-0
+2019.02.04 11:05:49.003  SYSTEM: Start Rt-1
+2019.02.04 11:05:49.003  SYSTEM: Start WebServer1_80
+2019.02.04 11:05:49.034  SYSTEM: Start Rt-2a
+2019.02.04 11:05:49.050  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:05:49.065  SYSTEM: Start Rt-2
+2019.02.04 11:05:49.081  SYSTEM: Start Rt-Done (0.344 s)
+2019.02.04 11:05:49.081  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:06:17.971  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:06:17.971  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:06:17.987  SYSTEM: Executing AppStop
+2019.02.04 11:06:17.987  SYSTEM: Stop Rt-Pre
+2019.02.04 11:06:17.987  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:06:17.987  SYSTEM: Stop Rt
+2019.02.04 11:06:17.987  SYSTEM: INFO/Statistics = Scripts-Run:151, Panels-Open:2, Panels-Close:2, Panels-Refresh:110, Workspace-Open:1, TreePmObject:475
+2019.02.04 11:06:18.002  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:06:18.002  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:06:18.002  SYSTEM: Stop WebServer1_80
+2019.02.04 11:06:18.018  SYSTEM: Stop Rt-0
+2019.02.04 11:06:18.065  SYSTEM: Stop Rt-1
+2019.02.04 11:06:18.331  SYSTEM: Stop Rt-Done
+2019.02.04 11:06:47.579  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:06:48.433  SYSTEM: Start Rt
+2019.02.04 11:06:48.558  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:06:48.574  SYSTEM: Start Rt-Start
+2019.02.04 11:06:48.589  SYSTEM: Start Rt-0
+2019.02.04 11:06:48.605  SYSTEM: Start Rt-1
+2019.02.04 11:06:48.620  SYSTEM: Start WebServer1_80
+2019.02.04 11:06:48.620  SYSTEM: Start Rt-2a
+2019.02.04 11:06:48.683  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:06:48.699  SYSTEM: Start Rt-2
+2019.02.04 11:06:48.699  SYSTEM: Start Rt-Done (0.297 s)
+2019.02.04 11:06:48.699  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:08:05.886  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:08:05.886  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:08:05.886  SYSTEM: Executing AppStop
+2019.02.04 11:08:05.886  SYSTEM: Stop Rt-Pre
+2019.02.04 11:08:05.902  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:08:05.902  SYSTEM: Stop Rt
+2019.02.04 11:08:05.902  SYSTEM: INFO/Statistics = Scripts-Run:403, Panels-Open:2, Panels-Close:2, Panels-Refresh:302, Workspace-Open:1, TreePmObject:1251
+2019.02.04 11:08:05.902  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:08:05.902  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:08:05.918  SYSTEM: Stop WebServer1_80
+2019.02.04 11:08:05.933  SYSTEM: Stop Rt-0
+2019.02.04 11:08:05.965  SYSTEM: Stop Rt-1
+2019.02.04 11:08:06.246  SYSTEM: Stop Rt-Done
+2019.02.04 11:09:47.813  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:09:48.498  SYSTEM: Start Rt
+2019.02.04 11:09:48.623  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:09:48.639  SYSTEM: Start Rt-Start
+2019.02.04 11:09:48.654  SYSTEM: Start Rt-0
+2019.02.04 11:09:48.654  SYSTEM: Start Rt-1
+2019.02.04 11:09:48.670  SYSTEM: Start WebServer1_80
+2019.02.04 11:09:48.670  SYSTEM: Start Rt-2a
+2019.02.04 11:09:48.717  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:09:48.732  SYSTEM: Start Rt-2
+2019.02.04 11:09:48.732  SYSTEM: Start Rt-Done (0.265 s)
+2019.02.04 11:09:48.732  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:10:06.623  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:10:06.623  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:10:06.623  SYSTEM: Executing AppStop
+2019.02.04 11:10:06.623  SYSTEM: Stop Rt-Pre
+2019.02.04 11:10:06.623  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:10:06.639  SYSTEM: Stop Rt
+2019.02.04 11:10:06.639  SYSTEM: INFO/Statistics = Scripts-Run:105, Panels-Open:2, Panels-Close:2, Panels-Refresh:66, Workspace-Open:1, TreePmObject:299
+2019.02.04 11:10:06.639  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:10:06.639  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:10:06.639  SYSTEM: Stop WebServer1_80
+2019.02.04 11:10:06.655  SYSTEM: Stop Rt-0
+2019.02.04 11:10:06.717  SYSTEM: Stop Rt-1
+2019.02.04 11:10:06.967  SYSTEM: Stop Rt-Done
+2019.02.04 11:10:12.397  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:10:13.116  SYSTEM: Start Rt
+2019.02.04 11:10:13.241  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:10:13.257  SYSTEM: Start Rt-Start
+2019.02.04 11:10:13.272  SYSTEM: Start Rt-0
+2019.02.04 11:10:13.288  SYSTEM: Start Rt-1
+2019.02.04 11:10:13.288  SYSTEM: Start WebServer1_80
+2019.02.04 11:10:13.303  SYSTEM: Start Rt-2a
+2019.02.04 11:10:13.335  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:10:13.335  SYSTEM: Start Rt-2
+2019.02.04 11:10:13.350  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.04 11:10:13.350  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:10:33.335  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:10:33.335  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:10:33.335  SYSTEM: Executing AppStop
+2019.02.04 11:10:33.335  SYSTEM: Stop Rt-Pre
+2019.02.04 11:10:33.335  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:10:33.350  SYSTEM: Stop Rt
+2019.02.04 11:10:33.350  SYSTEM: INFO/Statistics = Scripts-Run:122, Panels-Open:2, Panels-Close:2, Panels-Refresh:76, Workspace-Open:1, TreePmObject:339
+2019.02.04 11:10:33.350  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:10:33.350  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:10:33.350  SYSTEM: Stop WebServer1_80
+2019.02.04 11:10:33.381  SYSTEM: Stop Rt-0
+2019.02.04 11:10:33.413  SYSTEM: Stop Rt-1
+2019.02.04 11:10:33.694  SYSTEM: Stop Rt-Done
+2019.02.04 11:10:38.895  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:10:40.146  SYSTEM: Start Rt
+2019.02.04 11:10:40.271  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:10:40.287  SYSTEM: Start Rt-Start
+2019.02.04 11:10:40.303  SYSTEM: Start Rt-0
+2019.02.04 11:10:40.318  SYSTEM: Start Rt-1
+2019.02.04 11:10:40.318  SYSTEM: Start WebServer1_80
+2019.02.04 11:10:40.334  SYSTEM: Start Rt-2a
+2019.02.04 11:10:40.365  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:10:40.381  SYSTEM: Start Rt-2
+2019.02.04 11:10:40.381  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.04 11:10:40.381  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:10:52.975  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:10:52.975  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:10:52.975  SYSTEM: Executing AppStop
+2019.02.04 11:10:52.975  SYSTEM: Stop Rt-Pre
+2019.02.04 11:10:52.975  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:10:52.990  SYSTEM: Stop Rt
+2019.02.04 11:10:52.990  SYSTEM: INFO/Statistics = Scripts-Run:77, Panels-Open:2, Panels-Close:2, Panels-Refresh:48, Workspace-Open:1, TreePmObject:219
+2019.02.04 11:10:52.990  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:10:52.990  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:10:52.990  SYSTEM: Stop WebServer1_80
+2019.02.04 11:10:53.006  SYSTEM: Stop Rt-0
+2019.02.04 11:10:53.068  SYSTEM: Stop Rt-1
+2019.02.04 11:10:53.334  SYSTEM: Stop Rt-Done
+2019.02.04 11:10:59.764  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:11:00.701  SYSTEM: Start Rt
+2019.02.04 11:11:00.826  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.04 11:11:00.858  SYSTEM: Start Rt-Start
+2019.02.04 11:11:00.889  SYSTEM: Start Rt-0
+2019.02.04 11:11:00.936  SYSTEM: Start Rt-1
+2019.02.04 11:11:00.936  SYSTEM: Start WebServer1_80
+2019.02.04 11:11:00.951  SYSTEM: Start Rt-2a
+2019.02.04 11:11:00.983  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.04 11:11:00.983  SYSTEM: Start Rt-2
+2019.02.04 11:11:00.983  SYSTEM: Start Rt-Done (0.312 s)
+2019.02.04 11:11:00.998  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.04 11:11:23.482  SYSTEM: Calling Pm.AppStop
+2019.02.04 11:11:23.482  SYSTEM: Calling StopProject: nAction=0
+2019.02.04 11:11:23.482  SYSTEM: Executing AppStop
+2019.02.04 11:11:23.482  SYSTEM: Stop Rt-Pre
+2019.02.04 11:11:23.482  SYSTEM: Stop Rt-Pre2
+2019.02.04 11:11:23.498  SYSTEM: Stop Rt
+2019.02.04 11:11:23.498  SYSTEM: INFO/Statistics = Scripts-Run:104, Panels-Open:2, Panels-Close:2, Panels-Refresh:87, Workspace-Open:1, TreePmObject:379
+2019.02.04 11:11:23.498  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.04 11:11:23.498  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.04 11:11:23.498  SYSTEM: Stop WebServer1_80
+2019.02.04 11:11:23.514  SYSTEM: Stop Rt-0
+2019.02.04 11:11:23.561  SYSTEM: Stop Rt-1
+2019.02.04 11:11:23.826  SYSTEM: Stop Rt-Done
+2019.02.04 11:11:35.139  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.04 11:15:15.720  SYSTEM: Calling StopProject: nAction=2
+2019.02.04 11:15:15.767  SYSTEM: Close App
+2019.02.04 11:15:15.767  SYSTEM: Close App Done
+
+2019.02.11 09:49:48.731  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.11 09:49:48.825  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.11 09:49:48.903  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 09:49:48.919  SYSTEM: Open App Done (0.234 s)
+2019.02.11 09:49:52.497  SYSTEM: Start Rt
+2019.02.11 09:49:52.606  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.11 09:49:52.606  SYSTEM: Start Rt-Start
+2019.02.11 09:49:52.653  SYSTEM: Start Rt-0
+2019.02.11 09:49:52.669  SYSTEM: Start Rt-1
+2019.02.11 09:49:52.669  SYSTEM: Start Rt-2a
+2019.02.11 09:49:52.669  SYSTEM: Start WebServer1_80
+2019.02.11 09:49:52.731  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 09:49:52.731  SYSTEM: Start Rt-2
+2019.02.11 09:49:52.731  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.11 09:49:52.731  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 09:50:47.386  SYSTEM: Calling Pm.AppStop
+2019.02.11 09:50:47.386  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 09:50:47.386  SYSTEM: Executing AppStop
+2019.02.11 09:50:47.386  SYSTEM: Stop Rt-Pre
+2019.02.11 09:50:47.386  SYSTEM: Stop Rt-Pre2
+2019.02.11 09:50:47.401  SYSTEM: Stop Rt
+2019.02.11 09:50:47.401  SYSTEM: INFO/Statistics = Scripts-Run:296, Panels-Open:2, Panels-Close:2, Panels-Refresh:207, Workspace-Open:1, TreePmObject:891
+2019.02.11 09:50:47.401  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 09:50:47.417  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 09:50:47.417  SYSTEM: Stop WebServer1_80
+2019.02.11 09:50:47.448  SYSTEM: Stop Rt-0
+2019.02.11 09:50:47.464  SYSTEM: Stop Rt-1
+2019.02.11 09:50:47.730  SYSTEM: Stop Rt-Done
+2019.02.11 09:52:05.014  SYSTEM: Start Rt
+2019.02.11 09:52:05.123  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.11 09:52:05.123  SYSTEM: Start Rt-Start
+2019.02.11 09:52:05.139  SYSTEM: Start Rt-0
+2019.02.11 09:52:05.154  SYSTEM: Start Rt-1
+2019.02.11 09:52:05.154  SYSTEM: Start WebServer1_80
+2019.02.11 09:52:05.170  SYSTEM: Start Rt-2a
+2019.02.11 09:52:05.201  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 09:52:05.201  SYSTEM: Start Rt-2
+2019.02.11 09:52:05.217  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 09:52:05.217  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 09:52:35.312  SYSTEM: Calling Pm.AppStop
+2019.02.11 09:52:35.312  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 09:52:35.312  SYSTEM: Executing AppStop
+2019.02.11 09:52:35.312  SYSTEM: Stop Rt-Pre
+2019.02.11 09:52:35.312  SYSTEM: Stop Rt-Pre2
+2019.02.11 09:52:35.327  SYSTEM: Stop Rt
+2019.02.11 09:52:35.327  SYSTEM: INFO/Statistics = Scripts-Run:177, Panels-Open:2, Panels-Close:2, Panels-Refresh:119, Workspace-Open:1, TreePmObject:499
+2019.02.11 09:52:35.327  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 09:52:35.327  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 09:52:35.327  SYSTEM: Stop WebServer1_80
+2019.02.11 09:52:35.343  SYSTEM: Stop Rt-0
+2019.02.11 09:52:35.374  SYSTEM: Stop Rt-1
+2019.02.11 09:52:35.671  SYSTEM: Stop Rt-Done
+2019.02.11 09:53:05.904  SYSTEM: Start Rt
+2019.02.11 09:53:06.014  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.11 09:53:06.014  SYSTEM: Start Rt-Start
+2019.02.11 09:53:06.045  SYSTEM: Start Rt-0
+2019.02.11 09:53:06.061  SYSTEM: Start Rt-1
+2019.02.11 09:53:06.061  SYSTEM: Start WebServer1_80
+2019.02.11 09:53:06.076  SYSTEM: Start Rt-2a
+2019.02.11 09:53:06.108  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 09:53:06.123  SYSTEM: Start Rt-2
+2019.02.11 09:53:06.123  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 09:53:06.123  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 09:53:37.258  SYSTEM: Calling Pm.AppStop
+2019.02.11 09:53:37.258  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 09:53:37.258  SYSTEM: Executing AppStop
+2019.02.11 09:53:37.274  SYSTEM: Stop Rt-Pre
+2019.02.11 09:53:37.274  SYSTEM: Stop Rt-Pre2
+2019.02.11 09:53:37.274  SYSTEM: Stop Rt
+2019.02.11 09:53:37.274  SYSTEM: INFO/Statistics = Scripts-Run:190, Panels-Open:2, Panels-Close:2, Panels-Refresh:123, Workspace-Open:1, TreePmObject:515
+2019.02.11 09:53:37.274  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 09:53:37.274  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 09:53:37.290  SYSTEM: Stop WebServer1_80
+2019.02.11 09:53:37.290  SYSTEM: Stop Rt-0
+2019.02.11 09:53:37.321  SYSTEM: Stop Rt-1
+2019.02.11 09:53:37.571  SYSTEM: Stop Rt-Done
+2019.02.11 09:56:03.564  SYSTEM: Start Rt
+2019.02.11 09:56:03.695  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.11 09:56:03.695  SYSTEM: Start Rt-Start
+2019.02.11 09:56:03.711  SYSTEM: Start Rt-0
+2019.02.11 09:56:03.726  SYSTEM: Start Rt-1
+2019.02.11 09:56:03.726  SYSTEM: Start WebServer1_80
+2019.02.11 09:56:03.742  SYSTEM: Start Rt-2a
+2019.02.11 09:56:03.789  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 09:56:03.789  SYSTEM: Start Rt-2
+2019.02.11 09:56:03.789  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.11 09:56:03.789  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 09:57:29.578  SYSTEM: Calling Pm.AppStop
+2019.02.11 09:57:29.578  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 09:57:29.578  SYSTEM: Executing AppStop
+2019.02.11 09:57:29.578  SYSTEM: Stop Rt-Pre
+2019.02.11 09:57:29.594  SYSTEM: Stop Rt-Pre2
+2019.02.11 09:57:29.594  SYSTEM: Stop Rt
+2019.02.11 09:57:29.594  SYSTEM: INFO/Statistics = Scripts-Run:356, Panels-Open:2, Panels-Close:2, Panels-Refresh:338, Workspace-Open:1, TreePmObject:1387
+2019.02.11 09:57:29.594  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 09:57:29.594  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 09:57:29.609  SYSTEM: Stop WebServer1_80
+2019.02.11 09:57:29.609  SYSTEM: Stop Rt-0
+2019.02.11 09:57:29.656  SYSTEM: Stop Rt-1
+2019.02.11 09:57:29.891  SYSTEM: Stop Rt-Done
+2019.02.11 10:02:08.352  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 10:02:08.384  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190211_100208_auto
+2019.02.11 10:02:08.665  SYSTEM: Start Rt
+2019.02.11 10:02:08.790  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:02:08.806  SYSTEM: Start Rt-Start
+2019.02.11 10:02:08.806  SYSTEM: Start Rt-0
+2019.02.11 10:02:08.821  SYSTEM: Start Rt-1
+2019.02.11 10:02:08.837  SYSTEM: Start WebServer1_80
+2019.02.11 10:02:08.837  SYSTEM: Start Rt-2a
+2019.02.11 10:02:08.884  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:02:08.884  SYSTEM: Start Rt-2
+2019.02.11 10:02:08.884  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 10:02:08.884  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:02:43.165  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:02:43.165  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:02:43.165  SYSTEM: Executing AppStop
+2019.02.11 10:02:43.180  SYSTEM: Stop Rt-Pre
+2019.02.11 10:02:43.180  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:02:43.180  SYSTEM: Stop Rt
+2019.02.11 10:02:43.180  SYSTEM: INFO/Statistics = Scripts-Run:206, Panels-Open:2, Panels-Close:2, Panels-Refresh:134, Workspace-Open:1, TreePmObject:563
+2019.02.11 10:02:43.180  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:02:43.196  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:02:43.196  SYSTEM: Stop WebServer1_80
+2019.02.11 10:02:43.196  SYSTEM: Stop Rt-0
+2019.02.11 10:02:43.227  SYSTEM: Stop Rt-1
+2019.02.11 10:02:43.430  SYSTEM: Stop Rt-Done
+2019.02.11 10:13:52.751  SYSTEM: Start Rt
+2019.02.11 10:13:52.845  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:13:52.861  SYSTEM: Start Rt-Start
+2019.02.11 10:13:52.876  SYSTEM: Start Rt-0
+2019.02.11 10:13:52.908  SYSTEM: Start Rt-1
+2019.02.11 10:13:52.923  SYSTEM: Start WebServer1_80
+2019.02.11 10:13:52.923  SYSTEM: Start Rt-2a
+2019.02.11 10:13:52.955  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:13:52.970  SYSTEM: Start Rt-2
+2019.02.11 10:13:52.970  SYSTEM: Start Rt-Done (0.266 s)
+2019.02.11 10:13:52.970  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:14:08.454  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:14:08.470  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:14:08.470  SYSTEM: Executing AppStop
+2019.02.11 10:14:08.470  SYSTEM: Stop Rt-Pre
+2019.02.11 10:14:08.470  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:14:08.470  SYSTEM: Stop Rt
+2019.02.11 10:14:08.486  SYSTEM: INFO/Statistics = Scripts-Run:76, Panels-Open:2, Panels-Close:2, Panels-Refresh:60, Workspace-Open:1, TreePmObject:267
+2019.02.11 10:14:08.486  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:14:08.486  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:14:08.486  SYSTEM: Stop WebServer1_80
+2019.02.11 10:14:08.501  SYSTEM: Stop Rt-0
+2019.02.11 10:14:08.517  SYSTEM: Stop Rt-1
+2019.02.11 10:14:08.767  SYSTEM: Stop Rt-Done
+2019.02.11 10:17:59.299  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190211_101759_auto
+2019.02.11 10:20:35.722  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 10:30:43.090  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 10:51:04.593  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190211_105104_auto
+2019.02.11 10:51:17.375  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 10:51:17.687  SYSTEM: Start Rt
+2019.02.11 10:51:17.812  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:51:17.812  SYSTEM: Start Rt-Start
+2019.02.11 10:51:17.828  SYSTEM: Start Rt-0
+2019.02.11 10:51:17.844  SYSTEM: Start Rt-1
+2019.02.11 10:51:17.844  SYSTEM: Start WebServer1_80
+2019.02.11 10:51:17.859  SYSTEM: Start Rt-2a
+2019.02.11 10:51:17.890  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:51:17.906  SYSTEM: Start Rt-2
+2019.02.11 10:51:17.906  SYSTEM: Start Rt-Done (0.265 s)
+2019.02.11 10:51:17.906  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:51:19.687  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 10:51:42.376  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:51:42.376  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:51:42.376  SYSTEM: Executing AppStop
+2019.02.11 10:51:42.376  SYSTEM: Stop Rt-Pre
+2019.02.11 10:51:42.392  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:51:42.392  SYSTEM: Stop Rt
+2019.02.11 10:51:42.392  SYSTEM: INFO/Statistics = Scripts-Run:159, Panels-Open:2, Panels-Close:2, Panels-Refresh:96, Workspace-Open:1, TreePmObject:415
+2019.02.11 10:51:42.392  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:51:42.392  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:51:42.407  SYSTEM: Stop WebServer1_80
+2019.02.11 10:51:42.407  SYSTEM: Stop Rt-0
+2019.02.11 10:51:42.454  SYSTEM: Stop Rt-1
+2019.02.11 10:51:42.720  SYSTEM: Stop Rt-Done
+2019.02.11 10:52:11.392  SYSTEM: Start Rt
+2019.02.11 10:52:11.517  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:52:11.532  SYSTEM: Start Rt-Start
+2019.02.11 10:52:11.532  SYSTEM: Start Rt-0
+2019.02.11 10:52:11.548  SYSTEM: Start Rt-1
+2019.02.11 10:52:11.564  SYSTEM: Start WebServer1_80
+2019.02.11 10:52:11.564  SYSTEM: Start Rt-2a
+2019.02.11 10:52:11.610  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:52:11.610  SYSTEM: Start Rt-2
+2019.02.11 10:52:11.610  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 10:52:11.610  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:52:13.204  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 10:52:21.408  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:52:21.408  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:52:21.408  SYSTEM: Executing AppStop
+2019.02.11 10:52:21.408  SYSTEM: Stop Rt-Pre
+2019.02.11 10:52:21.424  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:52:21.424  SYSTEM: Stop Rt
+2019.02.11 10:52:21.424  SYSTEM: INFO/Statistics = Scripts-Run:75, Panels-Open:2, Panels-Close:2, Panels-Refresh:36, Workspace-Open:1, TreePmObject:175
+2019.02.11 10:52:21.424  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:52:21.424  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:52:21.439  SYSTEM: Stop WebServer1_80
+2019.02.11 10:52:21.439  SYSTEM: Stop Rt-0
+2019.02.11 10:52:21.470  SYSTEM: Stop Rt-1
+2019.02.11 10:52:21.736  SYSTEM: Stop Rt-Done
+2019.02.11 10:53:26.346  SYSTEM: Start Rt
+2019.02.11 10:53:26.471  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:53:26.471  SYSTEM: Start Rt-Start
+2019.02.11 10:53:26.487  SYSTEM: Start Rt-0
+2019.02.11 10:53:26.502  SYSTEM: Start Rt-1
+2019.02.11 10:53:26.502  SYSTEM: Start WebServer1_80
+2019.02.11 10:53:26.518  SYSTEM: Start Rt-2a
+2019.02.11 10:53:26.549  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:53:26.549  SYSTEM: Start Rt-2
+2019.02.11 10:53:26.549  SYSTEM: Start Rt-Done (0.234 s)
+2019.02.11 10:53:26.565  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:53:28.362  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 10:53:50.034  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:53:50.034  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:53:50.034  SYSTEM: Executing AppStop
+2019.02.11 10:53:50.034  SYSTEM: Stop Rt-Pre
+2019.02.11 10:53:50.034  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:53:50.050  SYSTEM: Stop Rt
+2019.02.11 10:53:50.050  SYSTEM: INFO/Statistics = Scripts-Run:138, Panels-Open:2, Panels-Close:2, Panels-Refresh:92, Workspace-Open:1, TreePmObject:399
+2019.02.11 10:53:50.050  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:53:50.050  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:53:50.050  SYSTEM: Stop WebServer1_80
+2019.02.11 10:53:50.066  SYSTEM: Stop Rt-0
+2019.02.11 10:53:50.097  SYSTEM: Stop Rt-1
+2019.02.11 10:53:50.378  SYSTEM: Stop Rt-Done
+2019.02.11 10:54:54.440  SYSTEM: Start Rt
+2019.02.11 10:54:54.597  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:54:54.597  SYSTEM: Start Rt-Start
+2019.02.11 10:54:54.612  SYSTEM: Start Rt-0
+2019.02.11 10:54:54.659  SYSTEM: Start Rt-1
+2019.02.11 10:54:54.675  SYSTEM: Start WebServer1_80
+2019.02.11 10:54:54.690  SYSTEM: Start Rt-2a
+2019.02.11 10:54:54.722  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:54:54.737  SYSTEM: Start Rt-2
+2019.02.11 10:54:54.737  SYSTEM: Start Rt-Done (0.329 s)
+2019.02.11 10:54:54.753  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:54:57.065  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 10:55:03.862  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:55:03.862  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:55:03.862  SYSTEM: Executing AppStop
+2019.02.11 10:55:03.862  SYSTEM: Stop Rt-Pre
+2019.02.11 10:55:03.878  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:55:03.878  SYSTEM: Stop Rt
+2019.02.11 10:55:03.878  SYSTEM: INFO/Statistics = Scripts-Run:64, Panels-Open:2, Panels-Close:2, Panels-Refresh:33, Workspace-Open:1, TreePmObject:167
+2019.02.11 10:55:03.878  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:55:03.878  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:55:03.878  SYSTEM: Stop WebServer1_80
+2019.02.11 10:55:03.893  SYSTEM: Stop Rt-0
+2019.02.11 10:55:03.925  SYSTEM: Stop Rt-1
+2019.02.11 10:55:04.175  SYSTEM: Stop Rt-Done
+2019.02.11 10:59:35.236  SYSTEM: Start Rt
+2019.02.11 10:59:35.361  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 10:59:35.376  SYSTEM: Start Rt-Start
+2019.02.11 10:59:35.407  SYSTEM: Start Rt-0
+2019.02.11 10:59:35.454  SYSTEM: Start Rt-1
+2019.02.11 10:59:35.470  SYSTEM: Start WebServer1_80
+2019.02.11 10:59:35.486  SYSTEM: Start Rt-2a
+2019.02.11 10:59:35.517  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 10:59:35.517  SYSTEM: Start Rt-2
+2019.02.11 10:59:35.532  SYSTEM: Start Rt-Done (0.343 s)
+2019.02.11 10:59:35.532  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 10:59:37.204  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 10:59:53.720  SYSTEM: Calling Pm.AppStop
+2019.02.11 10:59:53.720  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 10:59:53.720  SYSTEM: Executing AppStop
+2019.02.11 10:59:53.720  SYSTEM: Stop Rt-Pre
+2019.02.11 10:59:53.736  SYSTEM: Stop Rt-Pre2
+2019.02.11 10:59:53.736  SYSTEM: Stop Rt
+2019.02.11 10:59:53.736  SYSTEM: INFO/Statistics = Scripts-Run:118, Panels-Open:2, Panels-Close:2, Panels-Refresh:70, Workspace-Open:1, TreePmObject:310
+2019.02.11 10:59:53.736  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 10:59:53.736  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 10:59:53.736  SYSTEM: Stop WebServer1_80
+2019.02.11 10:59:53.751  SYSTEM: Stop Rt-0
+2019.02.11 10:59:53.798  SYSTEM: Stop Rt-1
+2019.02.11 10:59:54.033  SYSTEM: Stop Rt-Done
+2019.02.11 11:00:51.297  SYSTEM: Start Rt
+2019.02.11 11:00:51.469  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:00:51.500  SYSTEM: Start Rt-Start
+2019.02.11 11:00:51.516  SYSTEM: Start Rt-0
+2019.02.11 11:00:51.547  SYSTEM: Start Rt-1
+2019.02.11 11:00:51.563  SYSTEM: Start WebServer1_80
+2019.02.11 11:00:51.563  SYSTEM: Start Rt-2a
+2019.02.11 11:00:51.610  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:00:51.610  SYSTEM: Start Rt-2
+2019.02.11 11:00:51.625  SYSTEM: Start Rt-Done (0.359 s)
+2019.02.11 11:00:51.625  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:00:53.391  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 11:00:58.375  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:00:58.375  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:00:58.375  SYSTEM: Executing AppStop
+2019.02.11 11:00:58.375  SYSTEM: Stop Rt-Pre
+2019.02.11 11:00:58.391  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:00:58.391  SYSTEM: Stop Rt
+2019.02.11 11:00:58.391  SYSTEM: INFO/Statistics = Scripts-Run:47, Panels-Open:2, Panels-Close:2, Panels-Refresh:24, Workspace-Open:1, TreePmObject:126
+2019.02.11 11:00:58.391  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:00:58.391  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:00:58.406  SYSTEM: Stop WebServer1_80
+2019.02.11 11:00:58.406  SYSTEM: Stop Rt-0
+2019.02.11 11:00:58.422  SYSTEM: Stop Rt-1
+2019.02.11 11:00:58.672  SYSTEM: Stop Rt-Done
+2019.02.11 11:06:09.870  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190211_110609_auto
+2019.02.11 11:06:19.980  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 11:06:20.277  SYSTEM: Start Rt
+2019.02.11 11:06:20.418  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:06:20.418  SYSTEM: Start Rt-Start
+2019.02.11 11:06:20.434  SYSTEM: Start Rt-0
+2019.02.11 11:06:20.480  SYSTEM: Start Rt-1
+2019.02.11 11:06:20.496  SYSTEM: Start WebServer1_80
+2019.02.11 11:06:20.512  SYSTEM: Start Rt-2a
+2019.02.11 11:06:20.543  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:06:20.543  SYSTEM: Start Rt-2
+2019.02.11 11:06:20.559  SYSTEM: Start Rt-Done (0.328 s)
+2019.02.11 11:06:20.574  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:06:22.340  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 11:06:35.074  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:06:35.074  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:06:35.074  SYSTEM: Executing AppStop
+2019.02.11 11:06:35.074  SYSTEM: Stop Rt-Pre
+2019.02.11 11:06:35.090  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:06:35.090  SYSTEM: Stop Rt
+2019.02.11 11:06:35.090  SYSTEM: INFO/Statistics = Scripts-Run:92, Panels-Open:2, Panels-Close:2, Panels-Refresh:56, Workspace-Open:1, TreePmObject:254
+2019.02.11 11:06:35.090  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:06:35.090  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:06:35.105  SYSTEM: Stop WebServer1_80
+2019.02.11 11:06:35.121  SYSTEM: Stop Rt-0
+2019.02.11 11:06:35.121  SYSTEM: Stop Rt-1
+2019.02.11 11:06:35.340  SYSTEM: Stop Rt-Done
+2019.02.11 11:07:51.573  SYSTEM: Start Rt
+2019.02.11 11:07:51.760  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:07:51.776  SYSTEM: Start Rt-Start
+2019.02.11 11:07:51.776  SYSTEM: Start Rt-0
+2019.02.11 11:07:51.807  SYSTEM: Start Rt-1
+2019.02.11 11:07:51.823  SYSTEM: Start WebServer1_80
+2019.02.11 11:07:51.854  SYSTEM: Start Rt-2a
+2019.02.11 11:07:51.885  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:07:51.885  SYSTEM: Start Rt-2
+2019.02.11 11:07:51.901  SYSTEM: Start Rt-Done (0.359 s)
+2019.02.11 11:07:51.901  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:07:53.495  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 11:07:57.542  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:07:57.542  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:07:57.542  SYSTEM: Executing AppStop
+2019.02.11 11:07:57.542  SYSTEM: Stop Rt-Pre
+2019.02.11 11:07:57.542  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:07:57.557  SYSTEM: Stop Rt
+2019.02.11 11:07:57.557  SYSTEM: INFO/Statistics = Scripts-Run:43, Panels-Open:2, Panels-Close:2, Panels-Refresh:20, Workspace-Open:1, TreePmObject:110
+2019.02.11 11:07:57.557  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:07:57.557  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:07:57.557  SYSTEM: Stop WebServer1_80
+2019.02.11 11:07:57.573  SYSTEM: Stop Rt-0
+2019.02.11 11:07:57.589  SYSTEM: Stop Rt-1
+2019.02.11 11:07:57.792  SYSTEM: Stop Rt-Done
+2019.02.11 11:09:05.043  SYSTEM: Start Rt
+2019.02.11 11:09:05.184  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:09:05.215  SYSTEM: Start Rt-Start
+2019.02.11 11:09:05.215  SYSTEM: Start Rt-0
+2019.02.11 11:09:05.246  SYSTEM: Start Rt-1
+2019.02.11 11:09:05.246  SYSTEM: Start WebServer1_80
+2019.02.11 11:09:05.277  SYSTEM: Start Rt-2a
+2019.02.11 11:09:05.293  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:09:05.309  SYSTEM: Start Rt-2
+2019.02.11 11:09:05.309  SYSTEM: Start Rt-Done (0.313 s)
+2019.02.11 11:09:05.324  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:09:06.418  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cerna', 'Unknown', 'CProp', 'GP', '/Postava_cerna', 'Visible'
+2019.02.11 11:09:06.418  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 11:09:14.231  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:09:14.231  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:09:14.231  SYSTEM: Executing AppStop
+2019.02.11 11:09:14.231  SYSTEM: Stop Rt-Pre
+2019.02.11 11:09:14.231  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:09:14.246  SYSTEM: Stop Rt
+2019.02.11 11:09:14.246  SYSTEM: INFO/Statistics = Scripts-Run:64, Panels-Open:2, Panels-Close:2, Panels-Refresh:33, Workspace-Open:1, TreePmObject:158
+2019.02.11 11:09:14.246  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:09:14.246  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:09:14.246  SYSTEM: Stop WebServer1_80
+2019.02.11 11:09:14.262  SYSTEM: Stop Rt-0
+2019.02.11 11:09:14.278  SYSTEM: Stop Rt-1
+2019.02.11 11:09:14.496  SYSTEM: Stop Rt-Done
+2019.02.11 11:09:48.294  SYSTEM: Start Rt
+2019.02.11 11:09:48.419  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:09:48.419  SYSTEM: Start Rt-Start
+2019.02.11 11:09:48.434  SYSTEM: Start Rt-0
+2019.02.11 11:09:48.450  SYSTEM: Start Rt-1
+2019.02.11 11:09:48.466  SYSTEM: Start WebServer1_80
+2019.02.11 11:09:48.466  SYSTEM: Start Rt-2a
+2019.02.11 11:09:48.513  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:09:48.513  SYSTEM: Start Rt-2
+2019.02.11 11:09:48.513  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 11:09:48.513  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:09:50.138  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cerna', 'Unknown', 'CProp', 'GP', '/Postava_cerna', 'Visible'
+2019.02.11 11:09:50.138  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Postava_cervena', 'Unknown', 'CProp', 'GP', '/Postava_cervena', 'Visible'
+2019.02.11 11:10:03.606  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:10:03.606  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:10:03.606  SYSTEM: Executing AppStop
+2019.02.11 11:10:03.606  SYSTEM: Stop Rt-Pre
+2019.02.11 11:10:03.606  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:10:03.622  SYSTEM: Stop Rt
+2019.02.11 11:10:03.622  SYSTEM: INFO/Statistics = Scripts-Run:94, Panels-Open:2, Panels-Close:2, Panels-Refresh:58, Workspace-Open:1, TreePmObject:262
+2019.02.11 11:10:03.622  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:10:03.622  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:10:03.622  SYSTEM: Stop WebServer1_80
+2019.02.11 11:10:03.637  SYSTEM: Stop Rt-0
+2019.02.11 11:10:03.684  SYSTEM: Stop Rt-1
+2019.02.11 11:10:03.918  SYSTEM: Stop Rt-Done
+2019.02.11 11:10:50.168  SYSTEM: Start Rt
+2019.02.11 11:10:50.293  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2019.02.11 11:10:50.293  SYSTEM: Start Rt-Start
+2019.02.11 11:10:50.309  SYSTEM: Start Rt-0
+2019.02.11 11:10:50.324  SYSTEM: Start Rt-1
+2019.02.11 11:10:50.340  SYSTEM: Start Rt-2a
+2019.02.11 11:10:50.340  SYSTEM: Start WebServer1_80
+2019.02.11 11:10:50.387  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.11 11:10:50.387  SYSTEM: Start Rt-2
+2019.02.11 11:10:50.387  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.11 11:10:50.387  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.11 11:11:01.543  SYSTEM: Calling Pm.AppStop
+2019.02.11 11:11:01.543  SYSTEM: Calling StopProject: nAction=0
+2019.02.11 11:11:01.543  SYSTEM: Executing AppStop
+2019.02.11 11:11:01.543  SYSTEM: Stop Rt-Pre
+2019.02.11 11:11:01.559  SYSTEM: Stop Rt-Pre2
+2019.02.11 11:11:01.559  SYSTEM: Stop Rt
+2019.02.11 11:11:01.559  SYSTEM: INFO/Statistics = Scripts-Run:69, Panels-Open:2, Panels-Close:2, Panels-Refresh:42, Workspace-Open:1, TreePmObject:195
+2019.02.11 11:11:01.559  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.11 11:11:01.559  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.11 11:11:01.574  SYSTEM: Stop WebServer1_80
+2019.02.11 11:11:01.574  SYSTEM: Stop Rt-0
+2019.02.11 11:11:01.621  SYSTEM: Stop Rt-1
+2019.02.11 11:11:01.887  SYSTEM: Stop Rt-Done
+2019.02.11 11:11:21.730  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.11 11:12:34.385  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Timer0
+2019.02.11 11:15:30.380  SYSTEM: Calling StopProject: nAction=2
+2019.02.11 11:15:30.442  SYSTEM: Close App
+2019.02.11 11:15:30.442  SYSTEM: Close App Done
+
+2019.02.18 10:10:57.349  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.18 10:10:57.443  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.18 10:10:57.537  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.18 10:10:57.552  SYSTEM: Open App Done (0.25 s)
+2019.02.18 10:11:01.762  SYSTEM: Start Rt
+2019.02.18 10:11:01.887  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.18 10:11:01.887  SYSTEM: Start Rt-Start
+2019.02.18 10:11:01.903  SYSTEM: Start Rt-0
+2019.02.18 10:11:01.918  SYSTEM: Start Rt-1
+2019.02.18 10:11:01.918  SYSTEM: Start WebServer1_80
+2019.02.18 10:11:01.934  SYSTEM: Start Rt-2a
+2019.02.18 10:11:01.965  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.18 10:11:01.981  SYSTEM: Start Rt-2
+2019.02.18 10:11:01.981  SYSTEM: Start Rt-Done (0.234 s)
+2019.02.18 10:11:01.981  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.18 10:11:39.902  SYSTEM: Calling Pm.AppStop
+2019.02.18 10:11:39.918  SYSTEM: Calling StopProject: nAction=0
+2019.02.18 10:11:39.918  SYSTEM: Executing AppStop
+2019.02.18 10:11:39.918  SYSTEM: Stop Rt-Pre
+2019.02.18 10:11:39.918  SYSTEM: Stop Rt-Pre2
+2019.02.18 10:11:39.918  SYSTEM: Stop Rt
+2019.02.18 10:11:39.934  SYSTEM: INFO/Statistics = Scripts-Run:209, Panels-Open:2, Panels-Close:2, Panels-Refresh:149, Workspace-Open:1, TreePmObject:619
+2019.02.18 10:11:39.934  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.18 10:11:39.934  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.18 10:11:39.934  SYSTEM: Stop WebServer1_80
+2019.02.18 10:11:39.949  SYSTEM: Stop Rt-0
+2019.02.18 10:11:39.981  SYSTEM: Stop Rt-1
+2019.02.18 10:11:40.231  SYSTEM: Stop Rt-Done
+2019.02.18 11:14:53.786  SYSTEM: Calling StopProject: nAction=2
+2019.02.18 11:14:55.161  SAVE OBJECT: /Regulace_Tel_Tep/Telesna_teplota/Data0
+2019.02.18 11:14:55.177  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190218_111455_auto
+2019.02.18 11:14:59.192  SYSTEM: Close App
+2019.02.18 11:14:59.192  SYSTEM: Close App Done
+
+2019.02.25 09:48:28.063  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.25 09:48:28.204  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.25 09:48:28.235  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:48:28.266  SYSTEM: Open App Done (0.281 s)
+2019.02.25 09:50:22.281  SYSTEM: Start Rt
+2019.02.25 09:50:22.437  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.25 09:50:22.453  SYSTEM: Start Rt-Start
+2019.02.25 09:50:22.500  SYSTEM: Start Rt-0
+2019.02.25 09:50:22.516  SYSTEM: Start Rt-1
+2019.02.25 09:50:22.531  SYSTEM: Start Rt-2a
+2019.02.25 09:50:22.547  SYSTEM: Start WebServer1_80
+2019.02.25 09:50:22.734  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.25 09:50:22.750  SYSTEM: Start Rt-2
+2019.02.25 09:50:22.750  SYSTEM: Start Rt-Done (0.656 s)
+2019.02.25 09:50:22.750  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:50:23.016  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.25 09:50:23.047  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [78,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:50:25.875  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Pane', 'CProp', 'PP', '../Data0/#vars/Barva_textu', 'Value'
+2019.02.25 09:50:28.016  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [80,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:50:38.329  SYSTEM: Calling Pm.AppStop
+2019.02.25 09:50:38.329  SYSTEM: Calling StopProject: nAction=0
+2019.02.25 09:50:38.329  SYSTEM: Executing AppStop
+2019.02.25 09:50:38.345  SYSTEM: Stop Rt-Pre
+2019.02.25 09:50:38.345  SYSTEM: Stop Rt-Pre2
+2019.02.25 09:50:38.345  SYSTEM: Stop Rt
+2019.02.25 09:50:38.345  SYSTEM: INFO/Statistics = Scripts-Run:94, Scripts-Errors:31, Panels-Open:2, Panels-Close:2, Panels-Refresh:57, Workspace-Open:1, TreePmObject:267
+2019.02.25 09:50:38.360  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.25 09:50:38.360  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.25 09:50:38.376  SYSTEM: Stop WebServer1_80
+2019.02.25 09:50:38.391  SYSTEM: Stop Rt-0
+2019.02.25 09:50:38.423  SYSTEM: Stop Rt-1
+2019.02.25 09:50:38.688  SYSTEM: Stop Rt-Done
+2019.02.25 09:52:12.653  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190225_095212_auto
+2019.02.25 09:52:16.614  SYSTEM: Start Rt
+2019.02.25 09:52:16.724  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.25 09:52:16.724  SYSTEM: Start Rt-Start
+2019.02.25 09:52:16.739  SYSTEM: Start Rt-0
+2019.02.25 09:52:16.755  SYSTEM: Start Rt-1
+2019.02.25 09:52:16.755  SYSTEM: Start WebServer1_80
+2019.02.25 09:52:16.771  SYSTEM: Start Rt-2a
+2019.02.25 09:52:16.802  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.25 09:52:16.802  SYSTEM: Start Rt-2
+2019.02.25 09:52:16.818  SYSTEM: Start Rt-Done (0.25 s)
+2019.02.25 09:52:16.818  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:52:17.255  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.25 09:52:17.255  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [78,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:52:19.210  ERROR: Count:1 Ident:Invalid data binding: '/Regulace_Tel_Tep/Telesna_teplota/Obraz_Regulace_Teploty', '/Text', 'Pane', 'CProp', 'PP', '../Data0/#vars/Barva_textu', 'Value'
+2019.02.25 09:52:30.090  SYSTEM: Calling StopProject: nAction=2
+2019.02.25 09:52:30.106  SYSTEM: Executing AppStop
+2019.02.25 09:52:30.137  SYSTEM: Stop Rt-Pre
+2019.02.25 09:52:30.137  SYSTEM: Stop Rt-Pre2
+2019.02.25 09:52:30.137  SYSTEM: Stop Rt
+2019.02.25 09:52:30.137  SYSTEM: INFO/Statistics = Scripts-Run:65, Scripts-Errors:26, Panels-Open:2, Panels-Close:2, Panels-Refresh:49, Workspace-Open:1, TreePmObject:227
+2019.02.25 09:52:30.137  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.25 09:52:30.153  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.25 09:52:30.153  SYSTEM: Stop WebServer1_80
+2019.02.25 09:52:30.159  SYSTEM: Stop Rt-0
+2019.02.25 09:52:30.281  SYSTEM: Stop Rt-1
+2019.02.25 09:52:30.581  SYSTEM: Stop Rt-Done
+2019.02.25 09:52:30.815  SYSTEM: Close App
+2019.02.25 09:52:30.845  SYSTEM: Close App Done
+
+2019.02.25 09:52:35.922  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.25 09:52:36.000  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.25 09:52:36.157  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:52:36.172  SYSTEM: Open App Done (0.391 s)
+2019.02.25 09:53:02.579  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190225_095302_auto
+2019.02.25 09:53:10.312  SYSTEM: Start Rt
+2019.02.25 09:53:10.484  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.25 09:53:10.484  SYSTEM: Start Rt-Start
+2019.02.25 09:53:10.500  SYSTEM: Start Rt-0
+2019.02.25 09:53:10.515  SYSTEM: Start Rt-1
+2019.02.25 09:53:10.531  SYSTEM: Start WebServer1_80
+2019.02.25 09:53:10.547  SYSTEM: Start Rt-2a
+2019.02.25 09:53:10.593  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.25 09:53:10.593  SYSTEM: Start Rt-2
+2019.02.25 09:53:10.609  SYSTEM: Start Rt-Done (0.344 s)
+2019.02.25 09:53:10.609  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:53:11.015  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.25 09:53:11.015  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [78,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:53:16.017  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [80,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:54:14.771  SYSTEM: Calling StopProject: nAction=2
+2019.02.25 09:54:14.787  SYSTEM: Executing AppStop
+2019.02.25 09:54:14.787  SYSTEM: Stop Rt-Pre
+2019.02.25 09:54:14.787  SYSTEM: Stop Rt-Pre2
+2019.02.25 09:54:14.787  SYSTEM: Stop Rt
+2019.02.25 09:54:14.802  SYSTEM: INFO/Statistics = Scripts-Run:308, Scripts-Errors:128, Panels-Open:2, Panels-Close:2, Panels-Refresh:256, Workspace-Open:1, TreePmObject:1042
+2019.02.25 09:54:14.802  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.25 09:54:14.802  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.25 09:54:14.802  SYSTEM: Stop WebServer1_80
+2019.02.25 09:54:14.818  SYSTEM: Stop Rt-0
+2019.02.25 09:54:14.849  SYSTEM: Stop Rt-1
+2019.02.25 09:54:15.052  SYSTEM: Stop Rt-Done
+2019.02.25 09:54:19.774  SYSTEM: Close App
+2019.02.25 09:54:19.774  SYSTEM: Close App Done
+
+2019.02.25 09:54:22.083  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.25 09:54:22.177  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.25 09:54:22.208  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:54:22.224  SYSTEM: Open App Done (0.188 s)
+2019.02.25 09:54:24.233  SYSTEM: Start Rt
+2019.02.25 09:54:24.358  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2019.02.25 09:54:24.358  SYSTEM: Start Rt-Start
+2019.02.25 09:54:24.374  SYSTEM: Start Rt-0
+2019.02.25 09:54:24.390  SYSTEM: Start Rt-1
+2019.02.25 09:54:24.390  SYSTEM: Start WebServer1_80
+2019.02.25 09:54:24.390  SYSTEM: Start Rt-2a
+2019.02.25 09:54:24.421  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2019.02.25 09:54:24.421  SYSTEM: Start Rt-2
+2019.02.25 09:54:24.437  SYSTEM: Start Rt-Done (0.235 s)
+2019.02.25 09:54:24.437  SYSTEM: CountersRt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:54:24.890  ERROR: Count:1 Ident:PmObject "/Regulace_Tel_Tep/Telesna_teplota/Timer0" (PmTimer) .Pm: Referenced object does not exist (../Data0/#vars/Barva_textu) Note:(PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick)
+2019.02.25 09:54:24.890  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [78,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:54:27.890  ERROR: Count:1 Ident:PmTimer: /Regulace_Tel_Tep/Telesna_teplota/Timer0, Event: onTick, [80,3] Note:Je požadován objekt.: 'oBarva_textu'
+2019.02.25 09:55:06.469  SYSTEM: Calling StopProject: nAction=2
+2019.02.25 09:55:06.469  SYSTEM: Executing AppStop
+2019.02.25 09:55:06.484  SYSTEM: Stop Rt-Pre
+2019.02.25 09:55:06.484  SYSTEM: Stop Rt-Pre2
+2019.02.25 09:55:06.484  SYSTEM: Stop Rt
+2019.02.25 09:55:06.484  SYSTEM: INFO/Statistics = Scripts-Run:222, Scripts-Errors:83, Panels-Open:2, Panels-Close:2, Panels-Refresh:165, Workspace-Open:1, TreePmObject:682
+2019.02.25 09:55:06.484  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2019.02.25 09:55:06.500  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2019.02.25 09:55:06.500  SYSTEM: Stop WebServer1_80
+2019.02.25 09:55:06.516  SYSTEM: Stop Rt-0
+2019.02.25 09:55:06.547  SYSTEM: Stop Rt-1
+2019.02.25 09:55:06.797  SYSTEM: Stop Rt-Done
+2019.02.25 09:55:06.937  SYSTEM: Close App
+2019.02.25 09:55:06.953  SYSTEM: Close App Done
+
+2019.02.25 09:55:08.650  SYSTEM: Open App | Pm: Promotic8.3.26 (28.06.2018) | OS: Windows 10 | PC: lvt1-s11 (lvt1-s11.spscv.cz)
+2019.02.25 09:55:08.728  SYSTEM: App: Promotic8.3.26 | Licence: 0
+2019.02.25 09:55:08.759  SYSTEM: CountersDt = PmFolder:2, PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:9
+2019.02.25 09:55:08.775  SYSTEM: Open App Done (0.171 s)
+2019.02.25 09:56:01.260  SYSTEM: Backup PRA created (auto): C:\Users\Dobes38205\Documents\US\PROMOTIC_1\DtBackup\cv21dobes.pra_080326_20190225_095601_auto
+2019.02.25 09:58:10.111  SYSTEM: Calling StopProject: nAction=2
+2019.02.25 09:58:11.486  SYSTEM: Close App
+2019.02.25 09:58:11.502  SYSTEM: Close App Done

@@ -1,0 +1,98 @@
+Netlist
+
+Exported from cv09_dobes.brd at 19.11.2018 10:25
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Net      Part     Pad
+
+N$1      MONO.IN  1
+         R5       2
+
+N$2      R4       2
+         R6       1
+
+N$3      D1       A
+         R4       1
+
+N$4      C1       1
+         D1       C
+         IC1      5
+         R9       2
+
+N$5      IC1      7
+         R7       2
+         R8       2
+
+N$6      IC1      9
+         JP0      1
+
+N$7      IC1      6
+         R1       1
+
+N$8      R5       1
+         R6       2
+
+N$9      1+       2
+         C1       2
+         IC1      2
+         IC1      4
+         IC1      8
+         MONO.IN  2
+         R2       1
+         R3       1
+         R4       3
+
+N$10     1+       1
+         IC1      3
+         JP0      2
+         LED1     A
+         LED10    A
+         LED2     A
+         LED3     A
+         LED4     A
+         LED5     A
+         LED6     A
+         LED7     A
+         LED8     A
+         LED9     A
+
+N$11     IC1      1
+         LED1     K
+
+N$12     IC1      18
+         LED2     K
+
+N$13     IC1      17
+         LED3     K
+
+N$14     IC1      16
+         LED4     K
+
+N$15     IC1      15
+         LED5     K
+
+N$16     IC1      14
+         LED6     K
+
+N$17     IC1      13
+         LED7     K
+
+N$18     IC1      12
+         LED8     K
+
+N$19     IC1      11
+         LED9     K
+
+N$20     IC1      10
+         LED10    K
+
+N$21     R2       2
+         R8       1
+
+N$22     R1       2
+         R7       1
+
+N$23     R3       2
+         R9       1
+

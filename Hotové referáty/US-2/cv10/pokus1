@@ -1,0 +1,35 @@
+Partlist
+
+Exported from cv09_dobes.brd at 19.11.2018 10:24
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package      Library    Position (inch)       Orientation
+
+1+                      1X02         pinhead    (1.25 0.35)           R0
+C1       100nF          C050-030X075 rcl        (2.95 1.65)           R270
+D1       1N4004         DO41-10      diode      (3.2 1.3)             R270
+IC1      LM3915N        SOCKET-18    ic-package (1.45 1.85)           R90
+JP0      Jumper         1X02         pinhead    (0.9 3.05)            R180
+LED1                    LED5MM       led        (0.4 0.6)             R0
+LED2                    LED5MM       led        (0.4 0.85)            R0
+LED3                    LED5MM       led        (0.4 1.1)             R0
+LED4                    LED5MM       led        (0.4 1.35)            R0
+LED5                    LED5MM       led        (0.4 1.6)             R0
+LED6                    LED5MM       led        (0.4 1.85)            R0
+LED7                    LED5MM       led        (0.4 2.1)             R0
+LED8                    LED5MM       led        (0.4 2.35)            R0
+LED9                    LED5MM       led        (0.4 2.6)             R0
+LED10                   LED5MM       led        (0.4 2.85)            R0
+MONO.IN                 1X02         pinhead    (1.75 0.35)           R180
+R1       5K             0207/7       rcl        (2.2 1.95)            R0
+R2       0K5            0207/7       rcl        (1.75 0.8)            R270
+R3       50K            0207/7       rcl        (2.2 1.75)            R0
+R4       10K            RTRIM64P     rcl        (2.8 0.95)            R90
+R5       5K             0207/7       rcl        (2.4 1.2)             R0
+R6       5K             0207/7       rcl        (2.4 1.4)             R180
+R7       5K             0207/7       rcl        (3.15 1.95)           R0
+R8       0K5            0207/7       rcl        (3.3 0.65)            R0
+R9       50K            0207/7       rcl        (2.65 1.75)           R0
