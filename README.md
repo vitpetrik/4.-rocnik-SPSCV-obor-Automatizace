@@ -1,1 +1,1 @@
-# 4.-rocnik-SPSCV-obor-Automatizace
+# 4. ročník SPŠCV obor Automatizace
