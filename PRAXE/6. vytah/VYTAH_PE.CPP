@@ -65,6 +65,7 @@ typedef struct
 
 //pointer do ktereho hazime patra do kterych ma vytah dojet
 char *ptr = (char *)malloc(sizeof(char) * 0);
+long size = 0;
 
 const Floor floors[] = {
 	{{2, 0}, {2, 1}, {3, 0}, '1'},
@@ -76,13 +77,13 @@ const Floor floors[] = {
 Sensors sensors = {{{3, 4}, 0}, {{3, 5}, 0}, {{3, 6}, 0}};
 
 //prida element do dynamickeho pole
-long addFloor(char floor, long size)
+long addFloor(char floor)
 {
 	//pokud je posledni podlazi v poli stejne jako to, ktere chceme zapsat
-	//vykasleme se na to a opustime funkci 
+	//vykasleme se na to a opustime funkci
 	if (*(ptr + size - 1) == floor && size != 0)
 	{
-		return size;
+		return;
 	}
 	size++;
 
@@ -101,12 +102,10 @@ long addFloor(char floor, long size)
 	{
 		printf(" %i", *(ptr + j) + 1);
 	}
-
-	return size;
 }
 
 //odebere 1. element z dynamickeho pole
-long removeFirst(long size)
+void removeFirst()
 {
 	//pokud ma pole nejakou velikost
 	if (size)
@@ -132,18 +131,16 @@ long removeFirst(long size)
 			printf(" %i", *(ptr + j) + 1);
 		}
 	}
-	return size;
 }
 
 int main(void)
 {
-	//inicializace proměnných
+	//inicializace promennych
 	char cabinFloor = 0;
 	char pressedKey;
 	unsigned long lightMillis = 0;
 	unsigned long lastMoveMillis = 0;
-	long size = 0;
-	size = addFloor(3, size);
+	addFloor(3);
 	int ports[4];
 	while (1)
 	{
@@ -182,14 +179,14 @@ int main(void)
 			if (!(ports[floors[i].cabinBtn.port] & (1 << floors[i].cabinBtn.bit)) && sensors.floor.state)
 			{
 				lightMillis = millis();
-				size = addFloor(i, size);
+				addFloor(i);
 			}
 
 			//zjisti stav privolavacich tlacitek
 			if (!(ports[floors[i].floorBtn.port] & (1 << floors[i].floorBtn.bit)) || floors[i].keyBoard == pressedKey)
 			{
 				lightMillis = millis();
-				size = addFloor(i, size);
+				addFloor(i);
 			}
 		}
 
@@ -202,26 +199,26 @@ int main(void)
 				//na dalsi pohyb pockame 2s aby clovek stihl vystoupit
 				if (millis() - lastMoveMillis > 2000)
 				{
-					size = removeFirst(size);
+					removeFirst();
 				}
 				//Na chvilku zapneme pipak
 				if (millis() - lastMoveMillis < 100)
 				{
-					ports[1] &= ~(1 << 3); //zapnuti pípáku
+					ports[1] &= ~(1 << 3); //zapnuti pipaku
 				}
 			}
 			//pokud jsou dvere zavrena
 			else if (sensors.door.state)
 			{
 				ports[1] &= ~(1 << 0);							   //zapnuti motoru
-				ports[1] &= ~(*(ptr) < cabinFloor ? 1 : 0 << 1);   //nastaveni smeru
+				ports[1] &= ~((*(ptr) < cabinFloor ? 1 : 0) << 1); //nastaveni smeru
 				ports[1] &= ~(1 << (*(ptr) < cabinFloor ? 5 : 4)); //zapnuti signalizace smeru
 				lightMillis = millis();
 				lastMoveMillis = millis();
 			}
 		}
-		ports[1] &= ~(millis() - lightMillis < 2000 ? 1 : 0 << 2); //zapnuti svetylka
-		ports[0] = (cabinFloor + 1) | 0xF8; //nastaveni BCD kodu
+		ports[1] &= ~(((millis() - lightMillis) < 2000 ? 1 : 0) << 2); //zapnuti svetylka
+		ports[0] = (cabinFloor + 1) | 0xF8;							 //nastaveni BCD kodu
 
 		//Jachyme hod to do stroje
 		outportb(P1, ports[0]);
@@ -237,7 +234,7 @@ int main(void)
 		//pokud zmacknem "DELETE" vymazeme prvni element pole
 		else if (pressedKey == 83)
 		{
-			size = removeFirst(size);
+			removeFirst();
 		}
 	}
 	//konec programu a navrat do Borlanda
