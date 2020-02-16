@@ -77,7 +77,7 @@ const Floor floors[] = {
 Sensors sensors = {{{3, 4}, 0}, {{3, 5}, 0}, {{3, 6}, 0}};
 
 //prida element do dynamickeho pole
-long addFloor(char floor)
+void addFloor(char floor)
 {
 	//pokud je posledni podlazi v poli stejne jako to, ktere chceme zapsat
 	//vykasleme se na to a opustime funkci
