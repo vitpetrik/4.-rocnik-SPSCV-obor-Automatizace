@@ -198,7 +198,7 @@ public:
 			{
 				char stringElement = 0;
 				outputBuffer[0] = 1;
-				for (char i = 0; i < 4; i++)
+				for (char i = 0; i < 5; i++)
 				{
 					printf("\n\r%i", string[i]);
 					stringElement = SevenSegmentASCII[string[i] - ' '];
@@ -442,7 +442,7 @@ int main(void)
 {
 	//inicializace promennych
 	unsigned char pressedKey;
-	char inputStr[] = "AHOJ";
+	char inputStr[] = "12345";
 	pin Tx = {0, 0};
 	pin Clk = {0, 1};
 	M5451 display(Tx, Clk, NUMERIC_DISP, inputStr);
