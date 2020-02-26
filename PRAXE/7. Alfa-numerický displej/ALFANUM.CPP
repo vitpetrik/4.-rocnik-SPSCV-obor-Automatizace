@@ -129,9 +129,10 @@ public:
 			if (square.getCount() == 1)
 			{
 				PORT[Tx.port] ^= (-(!!(buffer[index] & (1 << 0))) ^ PORT[Tx.port]) & (1UL << Tx.bit);
+				index++;
+				bufferSize--;
 			}
-			index++;
-			bufferSize--;
+			//printf("%i", square.getCount());
 			square.run();
 			if (!bufferSize && (square.getCount() == 0))
 			{
@@ -201,6 +202,13 @@ public:
 	void onChange()
 	{
 		newString = 1;
+		for(char i = 0; i < 36; i++) {
+		 outputBuffer[i] = 0;
+		}
+	}
+
+	char transmitCompleted() {
+		return serial.transmitCompleted();
 	}
 
 	void run()
@@ -214,8 +222,7 @@ public:
 				outputBuffer[0] = 1;
 				for (char i = 0; i < 5; i++)
 				{
-					printf("\n\r%i", string[i]);
-					stringElement = SevenSegmentASCII[string[i] - ' '];
+					stringElement = string[i] >= ' ' ? SevenSegmentASCII[string[i] - ' '] : 0;
 					for (char j = 0; j < 7; j++)
 					{
 						outputBuffer[(i * 7) + j + 1] = !!(stringElement & (1 << j));
@@ -231,18 +238,32 @@ public:
 				int stringElement = 0;
 				outputBuffer[0] = 1;
 				char help = 0;
-				for (char i = anodeSwitch; i < 4; i += 2)
-				{
-					stringElement = FourteenSegmentASCII[string[i] - ' '];
+				if(!anodeSwitch) {
+					stringElement = string[0] >= ' ' ? FourteenSegmentASCII[string[0] - ' '] : 0;
 					for (char j = 0; j < 15; j++)
 					{
-						outputBuffer[(help * 15) + j + 1] = !!(stringElement & (1 << j));
+						outputBuffer[(0 * 15) + j + 1] = !!(stringElement & (1 << j));
 					}
-					help++;
+					stringElement = string[2] >= ' ' ? FourteenSegmentASCII[string[2] - ' '] : 0;
+					for (j = 0; j < 15; j++)
+					{
+						outputBuffer[(1 * 15) + j + 1] = !!(stringElement & (1 << j));
+					}
+				} else {
+					stringElement = string[1] >= ' ' ? FourteenSegmentASCII[string[1] - ' '] : 0;
+					for (char j = 0; j < 15; j++)
+					{
+						outputBuffer[(0 * 15) + j + 1] = !!(stringElement & (1 << j));
+					}
+					stringElement = string[3] >= ' ' ? FourteenSegmentASCII[string[3] - ' '] : 0;
+					for (j = 0; j < 15; j++)
+					{
+						outputBuffer[(1 * 15) + j + 1] = !!(stringElement & (1 << j));
+					}
 				}
-				outputBuffer[30] = anodeSwitch;
 				outputBuffer[31] = !anodeSwitch;
-				for (i = 32; i < 35; i++)
+				outputBuffer[32] = anodeSwitch;
+				for (char i = 33; i < 36; i++)
 				{
 					outputBuffer[i] = 0;
 				}
@@ -459,7 +480,7 @@ int main(void)
 	char inputStr[] = "12345";
 	pin Tx = {0, 0};
 	pin Clk = {0, 1};
-	M5451 display(Tx, Clk, NUMERIC_DISP, inputStr);
+	M5451 display(Tx, Clk, 1, inputStr);
 	while (1)
 	{
 		//vezme stisknutou klavesu (pokud nejake je)
