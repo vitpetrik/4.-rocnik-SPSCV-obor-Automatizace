@@ -1,8 +1,3 @@
-//TX - port 1, bit 0
-//CLK - port 1, bit 1
-//Display type 0 = numeric
-//Display type 1 = alphanumeric
-
 #include <time.h>
 #include <conio.h>
 #include <stdio.h>
@@ -17,6 +12,7 @@
 
 #define TAB 9
 #define BACKSPACE 8
+#define ESC 27
 
 #define NUMERIC_DISP 0
 #define ALPHANUMERIC_DISP 1
@@ -132,7 +128,6 @@ public:
 				index++;
 				bufferSize--;
 			}
-			//printf("%i", square.getCount());
 			square.run();
 			if (!bufferSize && (square.getCount() == 0))
 			{
@@ -163,6 +158,14 @@ private:
 
 	char outputBuffer[36];
 
+	void addToBuffer(int byte, char startBit, char numOfBits)
+	{
+		for (char i = 0; i < numOfBits; i++)
+		{
+			outputBuffer[startBit + i] = !!(byte & (1 << i));
+		}
+	}
+
 public:
 	M5451(pin Tx_pin, pin Clk_pin, char disp, char *s)
 	{
@@ -171,14 +174,6 @@ public:
 		displayType = disp;
 		string = s;
 		anodeSwitch = 0;
-	}
-
-	//bez poslani pointru na stringu
-	M5451(pin Tx_pin, pin Clk_pin, char disp)
-	{
-		onChange();
-		serial.setup(Tx_pin, Clk_pin);
-		displayType = disp;
 	}
 
 	//nastavení pointeru na stringu
@@ -202,12 +197,14 @@ public:
 	void onChange()
 	{
 		newString = 1;
-		for(char i = 0; i < 36; i++) {
-		 outputBuffer[i] = 0;
+		for (char i = 0; i < 36; i++)
+		{
+			outputBuffer[i] = 0;
 		}
 	}
 
-	char transmitCompleted() {
+	char transmitCompleted()
+	{
 		return serial.transmitCompleted();
 	}
 
@@ -216,57 +213,44 @@ public:
 		switch (displayType)
 		{
 		case NUMERIC_DISP:
-			if (newString && serial.transmitCompleted())
+			if (newString && transmitCompleted())
 			{
 				char stringElement = 0;
 				outputBuffer[0] = 1;
 				for (char i = 0; i < 5; i++)
 				{
 					stringElement = string[i] >= ' ' ? SevenSegmentASCII[string[i] - ' '] : 0;
-					for (char j = 0; j < 7; j++)
-					{
-						outputBuffer[(i * 7) + j + 1] = !!(stringElement & (1 << j));
-					}
+					addToBuffer(stringElement, (i * 7) + 1, 7);
 				}
 				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));
 				newString = 0;
 			}
 			break;
 		case ALPHANUMERIC_DISP:
-			if (serial.transmitCompleted())
+			if (transmitCompleted())
 			{
 				int stringElement = 0;
 				outputBuffer[0] = 1;
 				char help = 0;
-				if(!anodeSwitch) {
+				if (!anodeSwitch)
+				{
 					stringElement = string[0] >= ' ' ? FourteenSegmentASCII[string[0] - ' '] : 0;
-					for (char j = 0; j < 15; j++)
-					{
-						outputBuffer[(0 * 15) + j + 1] = !!(stringElement & (1 << j));
-					}
+					addToBuffer(stringElement, 1, 15);
+
 					stringElement = string[2] >= ' ' ? FourteenSegmentASCII[string[2] - ' '] : 0;
-					for (j = 0; j < 15; j++)
-					{
-						outputBuffer[(1 * 15) + j + 1] = !!(stringElement & (1 << j));
-					}
-				} else {
+					addToBuffer(stringElement, (1 * 15) + 1, 15);
+				}
+				else
+				{
 					stringElement = string[1] >= ' ' ? FourteenSegmentASCII[string[1] - ' '] : 0;
-					for (char j = 0; j < 15; j++)
-					{
-						outputBuffer[(0 * 15) + j + 1] = !!(stringElement & (1 << j));
-					}
+					addToBuffer(stringElement, (1 * 15) + 1, 15);
+
 					stringElement = string[3] >= ' ' ? FourteenSegmentASCII[string[3] - ' '] : 0;
-					for (j = 0; j < 15; j++)
-					{
-						outputBuffer[(1 * 15) + j + 1] = !!(stringElement & (1 << j));
-					}
+					addToBuffer(stringElement, (1 * 15) + 1, 15);
 				}
 				outputBuffer[31] = !anodeSwitch;
 				outputBuffer[32] = anodeSwitch;
-				for (char i = 33; i < 36; i++)
-				{
-					outputBuffer[i] = 0;
-				}
+
 				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));
 				anodeSwitch = !anodeSwitch;
 			}
@@ -475,19 +459,21 @@ const unsigned int M5451::FourteenSegmentASCII[96] = {
 
 int main(void)
 {
-	//inicializace promennych
-	unsigned char pressedKey;
+	//inicializace promennych a tridy displeje
+	system("cls");
 	char inputStr[] = "12345";
+	cout << "Zobrazeny text muzete zmenit pomoci klavesy backspace\n\r";
+	cout << "Typ displeje pomoci klavesy TAB\n\r";
 	pin Tx = {0, 0};
 	pin Clk = {0, 1};
-	M5451 display(Tx, Clk, 1, inputStr);
+	M5451 display(Tx, Clk, NUMERIC_DISP, inputStr);
+	char exitLoop = 0;
 	while (1)
 	{
 		//vezme stisknutou klavesu (pokud nejake je)
 		if (kbhit())
 		{
-			pressedKey = getch();
-			switch (pressedKey)
+			switch (getch())
 			{
 			case BACKSPACE:
 				cout << "\n\rZadejte text k zobrazeni: ";
@@ -497,24 +483,18 @@ int main(void)
 			case TAB:
 				display.setDisplayType(!display.getDisplayType());
 				break;
+			case ESC:
+				exitLoop = 1;
+				break;
 			}
 		}
-		//pokud ne tak vynulujeme promennou
-		else
-		{
-			pressedKey = NULL;
-		}
-
-		PORT[2] = inportb(P3);
-		PORT[3] = inportb(P4);
 
 		display.run();
 
 		outportb(P1, PORT[0]);
-		outportb(P2, PORT[1]);
 
-		//pokud zmackneme ESC opustime smycku
-		if (pressedKey == 27)
+		//pokud zmackneme ESC a je dokonceno vysilani opustime smycku
+		if (exitLoop && display.transmitCompleted())
 		{
 			break;
 		}
