@@ -1,5 +1,5 @@
 //TX - port 1, bit 0
-//RX - port 1, bit 1
+//CLK - port 1, bit 1
 //Display type 0 = numeric
 //Display type 1 = alphanumeric
 
@@ -58,6 +58,12 @@ public:
 		return count;
 	}
 
+	void reset()
+	{
+		count = 0;
+		prescalerCount = 0;
+	}
+
 	//cyklus citace
 	void run()
 	{
@@ -82,6 +88,7 @@ private:
 	char *buffer;
 	int bufferSize;
 	int index;
+	char completed;
 
 public:
 	SerialTransmit()
@@ -89,6 +96,7 @@ public:
 		square.setup(4, 0);
 		index = 0;
 		bufferSize = 0;
+		completed = 1;
 	}
 
 	void setup(pin Tx_pin, pin Clk_pin)
@@ -104,17 +112,18 @@ public:
 		buffer = buff;
 		bufferSize = size;
 		index = 0;
+		completed = 0;
 		return 1;
 	}
 
 	char transmitCompleted()
 	{
-		return !bufferSize;
+		return completed;
 	}
 
 	void run()
 	{
-		if (bufferSize)
+		if (!completed)
 		{
 			PORT[Clk.port] ^= (-(square.getCount() / 2) ^ PORT[Clk.port]) & (1UL << Clk.bit);
 			if (square.getCount() == 1)
@@ -123,13 +132,18 @@ public:
 			}
 			index++;
 			bufferSize--;
+			square.run();
+			if (!bufferSize && (square.getCount() == 0))
+			{
+				completed = 1;
+				square.reset();
+			}
 		}
 		else
 		{
 			PORT[Clk.port] ^= (-0 ^ PORT[Clk.port]) & (1UL << Clk.bit);
 			PORT[Tx.port] ^= (-0 ^ PORT[Tx.port]) & (1UL << Tx.bit);
 		}
-		square.run();
 	}
 };
 
