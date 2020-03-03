@@ -158,11 +158,20 @@ private:
 
 	char outputBuffer[36];
 
-	void addToBuffer(int byte, char startBit, char numOfBits)
+	void addToBuffer7seg(char byte, char startBit, char numOfBits)
 	{
 		for (char i = 0; i < numOfBits; i++)
 		{
 			outputBuffer[startBit + i] = !!(byte & (1 << i));
+		}
+	}
+
+	void addToBuffer14seg(int byte, char startBit, char numOfBits)
+	{
+		static char bitPosition[15] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+		for (char i = 0; i < numOfBits; i++)
+		{
+			outputBuffer[startBit + bitPosition[i]] = !!(byte & (1 << i));
 		}
 	}
 
@@ -220,7 +229,7 @@ public:
 				for (char i = 0; i < 5; i++)
 				{
 					stringElement = string[i] >= ' ' ? SevenSegmentASCII[string[i] - ' '] : 0;
-					addToBuffer(stringElement, (i * 7) + 1, 7);
+					addToBuffer7seg(stringElement, (i * 7) + 1, 7);
 				}
 				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));
 				newString = 0;
@@ -235,18 +244,18 @@ public:
 				if (!anodeSwitch)
 				{
 					stringElement = string[0] >= ' ' ? FourteenSegmentASCII[string[0] - ' '] : 0;
-					addToBuffer(stringElement, 1, 15);
+					addToBuffer14seg(stringElement, 1, 15);
 
 					stringElement = string[2] >= ' ' ? FourteenSegmentASCII[string[2] - ' '] : 0;
-					addToBuffer(stringElement, (1 * 15) + 1, 15);
+					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
 				}
 				else
 				{
 					stringElement = string[1] >= ' ' ? FourteenSegmentASCII[string[1] - ' '] : 0;
-					addToBuffer(stringElement, (1 * 15) + 1, 15);
+					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
 
 					stringElement = string[3] >= ' ' ? FourteenSegmentASCII[string[3] - ' '] : 0;
-					addToBuffer(stringElement, (1 * 15) + 1, 15);
+					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
 				}
 				outputBuffer[31] = !anodeSwitch;
 				outputBuffer[32] = anodeSwitch;
