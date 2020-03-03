@@ -1,0 +1,1281 @@
+
+2020.02.17 09:51:25.855  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.02.17 09:51:25.932  SYSTEM: New directory: D:\promotic\Temp
+2020.02.17 09:52:29.119  SYSTEM: New directory: D:\promotic\Resource
+2020.02.17 09:52:29.155  SYSTEM: New directory: D:\promotic\Data
+2020.02.17 09:52:29.191  SYSTEM: New directory: D:\promotic\Cfg
+2020.02.17 09:52:29.240  SYSTEM: New directory: D:\promotic\DtBackup
+2020.02.17 09:52:29.295  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_095229_auto
+2020.02.17 09:52:29.500  SYSTEM: Licence:  0
+2020.02.17 09:52:29.579  SYSTEM: SaveAll App
+2020.02.17 09:52:29.642  SAVE TREE: /
+2020.02.17 09:52:29.856  SYSTEM: Open App Done (65.344 s)
+2020.02.17 10:17:00.739  SYSTEM: Start Rt
+2020.02.17 10:17:00.880  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.17 10:17:00.893  SYSTEM: Start Rt-Start
+2020.02.17 10:17:00.929  SYSTEM: Start Rt-0
+2020.02.17 10:17:00.955  SYSTEM: Start Rt-1
+2020.02.17 10:17:00.961  SYSTEM: Start WebServer1_80
+2020.02.17 10:17:00.988  SYSTEM: Start Rt-2a
+2020.02.17 10:17:01.043  SYSTEM: Start Rt-2
+2020.02.17 10:17:01.056  SYSTEM: Start Rt-Done (0.375 s)
+2020.02.17 10:17:01.070  SYSTEM: CountersRt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:17:04.468  SYSTEM: Calling StopProject: nAction=2
+2020.02.17 10:17:04.483  SYSTEM: Executing AppStop
+2020.02.17 10:17:04.496  SYSTEM: Stop Rt-Pre
+2020.02.17 10:17:04.513  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:17:04.532  SYSTEM: Stop Rt
+2020.02.17 10:17:04.546  SYSTEM: INFO/Statistics = Scripts-Run:8, Panels-Open:2, Panels-Close:2, Panels-Refresh:13, Workspace-Open:1, TreePmObject:5
+2020.02.17 10:17:04.562  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:17:04.578  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:17:04.622  SYSTEM: Stop WebServer1_80
+2020.02.17 10:17:04.636  SYSTEM: Stop Rt-0
+2020.02.17 10:17:04.665  SYSTEM: Stop Rt-1
+2020.02.17 10:17:04.916  SYSTEM: Stop Rt-Done
+2020.02.17 10:17:07.751  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_101707_auto
+2020.02.17 10:17:13.151  SYSTEM: Close App
+2020.02.17 10:17:13.182  SYSTEM: Close App Done
+
+2020.02.17 10:17:21.529  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.02.17 10:17:21.639  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.02.17 10:17:21.686  SYSTEM: CountersDt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:17:21.762  SYSTEM: Open App Done (0.282 s)
+2020.02.17 10:17:24.853  SYSTEM: Start Rt
+2020.02.17 10:17:24.974  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.17 10:17:24.987  SYSTEM: Start Rt-Start
+2020.02.17 10:17:25.025  SYSTEM: Start Rt-0
+2020.02.17 10:17:25.039  SYSTEM: Start Rt-1
+2020.02.17 10:17:25.043  SYSTEM: Start WebServer1_80
+2020.02.17 10:17:25.055  SYSTEM: Start Rt-2a
+2020.02.17 10:17:25.105  SYSTEM: Start Rt-2
+2020.02.17 10:17:25.134  SYSTEM: Start Rt-Done (0.328 s)
+2020.02.17 10:17:25.147  SYSTEM: CountersRt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:17:33.645  SYSTEM: Calling StopProject: nAction=2
+2020.02.17 10:17:33.658  SYSTEM: Executing AppStop
+2020.02.17 10:17:33.672  SYSTEM: Stop Rt-Pre
+2020.02.17 10:17:33.687  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:17:33.705  SYSTEM: Stop Rt
+2020.02.17 10:17:33.718  SYSTEM: INFO/Statistics = Scripts-Run:31, Panels-Open:5, Panels-Close:5, Panels-Refresh:33, Workspace-Open:1, TreePmObject:11
+2020.02.17 10:17:33.734  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:17:33.750  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:17:33.766  SYSTEM: Stop WebServer1_80
+2020.02.17 10:17:33.807  SYSTEM: Stop Rt-0
+2020.02.17 10:17:33.864  SYSTEM: Stop Rt-1
+2020.02.17 10:17:34.171  SYSTEM: Stop Rt-Done
+2020.02.17 10:17:34.328  SYSTEM: Close App
+2020.02.17 10:17:34.341  SYSTEM: Close App Done
+
+2020.02.17 10:17:36.662  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.02.17 10:17:36.769  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.02.17 10:17:36.816  SYSTEM: CountersDt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:17:36.888  SYSTEM: Open App Done (0.266 s)
+2020.02.17 10:17:56.994  SYSTEM: Start Rt
+2020.02.17 10:17:57.132  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.17 10:17:57.144  SYSTEM: Start Rt-Start
+2020.02.17 10:17:57.174  SYSTEM: Start Rt-0
+2020.02.17 10:17:57.197  SYSTEM: Start Rt-1
+2020.02.17 10:17:57.203  SYSTEM: Start WebServer1_80
+2020.02.17 10:17:57.219  SYSTEM: Start Rt-2a
+2020.02.17 10:17:57.276  SYSTEM: Start Rt-2
+2020.02.17 10:17:57.288  SYSTEM: Start Rt-Done (0.343 s)
+2020.02.17 10:17:57.302  SYSTEM: CountersRt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:18:07.532  SYSTEM: Calling Pm.AppStop
+2020.02.17 10:18:07.546  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 10:18:07.559  SYSTEM: Executing AppStop
+2020.02.17 10:18:07.574  SYSTEM: Stop Rt-Pre
+2020.02.17 10:18:07.590  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:18:07.608  SYSTEM: Stop Rt
+2020.02.17 10:18:07.621  SYSTEM: INFO/Statistics = Scripts-Run:35, Panels-Open:3, Panels-Close:3, Panels-Refresh:42, Workspace-Open:1, TreePmObject:9
+2020.02.17 10:18:07.637  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:18:07.652  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:18:07.669  SYSTEM: Stop WebServer1_80
+2020.02.17 10:18:07.700  SYSTEM: Stop Rt-0
+2020.02.17 10:18:07.734  SYSTEM: Stop Rt-1
+2020.02.17 10:18:07.963  SYSTEM: Stop Rt-Done
+2020.02.17 10:24:33.997  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_102433_auto
+2020.02.17 10:34:39.476  SYSTEM: Start Rt
+2020.02.17 10:34:39.597  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.17 10:34:39.610  SYSTEM: Start Rt-Start
+2020.02.17 10:34:39.646  SYSTEM: Start Rt-0
+2020.02.17 10:34:39.663  SYSTEM: Start Rt-1
+2020.02.17 10:34:39.670  SYSTEM: Start WebServer1_80
+2020.02.17 10:34:39.687  SYSTEM: Start Rt-2a
+2020.02.17 10:34:39.762  SYSTEM: Start Rt-2
+2020.02.17 10:34:39.778  SYSTEM: Start Rt-Done (0.375 s)
+2020.02.17 10:34:39.796  SYSTEM: CountersRt = PmPanel:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:5
+2020.02.17 10:46:35.591  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_104635_auto
+2020.02.17 10:46:46.007  SYSTEM: Calling Pm.AppStop
+2020.02.17 10:46:46.021  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 10:46:46.035  SYSTEM: Executing AppStop
+2020.02.17 10:46:46.050  SYSTEM: Stop Rt-Pre
+2020.02.17 10:46:46.067  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:46:46.087  SYSTEM: Stop Rt
+2020.02.17 10:46:46.104  SYSTEM: INFO/Statistics = Scripts-Run:1596, Panels-Open:2, Panels-Close:2, Panels-Refresh:2905, Workspace-Open:1, TreePmObject:23
+2020.02.17 10:46:46.119  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:46:46.134  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:46:46.151  SYSTEM: Stop WebServer1_80
+2020.02.17 10:46:46.194  SYSTEM: Stop Rt-0
+2020.02.17 10:46:46.236  SYSTEM: Stop Rt-1
+2020.02.17 10:46:46.531  SYSTEM: Stop Rt-Done
+2020.02.17 10:48:01.018  SAVE OBJECT: /Folder
+2020.02.17 10:48:47.146  SAVE OBJECT: /AutoPilot/Data
+2020.02.17 10:49:04.805  SAVE OBJECT: /AutoPilot/Panel
+2020.02.17 10:49:38.041  SAVE OBJECT: /AutoPilot/Data
+2020.02.17 10:56:05.201  SYSTEM: Start Rt
+2020.02.17 10:56:05.350  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.17 10:56:05.362  SYSTEM: Start Rt-Start
+2020.02.17 10:56:05.400  SYSTEM: Start Rt-0
+2020.02.17 10:56:05.417  SYSTEM: Start Rt-1
+2020.02.17 10:56:05.422  SYSTEM: Start WebServer1_80
+2020.02.17 10:56:05.450  SYSTEM: Start Rt-2a
+2020.02.17 10:56:05.492  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 10:56:05.506  SYSTEM: Start Rt-2
+2020.02.17 10:56:05.520  SYSTEM: Start Rt-Done (0.375 s)
+2020.02.17 10:56:05.534  SYSTEM: CountersRt = PmFolder:1, PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:7
+2020.02.17 10:56:35.322  SYSTEM: Calling Pm.AppStop
+2020.02.17 10:56:35.337  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 10:56:35.351  SYSTEM: Executing AppStop
+2020.02.17 10:56:35.364  SYSTEM: Stop Rt-Pre
+2020.02.17 10:56:35.382  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:56:35.402  SYSTEM: Stop Rt
+2020.02.17 10:56:35.416  SYSTEM: INFO/Statistics = Scripts-Run:85, Panels-Open:3, Panels-Close:3, Panels-Refresh:116, Workspace-Open:1, TreePmObject:15
+2020.02.17 10:56:35.431  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:56:35.446  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:56:35.463  SYSTEM: Stop WebServer1_80
+2020.02.17 10:56:35.512  SYSTEM: Stop Rt-0
+2020.02.17 10:56:35.536  SYSTEM: Stop Rt-1
+2020.02.17 10:56:35.810  SYSTEM: Stop Rt-Done
+2020.02.17 10:58:23.366  SYSTEM: Start Rt
+2020.02.17 10:58:23.493  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.17 10:58:23.507  SYSTEM: Start Rt-Start
+2020.02.17 10:58:23.543  SYSTEM: Start Rt-0
+2020.02.17 10:58:23.559  SYSTEM: Start Rt-1
+2020.02.17 10:58:23.563  SYSTEM: Start WebServer1_80
+2020.02.17 10:58:23.574  SYSTEM: Start Rt-2a
+2020.02.17 10:58:23.617  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 10:58:23.632  SYSTEM: Start Rt-2
+2020.02.17 10:58:23.647  SYSTEM: Start Rt-Done (0.344 s)
+2020.02.17 10:58:23.661  SYSTEM: CountersRt = PmFolder:1, PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:7
+2020.02.17 10:59:12.617  SYSTEM: Calling Pm.AppStop
+2020.02.17 10:59:12.631  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 10:59:12.645  SYSTEM: Executing AppStop
+2020.02.17 10:59:12.659  SYSTEM: Stop Rt-Pre
+2020.02.17 10:59:12.675  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:59:12.694  SYSTEM: Stop Rt
+2020.02.17 10:59:12.708  SYSTEM: INFO/Statistics = Scripts-Run:114, Panels-Open:2, Panels-Close:2, Panels-Refresh:192, Workspace-Open:1, TreePmObject:11
+2020.02.17 10:59:12.724  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:59:12.739  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:59:12.756  SYSTEM: Stop WebServer1_80
+2020.02.17 10:59:12.803  SYSTEM: Stop Rt-0
+2020.02.17 10:59:12.825  SYSTEM: Stop Rt-1
+2020.02.17 10:59:13.066  SYSTEM: Stop Rt-Done
+2020.02.17 10:59:37.155  SYSTEM: Start Rt
+2020.02.17 10:59:37.294  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.17 10:59:37.308  SYSTEM: Start Rt-Start
+2020.02.17 10:59:37.344  SYSTEM: Start Rt-0
+2020.02.17 10:59:37.361  SYSTEM: Start Rt-1
+2020.02.17 10:59:37.368  SYSTEM: Start WebServer1_80
+2020.02.17 10:59:37.376  SYSTEM: Start Rt-2a
+2020.02.17 10:59:37.417  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 10:59:37.431  SYSTEM: Start Rt-2
+2020.02.17 10:59:37.446  SYSTEM: Start Rt-Done (0.344 s)
+2020.02.17 10:59:37.459  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.17 10:59:45.033  SYSTEM: Calling Pm.AppStop
+2020.02.17 10:59:45.047  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 10:59:45.061  SYSTEM: Executing AppStop
+2020.02.17 10:59:45.075  SYSTEM: Stop Rt-Pre
+2020.02.17 10:59:45.092  SYSTEM: Stop Rt-Pre2
+2020.02.17 10:59:45.113  SYSTEM: Stop Rt
+2020.02.17 10:59:45.126  SYSTEM: INFO/Statistics = Scripts-Run:29, Panels-Open:2, Panels-Close:2, Panels-Refresh:27, Workspace-Open:1, TreePmObject:11
+2020.02.17 10:59:45.142  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 10:59:45.169  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 10:59:45.186  SYSTEM: Stop WebServer1_80
+2020.02.17 10:59:45.228  SYSTEM: Stop Rt-0
+2020.02.17 10:59:45.256  SYSTEM: Stop Rt-1
+2020.02.17 10:59:45.495  SYSTEM: Stop Rt-Done
+2020.02.17 11:03:23.308  SYSTEM: Start Rt
+2020.02.17 11:03:23.465  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.17 11:03:23.482  SYSTEM: Start Rt-Start
+2020.02.17 11:03:23.524  SYSTEM: Start Rt-0
+2020.02.17 11:03:23.549  SYSTEM: Start Rt-1
+2020.02.17 11:03:23.554  SYSTEM: Start WebServer1_80
+2020.02.17 11:03:23.565  SYSTEM: Start Rt-2a
+2020.02.17 11:03:23.606  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 11:03:23.621  SYSTEM: Start Rt-2
+2020.02.17 11:03:23.635  SYSTEM: Start Rt-Done (0.391 s)
+2020.02.17 11:03:23.649  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.17 11:03:28.127  SYSTEM: Calling Pm.AppStop
+2020.02.17 11:03:28.142  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 11:03:28.155  SYSTEM: Executing AppStop
+2020.02.17 11:03:28.169  SYSTEM: Stop Rt-Pre
+2020.02.17 11:03:28.186  SYSTEM: Stop Rt-Pre2
+2020.02.17 11:03:28.204  SYSTEM: Stop Rt
+2020.02.17 11:03:28.218  SYSTEM: INFO/Statistics = Scripts-Run:22, Panels-Open:1, Panels-Close:1, Panels-Refresh:10, Workspace-Open:1, TreePmObject:5
+2020.02.17 11:03:28.234  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 11:03:28.249  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 11:03:28.265  SYSTEM: Stop WebServer1_80
+2020.02.17 11:03:28.318  SYSTEM: Stop Rt-0
+2020.02.17 11:03:28.338  SYSTEM: Stop Rt-1
+2020.02.17 11:03:28.568  SYSTEM: Stop Rt-Done
+2020.02.17 11:03:59.958  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_110359_auto
+2020.02.17 11:04:15.155  SYSTEM: Calling StopProject: nAction=2
+2020.02.17 11:04:15.217  SYSTEM: Close App
+2020.02.17 11:04:15.248  SYSTEM: Close App Done
+
+2020.02.17 11:04:18.995  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.02.17 11:04:19.105  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.02.17 11:04:19.152  SYSTEM: CountersDt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.17 11:04:19.226  SYSTEM: Open App Done (0.266 s)
+2020.02.17 11:04:22.338  SYSTEM: Start Rt
+2020.02.17 11:04:22.477  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.17 11:04:22.489  SYSTEM: Start Rt-Start
+2020.02.17 11:04:22.523  SYSTEM: Start Rt-0
+2020.02.17 11:04:22.544  SYSTEM: Start Rt-1
+2020.02.17 11:04:22.549  SYSTEM: Start WebServer1_80
+2020.02.17 11:04:22.564  SYSTEM: Start Rt-2a
+2020.02.17 11:04:22.614  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 11:04:22.629  SYSTEM: Start Rt-2
+2020.02.17 11:04:22.649  SYSTEM: Start Rt-Done (0.36 s)
+2020.02.17 11:04:22.663  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.17 11:04:29.830  SYSTEM: Calling Pm.AppStop
+2020.02.17 11:04:29.843  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 11:04:29.857  SYSTEM: Executing AppStop
+2020.02.17 11:04:29.870  SYSTEM: Stop Rt-Pre
+2020.02.17 11:04:29.885  SYSTEM: Stop Rt-Pre2
+2020.02.17 11:04:29.900  SYSTEM: Stop Rt
+2020.02.17 11:04:29.912  SYSTEM: INFO/Statistics = Scripts-Run:38, Panels-Open:10, Panels-Close:10, Panels-Refresh:24, Workspace-Open:1, TreePmObject:23
+2020.02.17 11:04:29.926  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 11:04:29.940  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 11:04:29.955  SYSTEM: Stop WebServer1_80
+2020.02.17 11:04:29.986  SYSTEM: Stop Rt-0
+2020.02.17 11:04:30.041  SYSTEM: Stop Rt-1
+2020.02.17 11:04:30.332  SYSTEM: Stop Rt-Done
+2020.02.17 11:07:22.748  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200217_110722_auto
+2020.02.17 11:09:24.192  SYSTEM: Start Rt
+2020.02.17 11:09:24.327  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.17 11:09:24.339  SYSTEM: Start Rt-Start
+2020.02.17 11:09:24.369  SYSTEM: Start Rt-0
+2020.02.17 11:09:24.391  SYSTEM: Start Rt-1
+2020.02.17 11:09:24.395  SYSTEM: Start WebServer1_80
+2020.02.17 11:09:24.412  SYSTEM: Start Rt-2a
+2020.02.17 11:09:24.460  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.17 11:09:24.474  SYSTEM: Start Rt-2
+2020.02.17 11:09:24.489  SYSTEM: Start Rt-Done (0.375 s)
+2020.02.17 11:09:24.504  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.17 11:09:41.936  SYSTEM: Calling Pm.AppStop
+2020.02.17 11:09:41.950  SYSTEM: Calling StopProject: nAction=0
+2020.02.17 11:09:41.964  SYSTEM: Executing AppStop
+2020.02.17 11:09:41.977  SYSTEM: Stop Rt-Pre
+2020.02.17 11:09:41.995  SYSTEM: Stop Rt-Pre2
+2020.02.17 11:09:42.016  SYSTEM: Stop Rt
+2020.02.17 11:09:42.031  SYSTEM: INFO/Statistics = Scripts-Run:51, Panels-Open:2, Panels-Close:2, Panels-Refresh:66, Workspace-Open:1, TreePmObject:11
+2020.02.17 11:09:42.046  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.17 11:09:42.062  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.17 11:09:42.078  SYSTEM: Stop WebServer1_80
+2020.02.17 11:09:42.107  SYSTEM: Stop Rt-0
+2020.02.17 11:09:42.158  SYSTEM: Stop Rt-1
+2020.02.17 11:09:42.424  SYSTEM: Stop Rt-Done
+2020.02.17 11:09:47.692  SYSTEM: Calling StopProject: nAction=2
+2020.02.17 11:09:47.756  SYSTEM: Close App
+2020.02.17 11:09:47.775  SYSTEM: Close App Done
+
+2020.02.24 09:48:36.647  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.02.24 09:48:36.761  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.02.24 09:48:36.792  SYSTEM: CountersDt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.24 09:48:36.854  SYSTEM: Open App Done (0.234 s)
+2020.02.24 09:50:28.570  SYSTEM: Start Rt
+2020.02.24 09:50:28.677  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.24 09:50:28.688  SYSTEM: Start Rt-Start
+2020.02.24 09:50:28.713  SYSTEM: Start Rt-0
+2020.02.24 09:50:28.729  SYSTEM: Start Rt-1
+2020.02.24 09:50:28.736  SYSTEM: Start WebServer1_80
+2020.02.24 09:50:28.743  SYSTEM: Start Rt-2a
+2020.02.24 09:50:28.789  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.24 09:50:28.804  SYSTEM: Start Rt-2
+2020.02.24 09:50:28.817  SYSTEM: Start Rt-Done (0.297 s)
+2020.02.24 09:50:28.830  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.24 09:52:31.987  SYSTEM: Calling Pm.AppStop
+2020.02.24 09:52:32.000  SYSTEM: Calling StopProject: nAction=0
+2020.02.24 09:52:32.012  SYSTEM: Executing AppStop
+2020.02.24 09:52:32.023  SYSTEM: Stop Rt-Pre
+2020.02.24 09:52:32.037  SYSTEM: Stop Rt-Pre2
+2020.02.24 09:52:32.056  SYSTEM: Stop Rt
+2020.02.24 09:52:32.068  SYSTEM: INFO/Statistics = Scripts-Run:293, Panels-Open:2, Panels-Close:2, Panels-Refresh:488, Workspace-Open:1, TreePmObject:11
+2020.02.24 09:52:32.080  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.24 09:52:32.093  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.24 09:52:32.106  SYSTEM: Stop WebServer1_80
+2020.02.24 09:52:32.133  SYSTEM: Stop Rt-0
+2020.02.24 09:52:32.169  SYSTEM: Stop Rt-1
+2020.02.24 09:52:32.387  SYSTEM: Stop Rt-Done
+2020.02.24 10:08:39.694  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200224_100838_auto
+2020.02.24 10:08:50.450  SYSTEM: Start Rt
+2020.02.24 10:08:50.557  SYSTEM: Start Rt-Pre (PmInstance from RAM)
+2020.02.24 10:08:50.586  SYSTEM: Start Rt-Start
+2020.02.24 10:08:50.614  SYSTEM: Start Rt-0
+2020.02.24 10:08:50.630  SYSTEM: Start Rt-1
+2020.02.24 10:08:50.636  SYSTEM: Start WebServer1_80
+2020.02.24 10:08:50.645  SYSTEM: Start Rt-2a
+2020.02.24 10:08:50.692  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.24 10:08:50.706  SYSTEM: Start Rt-2
+2020.02.24 10:08:50.723  SYSTEM: Start Rt-Done (0.344 s)
+2020.02.24 10:08:50.738  SYSTEM: CountersRt = PmPanel:2, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:6
+2020.02.24 10:18:34.691  SYSTEM: Calling Pm.AppStop
+2020.02.24 10:18:34.705  SYSTEM: Calling StopProject: nAction=0
+2020.02.24 10:18:34.719  SYSTEM: Executing AppStop
+2020.02.24 10:18:34.733  SYSTEM: Stop Rt-Pre
+2020.02.24 10:18:34.751  SYSTEM: Stop Rt-Pre2
+2020.02.24 10:18:34.770  SYSTEM: Stop Rt
+2020.02.24 10:18:34.785  SYSTEM: INFO/Statistics = Scripts-Run:1196, Panels-Open:2, Panels-Close:2, Panels-Refresh:2333, Workspace-Open:1, TreePmObject:11
+2020.02.24 10:18:34.847  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.24 10:18:34.858  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.24 10:18:34.875  SYSTEM: Stop WebServer1_80
+2020.02.24 10:18:34.910  SYSTEM: Stop Rt-0
+2020.02.24 10:18:34.970  SYSTEM: Stop Rt-1
+2020.02.24 10:18:35.234  SYSTEM: Stop Rt-Done
+2020.02.24 10:18:55.317  SAVE OBJECT: /Data
+2020.02.24 10:32:23.922  SAVE OBJECT: /Timer
+2020.02.24 10:32:24.047  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200224_103223_auto
+2020.02.24 10:48:40.167  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200224_104840_auto
+2020.02.24 10:52:06.102  SYSTEM: Start Rt
+2020.02.24 10:52:06.246  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.24 10:52:06.259  SYSTEM: Start Rt-Start
+2020.02.24 10:52:06.286  SYSTEM: Start Rt-0
+2020.02.24 10:52:06.305  SYSTEM: Start Rt-1
+2020.02.24 10:52:06.311  SYSTEM: Start WebServer1_80
+2020.02.24 10:52:06.329  SYSTEM: Start Rt-2a
+2020.02.24 10:52:06.373  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.24 10:52:06.388  SYSTEM: Start Rt-2
+2020.02.24 10:52:06.401  SYSTEM: Start Rt-Done (0.36 s)
+2020.02.24 10:52:06.415  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:7
+2020.02.24 10:52:44.058  SYSTEM: Calling Pm.AppStop
+2020.02.24 10:52:44.072  SYSTEM: Calling StopProject: nAction=0
+2020.02.24 10:52:44.086  SYSTEM: Executing AppStop
+2020.02.24 10:52:44.100  SYSTEM: Stop Rt-Pre
+2020.02.24 10:52:44.117  SYSTEM: Stop Rt-Pre2
+2020.02.24 10:52:44.185  SYSTEM: Stop Rt
+2020.02.24 10:52:44.199  SYSTEM: INFO/Statistics = Scripts-Run:97, Panels-Open:2, Panels-Close:2, Panels-Refresh:147, Workspace-Open:1, TreePmObject:12
+2020.02.24 10:52:44.215  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.24 10:52:44.229  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.24 10:52:44.246  SYSTEM: Stop WebServer1_80
+2020.02.24 10:52:44.277  SYSTEM: Stop Rt-0
+2020.02.24 10:52:44.317  SYSTEM: Stop Rt-1
+2020.02.24 10:52:44.563  SYSTEM: Stop Rt-Done
+2020.02.24 10:58:55.012  SYSTEM: Start Rt
+2020.02.24 10:58:55.175  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.02.24 10:58:55.188  SYSTEM: Start Rt-Start
+2020.02.24 10:58:55.218  SYSTEM: Start Rt-0
+2020.02.24 10:58:55.243  SYSTEM: Start Rt-1
+2020.02.24 10:58:55.251  SYSTEM: Start WebServer1_80
+2020.02.24 10:58:55.256  SYSTEM: Start Rt-2a
+2020.02.24 10:58:55.305  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.02.24 10:58:55.319  SYSTEM: Start Rt-2
+2020.02.24 10:58:55.335  SYSTEM: Start Rt-Done (0.375 s)
+2020.02.24 10:58:55.352  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:7
+2020.02.24 11:06:11.634  SYSTEM: Calling Pm.AppStop
+2020.02.24 11:06:11.648  SYSTEM: Calling StopProject: nAction=0
+2020.02.24 11:06:11.662  SYSTEM: Executing AppStop
+2020.02.24 11:06:11.676  SYSTEM: Stop Rt-Pre
+2020.02.24 11:06:11.691  SYSTEM: Stop Rt-Pre2
+2020.02.24 11:06:11.711  SYSTEM: Stop Rt
+2020.02.24 11:06:11.725  SYSTEM: INFO/Statistics = Scripts-Run:896, Panels-Open:2, Panels-Close:2, Panels-Refresh:1740, Workspace-Open:1, TreePmObject:12
+2020.02.24 11:06:11.740  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.02.24 11:06:11.755  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.02.24 11:06:11.772  SYSTEM: Stop WebServer1_80
+2020.02.24 11:06:11.800  SYSTEM: Stop Rt-0
+2020.02.24 11:06:11.833  SYSTEM: Stop Rt-1
+2020.02.24 11:06:12.067  SYSTEM: Stop Rt-Done
+2020.02.24 11:09:25.236  SAVE OBJECT: /Timer
+2020.02.24 11:09:25.317  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200224_110925_auto
+2020.02.24 11:13:59.084  SYSTEM: Calling StopProject: nAction=2
+2020.02.24 11:13:59.163  SYSTEM: Close App
+2020.02.24 11:13:59.183  SYSTEM: Close App Done
+
+2020.03.02 09:48:11.324  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.03.02 09:48:11.464  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.03.02 09:48:11.502  SYSTEM: CountersDt = PmPanel:2, PmTimer:1, PmData:1, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:7
+2020.03.02 09:48:11.594  SYSTEM: Open App Done (2.781 s)
+2020.03.02 09:48:43.698  SAVE OBJECT: /Data1
+2020.03.02 09:48:56.347  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200302_094844_auto
+2020.03.02 09:51:31.204  SAVE OBJECT: /DataOutput
+2020.03.02 09:52:43.852  SAVE OBJECT: /DataOutput
+2020.03.02 09:54:28.309  SAVE OBJECT: /Timer
+2020.03.02 09:59:01.497  SAVE OBJECT: /Timer
+2020.03.02 09:59:04.651  SYSTEM: Start Rt
+2020.03.02 09:59:04.801  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 09:59:04.812  SYSTEM: Start Rt-Start
+2020.03.02 09:59:04.846  SYSTEM: Start Rt-0
+2020.03.02 09:59:04.867  SYSTEM: Start Rt-1
+2020.03.02 09:59:04.882  SYSTEM: Start WebServer1_80
+2020.03.02 09:59:04.901  SYSTEM: Start Rt-2a
+2020.03.02 09:59:04.951  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 09:59:04.970  SYSTEM: Start Rt-2
+2020.03.02 09:59:04.988  SYSTEM: Start Rt-Done (0.391 s)
+2020.03.02 09:59:04.999  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 09:59:05.031  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataInput/#vars/heading) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 09:59:05.043  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataInput/#vars/flightLevel) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 09:59:05.055  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [6,1] Note:Je požadován objekt.: 'flightLevel'
+2020.03.02 09:59:07.380  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/heading', 'Value'
+2020.03.02 09:59:07.391  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane0/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/flightLevel', 'Value'
+2020.03.02 09:59:07.403  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/Canvas1/Dynamic', 'val', 'CProp', 'PP', '../Data/#vars/flightLevel', 'Value'
+2020.03.02 09:59:07.415  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/Canvas2/Dynamic', 'val', 'CProp', 'PP', '../Data/#vars/heading', 'Value'
+2020.03.02 09:59:07.427  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane1/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/verticalSpeed', 'Value'
+2020.03.02 09:59:30.517  SYSTEM: Calling Pm.AppStop
+2020.03.02 09:59:30.528  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 09:59:30.540  SYSTEM: Executing AppStop
+2020.03.02 09:59:30.596  SYSTEM: Stop Rt-Pre
+2020.03.02 09:59:30.610  SYSTEM: Stop Rt-Pre2
+2020.03.02 09:59:30.626  SYSTEM: Stop Rt
+2020.03.02 09:59:30.639  SYSTEM: INFO/Statistics = Scripts-Run:319, Scripts-Errors:255, Panels-Open:2, Panels-Close:2, Panels-Refresh:99, Workspace-Open:1, TreePmObject:523, Timers-Skip:1
+2020.03.02 09:59:30.652  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 09:59:30.665  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 09:59:30.679  SYSTEM: Stop WebServer1_80
+2020.03.02 09:59:30.702  SYSTEM: Stop Rt-0
+2020.03.02 09:59:30.749  SYSTEM: Stop Rt-1
+2020.03.02 09:59:31.015  SYSTEM: Stop Rt-Done
+2020.03.02 10:00:49.439  SAVE OBJECT: /Timer
+2020.03.02 10:00:49.688  SYSTEM: Start Rt
+2020.03.02 10:00:49.794  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:00:49.808  SYSTEM: Start Rt-Start
+2020.03.02 10:00:49.841  SYSTEM: Start Rt-0
+2020.03.02 10:00:49.860  SYSTEM: Start Rt-1
+2020.03.02 10:00:49.864  SYSTEM: Start WebServer1_80
+2020.03.02 10:00:49.875  SYSTEM: Start Rt-2a
+2020.03.02 10:00:49.916  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:00:49.930  SYSTEM: Start Rt-2
+2020.03.02 10:00:49.943  SYSTEM: Start Rt-Done (0.297 s)
+2020.03.02 10:00:49.957  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:00:49.975  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataOutput/#vars/heading) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 10:00:49.991  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataOutput/#vars/flightLevel) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 10:00:50.006  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [6,1] Note:Je požadován objekt.: 'flightLevel'
+2020.03.02 10:00:51.402  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/heading', 'Value'
+2020.03.02 10:00:51.432  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane0/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/flightLevel', 'Value'
+2020.03.02 10:00:51.448  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/Canvas1/Dynamic', 'val', 'CProp', 'PP', '../Data/#vars/flightLevel', 'Value'
+2020.03.02 10:00:51.465  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/Canvas2/Dynamic', 'val', 'CProp', 'PP', '../Data/#vars/heading', 'Value'
+2020.03.02 10:00:51.480  ERROR: Count:1 Ident:Invalid data binding: '/panel', '/SlidPane1/$slid', 'Dark', 'CProp', 'PP', '../Data/#vars/verticalSpeed', 'Value'
+2020.03.02 10:01:00.356  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:01:00.387  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:01:00.400  SYSTEM: Executing AppStop
+2020.03.02 10:01:00.416  SYSTEM: Stop Rt-Pre
+2020.03.02 10:01:00.433  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:01:00.454  SYSTEM: Stop Rt
+2020.03.02 10:01:00.467  SYSTEM: INFO/Statistics = Scripts-Run:138, Scripts-Errors:105, Panels-Open:2, Panels-Close:2, Panels-Refresh:39, Workspace-Open:1, TreePmObject:222
+2020.03.02 10:01:00.483  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:01:00.499  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:01:00.515  SYSTEM: Stop WebServer1_80
+2020.03.02 10:01:00.544  SYSTEM: Stop Rt-0
+2020.03.02 10:01:00.581  SYSTEM: Stop Rt-1
+2020.03.02 10:01:00.798  SYSTEM: Stop Rt-Done
+2020.03.02 10:01:14.220  SAVE OBJECT: /Timer
+2020.03.02 10:02:32.574  SAVE OBJECT: /Timer
+2020.03.02 10:02:35.024  SYSTEM: Start Rt
+2020.03.02 10:02:35.143  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:02:35.156  SYSTEM: Start Rt-Start
+2020.03.02 10:02:35.191  SYSTEM: Start Rt-0
+2020.03.02 10:02:35.214  SYSTEM: Start Rt-1
+2020.03.02 10:02:35.222  SYSTEM: Start WebServer1_80
+2020.03.02 10:02:35.228  SYSTEM: Start Rt-2a
+2020.03.02 10:02:35.280  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:02:35.294  SYSTEM: Start Rt-2
+2020.03.02 10:02:35.308  SYSTEM: Start Rt-Done (0.344 s)
+2020.03.02 10:02:35.322  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:02:35.716  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataOutput/#vars/heading) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 10:02:35.730  ERROR: Count:1 Ident:PmObject "/Timer" (PmTimer) .Pm: Referenced object does not exist (.../DataOutput/#vars/flightLevel) Note:(PmTimer: /Timer, Event: onTick)
+2020.03.02 10:02:35.746  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [6,1] Note:Je požadován objekt.: 'flightLevel'
+2020.03.02 10:02:49.003  SYSTEM: Calling StopProject: nAction=2
+2020.03.02 10:02:49.031  SYSTEM: Executing AppStop
+2020.03.02 10:02:49.045  SYSTEM: Stop Rt-Pre
+2020.03.02 10:02:49.059  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:02:49.077  SYSTEM: Stop Rt
+2020.03.02 10:02:49.089  SYSTEM: INFO/Statistics = Scripts-Run:66, Scripts-Errors:27, Panels-Open:2, Panels-Close:2, Panels-Refresh:53, Workspace-Open:1, TreePmObject:66
+2020.03.02 10:02:49.102  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:02:49.116  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:02:49.130  SYSTEM: Stop WebServer1_80
+2020.03.02 10:02:49.156  SYSTEM: Stop Rt-0
+2020.03.02 10:02:49.198  SYSTEM: Stop Rt-1
+2020.03.02 10:02:49.404  SYSTEM: Stop Rt-Done
+2020.03.02 10:02:49.571  SYSTEM: Close App
+2020.03.02 10:02:49.591  SYSTEM: Close App Done
+
+2020.03.02 10:02:53.216  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.03.02 10:02:53.335  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.03.02 10:02:53.367  SYSTEM: CountersDt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:02:53.428  SYSTEM: Open App Done (0.235 s)
+2020.03.02 10:03:38.051  SAVE OBJECT: /Timer
+2020.03.02 10:03:38.178  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200302_100338_auto
+2020.03.02 10:03:48.581  SYSTEM: Start Rt
+2020.03.02 10:03:48.729  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:03:48.741  SYSTEM: Start Rt-Start
+2020.03.02 10:03:48.769  SYSTEM: Start Rt-0
+2020.03.02 10:03:48.793  SYSTEM: Start Rt-1
+2020.03.02 10:03:48.797  SYSTEM: Start WebServer1_80
+2020.03.02 10:03:48.808  SYSTEM: Start Rt-2a
+2020.03.02 10:03:48.855  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:03:48.870  SYSTEM: Start Rt-2
+2020.03.02 10:03:48.888  SYSTEM: Start Rt-Done (0.375 s)
+2020.03.02 10:03:48.902  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:03:57.770  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:03:57.800  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:03:57.814  SYSTEM: Executing AppStop
+2020.03.02 10:03:57.829  SYSTEM: Stop Rt-Pre
+2020.03.02 10:03:57.847  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:03:57.867  SYSTEM: Stop Rt
+2020.03.02 10:03:57.881  SYSTEM: INFO/Statistics = Scripts-Run:63, Panels-Open:2, Panels-Close:2, Panels-Refresh:34, Workspace-Open:1, TreePmObject:46
+2020.03.02 10:03:57.897  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:03:57.913  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:03:57.930  SYSTEM: Stop WebServer1_80
+2020.03.02 10:03:57.960  SYSTEM: Stop Rt-0
+2020.03.02 10:03:57.993  SYSTEM: Stop Rt-1
+2020.03.02 10:03:58.212  SYSTEM: Stop Rt-Done
+2020.03.02 10:04:37.858  SAVE OBJECT: /Timer
+2020.03.02 10:04:47.105  SAVE OBJECT: /Timer
+2020.03.02 10:06:01.026  SAVE OBJECT: /Timer
+2020.03.02 10:06:05.765  SYSTEM: Start Rt
+2020.03.02 10:06:05.905  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:06:05.917  SYSTEM: Start Rt-Start
+2020.03.02 10:06:05.940  SYSTEM: Start Rt-0
+2020.03.02 10:06:05.964  SYSTEM: Start Rt-1
+2020.03.02 10:06:05.969  SYSTEM: Start WebServer1_80
+2020.03.02 10:06:05.985  SYSTEM: Start Rt-2a
+2020.03.02 10:06:06.028  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:06:06.042  SYSTEM: Start Rt-2
+2020.03.02 10:06:06.056  SYSTEM: Start Rt-Done (0.969 s)
+2020.03.02 10:06:06.070  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:06:29.112  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:06:29.143  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:06:29.156  SYSTEM: Executing AppStop
+2020.03.02 10:06:29.171  SYSTEM: Stop Rt-Pre
+2020.03.02 10:06:29.188  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:06:29.207  SYSTEM: Stop Rt
+2020.03.02 10:06:29.221  SYSTEM: INFO/Statistics = Scripts-Run:143, Panels-Open:2, Panels-Close:2, Panels-Refresh:90, Workspace-Open:1, TreePmObject:196
+2020.03.02 10:06:29.236  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:06:29.252  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:06:29.268  SYSTEM: Stop WebServer1_80
+2020.03.02 10:06:29.308  SYSTEM: Stop Rt-0
+2020.03.02 10:06:29.325  SYSTEM: Stop Rt-1
+2020.03.02 10:06:29.557  SYSTEM: Stop Rt-Done
+2020.03.02 10:07:10.593  SAVE OBJECT: /Timer
+2020.03.02 10:07:12.854  SYSTEM: Start Rt
+2020.03.02 10:07:12.975  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:07:12.987  SYSTEM: Start Rt-Start
+2020.03.02 10:07:13.011  SYSTEM: Start Rt-0
+2020.03.02 10:07:13.038  SYSTEM: Start Rt-1
+2020.03.02 10:07:13.044  SYSTEM: Start WebServer1_80
+2020.03.02 10:07:13.054  SYSTEM: Start Rt-2a
+2020.03.02 10:07:13.094  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:07:13.108  SYSTEM: Start Rt-2
+2020.03.02 10:07:13.122  SYSTEM: Start Rt-Done (0.328 s)
+2020.03.02 10:07:13.136  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:07:23.528  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:07:23.558  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:07:23.572  SYSTEM: Executing AppStop
+2020.03.02 10:07:23.588  SYSTEM: Stop Rt-Pre
+2020.03.02 10:07:23.605  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:07:23.624  SYSTEM: Stop Rt
+2020.03.02 10:07:23.638  SYSTEM: INFO/Statistics = Scripts-Run:67, Panels-Open:2, Panels-Close:2, Panels-Refresh:38, Workspace-Open:1, TreePmObject:92
+2020.03.02 10:07:23.654  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:07:23.669  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:07:23.685  SYSTEM: Stop WebServer1_80
+2020.03.02 10:07:23.714  SYSTEM: Stop Rt-0
+2020.03.02 10:07:23.743  SYSTEM: Stop Rt-1
+2020.03.02 10:07:23.975  SYSTEM: Stop Rt-Done
+2020.03.02 10:08:52.623  SAVE OBJECT: /Timer
+2020.03.02 10:08:55.853  SYSTEM: Start Rt
+2020.03.02 10:08:56.002  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:08:56.015  SYSTEM: Start Rt-Start
+2020.03.02 10:08:56.042  SYSTEM: Start Rt-0
+2020.03.02 10:08:56.059  SYSTEM: Start Rt-1
+2020.03.02 10:08:56.073  SYSTEM: Start WebServer1_80
+2020.03.02 10:08:56.087  SYSTEM: Start Rt-2a
+2020.03.02 10:08:56.136  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:08:56.150  SYSTEM: Start Rt-2
+2020.03.02 10:08:56.165  SYSTEM: Start Rt-Done (0.375 s)
+2020.03.02 10:08:56.180  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:09:06.966  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:09:06.997  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:09:07.011  SYSTEM: Executing AppStop
+2020.03.02 10:09:07.047  SYSTEM: Stop Rt-Pre
+2020.03.02 10:09:07.064  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:09:07.084  SYSTEM: Stop Rt
+2020.03.02 10:09:07.097  SYSTEM: INFO/Statistics = Scripts-Run:68, Panels-Open:2, Panels-Close:2, Panels-Refresh:39, Workspace-Open:1, TreePmObject:96
+2020.03.02 10:09:07.113  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:09:07.128  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:09:07.144  SYSTEM: Stop WebServer1_80
+2020.03.02 10:09:07.173  SYSTEM: Stop Rt-0
+2020.03.02 10:09:07.218  SYSTEM: Stop Rt-1
+2020.03.02 10:09:07.452  SYSTEM: Stop Rt-Done
+2020.03.02 10:11:37.590  SAVE OBJECT: /Timer
+2020.03.02 10:11:39.491  SYSTEM: Start Rt
+2020.03.02 10:11:39.658  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:11:39.671  SYSTEM: Start Rt-Start
+2020.03.02 10:11:39.700  SYSTEM: Start Rt-0
+2020.03.02 10:11:39.730  SYSTEM: Start Rt-1
+2020.03.02 10:11:39.735  SYSTEM: Start WebServer1_80
+2020.03.02 10:11:39.747  SYSTEM: Start Rt-2a
+2020.03.02 10:11:39.791  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:11:39.805  SYSTEM: Start Rt-2
+2020.03.02 10:11:39.820  SYSTEM: Start Rt-Done (0.391 s)
+2020.03.02 10:11:39.834  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:11:59.685  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:11:59.715  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:11:59.729  SYSTEM: Executing AppStop
+2020.03.02 10:11:59.743  SYSTEM: Stop Rt-Pre
+2020.03.02 10:11:59.760  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:11:59.779  SYSTEM: Stop Rt
+2020.03.02 10:11:59.794  SYSTEM: INFO/Statistics = Scripts-Run:123, Panels-Open:2, Panels-Close:2, Panels-Refresh:76, Workspace-Open:1, TreePmObject:168
+2020.03.02 10:11:59.809  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:11:59.825  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:11:59.841  SYSTEM: Stop WebServer1_80
+2020.03.02 10:11:59.872  SYSTEM: Stop Rt-0
+2020.03.02 10:11:59.917  SYSTEM: Stop Rt-1
+2020.03.02 10:12:00.138  SYSTEM: Stop Rt-Done
+2020.03.02 10:12:11.381  SAVE OBJECT: /Timer
+2020.03.02 10:12:13.540  SYSTEM: Start Rt
+2020.03.02 10:12:13.678  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:12:13.690  SYSTEM: Start Rt-Start
+2020.03.02 10:12:13.719  SYSTEM: Start Rt-0
+2020.03.02 10:12:13.740  SYSTEM: Start Rt-1
+2020.03.02 10:12:13.746  SYSTEM: Start WebServer1_80
+2020.03.02 10:12:13.753  SYSTEM: Start Rt-2a
+2020.03.02 10:12:13.799  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:12:13.813  SYSTEM: Start Rt-2
+2020.03.02 10:12:13.828  SYSTEM: Start Rt-Done (0.344 s)
+2020.03.02 10:12:13.843  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:12:23.756  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:12:23.786  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:12:23.801  SYSTEM: Executing AppStop
+2020.03.02 10:12:23.816  SYSTEM: Stop Rt-Pre
+2020.03.02 10:12:23.834  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:12:23.854  SYSTEM: Stop Rt
+2020.03.02 10:12:23.868  SYSTEM: INFO/Statistics = Scripts-Run:61, Panels-Open:2, Panels-Close:2, Panels-Refresh:34, Workspace-Open:1, TreePmObject:92
+2020.03.02 10:12:23.883  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:12:23.899  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:12:23.915  SYSTEM: Stop WebServer1_80
+2020.03.02 10:12:23.949  SYSTEM: Stop Rt-0
+2020.03.02 10:12:23.986  SYSTEM: Stop Rt-1
+2020.03.02 10:12:24.203  SYSTEM: Stop Rt-Done
+2020.03.02 10:12:50.709  SAVE OBJECT: /Timer
+2020.03.02 10:12:52.090  SYSTEM: Start Rt
+2020.03.02 10:12:52.241  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:12:52.257  SYSTEM: Start Rt-Start
+2020.03.02 10:12:52.291  SYSTEM: Start Rt-0
+2020.03.02 10:12:52.320  SYSTEM: Start Rt-1
+2020.03.02 10:12:52.331  SYSTEM: Start WebServer1_80
+2020.03.02 10:12:52.338  SYSTEM: Start Rt-2a
+2020.03.02 10:12:52.383  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:12:52.397  SYSTEM: Start Rt-2
+2020.03.02 10:12:52.413  SYSTEM: Start Rt-Done (0.375 s)
+2020.03.02 10:12:52.427  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:13:34.099  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:13:34.130  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:13:34.144  SYSTEM: Executing AppStop
+2020.03.02 10:13:34.159  SYSTEM: Stop Rt-Pre
+2020.03.02 10:13:34.176  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:13:34.200  SYSTEM: Stop Rt
+2020.03.02 10:13:34.214  SYSTEM: INFO/Statistics = Scripts-Run:302, Panels-Open:2, Panels-Close:2, Panels-Refresh:165, Workspace-Open:1, TreePmObject:344
+2020.03.02 10:13:34.228  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:13:34.244  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:13:34.260  SYSTEM: Stop WebServer1_80
+2020.03.02 10:13:34.318  SYSTEM: Stop Rt-0
+2020.03.02 10:13:34.347  SYSTEM: Stop Rt-1
+2020.03.02 10:13:34.567  SYSTEM: Stop Rt-Done
+2020.03.02 10:15:10.371  SAVE OBJECT: /Timer
+2020.03.02 10:15:18.368  SYSTEM: Start Rt
+2020.03.02 10:15:18.510  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:15:18.528  SYSTEM: Start Rt-Start
+2020.03.02 10:15:18.562  SYSTEM: Start Rt-0
+2020.03.02 10:15:18.581  SYSTEM: Start Rt-1
+2020.03.02 10:15:18.586  SYSTEM: Start WebServer1_80
+2020.03.02 10:15:18.597  SYSTEM: Start Rt-2a
+2020.03.02 10:15:18.642  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:15:18.655  SYSTEM: Start Rt-2
+2020.03.02 10:15:18.673  SYSTEM: Start Rt-Done (0.36 s)
+2020.03.02 10:15:18.687  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:15:35.970  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:15:36.000  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:15:36.014  SYSTEM: Executing AppStop
+2020.03.02 10:15:36.028  SYSTEM: Stop Rt-Pre
+2020.03.02 10:15:36.045  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:15:36.065  SYSTEM: Stop Rt
+2020.03.02 10:15:36.079  SYSTEM: INFO/Statistics = Scripts-Run:106, Panels-Open:2, Panels-Close:2, Panels-Refresh:64, Workspace-Open:1, TreePmObject:148
+2020.03.02 10:15:36.094  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:15:36.110  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:15:36.126  SYSTEM: Stop WebServer1_80
+2020.03.02 10:15:36.187  SYSTEM: Stop Rt-0
+2020.03.02 10:15:36.217  SYSTEM: Stop Rt-1
+2020.03.02 10:15:36.458  SYSTEM: Stop Rt-Done
+2020.03.02 10:15:44.474  SAVE OBJECT: /Timer
+2020.03.02 10:15:53.061  SAVE OBJECT: /Timer
+2020.03.02 10:15:54.695  SYSTEM: Start Rt
+2020.03.02 10:15:54.825  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:15:54.843  SYSTEM: Start Rt-Start
+2020.03.02 10:15:54.882  SYSTEM: Start Rt-0
+2020.03.02 10:15:54.902  SYSTEM: Start Rt-1
+2020.03.02 10:15:54.909  SYSTEM: Start WebServer1_80
+2020.03.02 10:15:54.919  SYSTEM: Start Rt-2a
+2020.03.02 10:15:54.966  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:15:54.981  SYSTEM: Start Rt-2
+2020.03.02 10:15:54.995  SYSTEM: Start Rt-Done (0.36 s)
+2020.03.02 10:15:55.009  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:16:04.329  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:16:04.360  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:16:04.376  SYSTEM: Executing AppStop
+2020.03.02 10:16:04.415  SYSTEM: Stop Rt-Pre
+2020.03.02 10:16:04.433  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:16:04.452  SYSTEM: Stop Rt
+2020.03.02 10:16:04.466  SYSTEM: INFO/Statistics = Scripts-Run:636, Panels-Open:2, Panels-Close:2, Panels-Refresh:35, Workspace-Open:1, TreePmObject:2384
+2020.03.02 10:16:04.481  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:16:04.496  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:16:04.513  SYSTEM: Stop WebServer1_80
+2020.03.02 10:16:04.579  SYSTEM: Stop Rt-0
+2020.03.02 10:16:04.602  SYSTEM: Stop Rt-1
+2020.03.02 10:16:04.844  SYSTEM: Stop Rt-Done
+2020.03.02 10:16:12.322  SAVE OBJECT: /Timer
+2020.03.02 10:16:24.085  SAVE OBJECT: /Timer
+2020.03.02 10:21:43.362  SAVE OBJECT: /Timer
+2020.03.02 10:21:44.792  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200302_102143_auto
+2020.03.02 10:22:23.816  SAVE OBJECT: /Timer
+2020.03.02 10:23:01.118  SAVE OBJECT: /Timer
+2020.03.02 10:23:10.723  SYSTEM: Start Rt
+2020.03.02 10:23:10.890  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:23:10.902  SYSTEM: Start Rt-Start
+2020.03.02 10:23:10.918  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [18,13] Note:Neplatný znak
+2020.03.02 10:23:10.951  SYSTEM: Start Rt-0
+2020.03.02 10:23:10.973  SYSTEM: Start Rt-1
+2020.03.02 10:23:10.982  SYSTEM: Start WebServer1_80
+2020.03.02 10:23:10.988  SYSTEM: Start Rt-2a
+2020.03.02 10:23:11.035  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:23:11.049  SYSTEM: Start Rt-2
+2020.03.02 10:23:11.065  SYSTEM: Start Rt-Done (0.406 s)
+2020.03.02 10:23:11.079  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:23:23.740  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:23:23.770  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:23:23.783  SYSTEM: Executing AppStop
+2020.03.02 10:23:23.797  SYSTEM: Stop Rt-Pre
+2020.03.02 10:23:23.813  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:23:23.833  SYSTEM: Stop Rt
+2020.03.02 10:23:23.846  SYSTEM: INFO/Statistics = Scripts-Run:38, Scripts-Errors:1, Panels-Open:2, Panels-Close:2, Panels-Refresh:48, Workspace-Open:1, TreePmObject:12
+2020.03.02 10:23:23.861  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:23:23.877  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:23:23.893  SYSTEM: Stop WebServer1_80
+2020.03.02 10:23:23.955  SYSTEM: Stop Rt-0
+2020.03.02 10:23:23.999  SYSTEM: Stop Rt-1
+2020.03.02 10:23:24.256  SYSTEM: Stop Rt-Done
+2020.03.02 10:23:41.533  SAVE OBJECT: /Timer
+2020.03.02 10:23:41.786  SYSTEM: Start Rt
+2020.03.02 10:23:41.907  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:23:41.923  SYSTEM: Start Rt-Start
+2020.03.02 10:23:41.938  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [18,13] Note:Neplatný znak
+2020.03.02 10:23:41.973  SYSTEM: Start Rt-0
+2020.03.02 10:23:42.004  SYSTEM: Start Rt-1
+2020.03.02 10:23:42.011  SYSTEM: Start WebServer1_80
+2020.03.02 10:23:42.019  SYSTEM: Start Rt-2a
+2020.03.02 10:23:42.061  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:23:42.076  SYSTEM: Start Rt-2
+2020.03.02 10:23:42.090  SYSTEM: Start Rt-Done (0.359 s)
+2020.03.02 10:23:42.105  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:23:57.866  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:23:57.896  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:23:57.911  SYSTEM: Executing AppStop
+2020.03.02 10:23:57.926  SYSTEM: Stop Rt-Pre
+2020.03.02 10:23:57.943  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:23:57.963  SYSTEM: Stop Rt
+2020.03.02 10:23:57.977  SYSTEM: INFO/Statistics = Scripts-Run:44, Scripts-Errors:1, Panels-Open:2, Panels-Close:2, Panels-Refresh:61, Workspace-Open:1, TreePmObject:12
+2020.03.02 10:23:58.702  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:23:59.353  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:23:59.369  SYSTEM: Stop WebServer1_80
+2020.03.02 10:23:59.436  SYSTEM: Stop Rt-0
+2020.03.02 10:23:59.478  SYSTEM: Stop Rt-1
+2020.03.02 10:23:59.719  SYSTEM: Stop Rt-Done
+2020.03.02 10:24:09.164  SAVE OBJECT: /Timer
+2020.03.02 10:24:10.035  SYSTEM: Start Rt
+2020.03.02 10:24:10.169  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:24:10.182  SYSTEM: Start Rt-Start
+2020.03.02 10:24:10.198  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [18,13] Note:Neplatný znak
+2020.03.02 10:24:10.233  SYSTEM: Start Rt-0
+2020.03.02 10:24:10.253  SYSTEM: Start Rt-1
+2020.03.02 10:24:10.263  SYSTEM: Start WebServer1_80
+2020.03.02 10:24:10.268  SYSTEM: Start Rt-2a
+2020.03.02 10:24:10.310  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:24:10.325  SYSTEM: Start Rt-2
+2020.03.02 10:24:10.341  SYSTEM: Start Rt-Done (0.359 s)
+2020.03.02 10:24:10.355  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:24:20.457  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:24:20.487  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:24:20.503  SYSTEM: Executing AppStop
+2020.03.02 10:24:20.518  SYSTEM: Stop Rt-Pre
+2020.03.02 10:24:20.535  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:24:20.554  SYSTEM: Stop Rt
+2020.03.02 10:24:20.568  SYSTEM: INFO/Statistics = Scripts-Run:33, Scripts-Errors:1, Panels-Open:2, Panels-Close:2, Panels-Refresh:39, Workspace-Open:1, TreePmObject:12
+2020.03.02 10:24:20.584  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:24:20.599  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:24:20.615  SYSTEM: Stop WebServer1_80
+2020.03.02 10:24:20.678  SYSTEM: Stop Rt-0
+2020.03.02 10:24:20.712  SYSTEM: Stop Rt-1
+2020.03.02 10:24:20.953  SYSTEM: Stop Rt-Done
+2020.03.02 10:24:28.626  SAVE OBJECT: /Timer
+2020.03.02 10:24:29.742  SYSTEM: Start Rt
+2020.03.02 10:24:29.921  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:24:29.933  SYSTEM: Start Rt-Start
+2020.03.02 10:24:29.980  SYSTEM: Start Rt-0
+2020.03.02 10:24:29.996  SYSTEM: Start Rt-1
+2020.03.02 10:24:30.005  SYSTEM: Start WebServer1_80
+2020.03.02 10:24:30.027  SYSTEM: Start Rt-2a
+2020.03.02 10:24:30.078  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:24:30.093  SYSTEM: Start Rt-2
+2020.03.02 10:24:30.106  SYSTEM: Start Rt-Done (0.422 s)
+2020.03.02 10:24:30.121  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:24:30.498  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [12,1] Note:Je požadován objekt.: '[number: 0]'
+2020.03.02 10:24:37.041  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:24:37.071  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:24:37.086  SYSTEM: Executing AppStop
+2020.03.02 10:24:37.102  SYSTEM: Stop Rt-Pre
+2020.03.02 10:24:37.119  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:24:37.139  SYSTEM: Stop Rt
+2020.03.02 10:24:37.153  SYSTEM: INFO/Statistics = Scripts-Run:40, Scripts-Errors:14, Panels-Open:2, Panels-Close:2, Panels-Refresh:24, Workspace-Open:1, TreePmObject:68
+2020.03.02 10:24:37.169  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:24:37.184  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:24:37.201  SYSTEM: Stop WebServer1_80
+2020.03.02 10:24:37.260  SYSTEM: Stop Rt-0
+2020.03.02 10:24:37.303  SYSTEM: Stop Rt-1
+2020.03.02 10:24:37.562  SYSTEM: Stop Rt-Done
+2020.03.02 10:24:56.093  SYSTEM: Start Rt
+2020.03.02 10:24:56.236  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:24:56.248  SYSTEM: Start Rt-Start
+2020.03.02 10:24:57.582  SYSTEM: Start Rt-0
+2020.03.02 10:24:58.871  SYSTEM: Start Rt-1
+2020.03.02 10:24:58.879  SYSTEM: Start WebServer1_80
+2020.03.02 10:24:58.891  SYSTEM: Start Rt-2a
+2020.03.02 10:24:58.932  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:24:58.947  SYSTEM: Start Rt-2
+2020.03.02 10:24:58.961  SYSTEM: Start Rt-Done (2.906 s)
+2020.03.02 10:24:58.974  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:24:59.373  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [12,1] Note:Je požadován objekt.: '[number: 0]'
+2020.03.02 10:25:13.743  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:25:13.773  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:25:13.788  SYSTEM: Executing AppStop
+2020.03.02 10:25:13.803  SYSTEM: Stop Rt-Pre
+2020.03.02 10:25:13.821  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:25:13.842  SYSTEM: Stop Rt
+2020.03.02 10:25:13.856  SYSTEM: INFO/Statistics = Scripts-Run:71, Scripts-Errors:29, Panels-Open:2, Panels-Close:2, Panels-Refresh:56, Workspace-Open:1, TreePmObject:128
+2020.03.02 10:25:13.872  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:25:13.887  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:25:13.904  SYSTEM: Stop WebServer1_80
+2020.03.02 10:25:13.950  SYSTEM: Stop Rt-0
+2020.03.02 10:25:13.987  SYSTEM: Stop Rt-1
+2020.03.02 10:25:14.223  SYSTEM: Stop Rt-Done
+2020.03.02 10:25:40.591  SAVE OBJECT: /Timer
+2020.03.02 10:25:43.283  SYSTEM: Start Rt
+2020.03.02 10:25:43.418  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:25:43.430  SYSTEM: Start Rt-Start
+2020.03.02 10:25:43.465  SYSTEM: Start Rt-0
+2020.03.02 10:25:43.490  SYSTEM: Start Rt-1
+2020.03.02 10:25:43.496  SYSTEM: Start WebServer1_80
+2020.03.02 10:25:43.509  SYSTEM: Start Rt-2a
+2020.03.02 10:25:43.553  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:25:43.567  SYSTEM: Start Rt-2
+2020.03.02 10:25:43.580  SYSTEM: Start Rt-Done (0.343 s)
+2020.03.02 10:25:43.593  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:26:08.702  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:26:08.731  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:26:08.746  SYSTEM: Executing AppStop
+2020.03.02 10:26:08.761  SYSTEM: Stop Rt-Pre
+2020.03.02 10:26:08.778  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:26:08.798  SYSTEM: Stop Rt
+2020.03.02 10:26:08.811  SYSTEM: INFO/Statistics = Scripts-Run:194, Panels-Open:2, Panels-Close:2, Panels-Refresh:99, Workspace-Open:1, TreePmObject:212
+2020.03.02 10:26:08.828  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:26:08.844  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:26:08.860  SYSTEM: Stop WebServer1_80
+2020.03.02 10:26:08.932  SYSTEM: Stop Rt-0
+2020.03.02 10:26:08.973  SYSTEM: Stop Rt-1
+2020.03.02 10:26:09.269  SYSTEM: Stop Rt-Done
+2020.03.02 10:27:59.643  SAVE OBJECT: /Timer
+2020.03.02 10:28:03.673  SYSTEM: Start Rt
+2020.03.02 10:28:03.820  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:28:03.833  SYSTEM: Start Rt-Start
+2020.03.02 10:28:03.849  ERROR: Count:1 Ident:PmTimer: /Timer, Event: onTick, [19,5] Note:Byl oèekáván pøíznak 'If'.
+2020.03.02 10:28:03.884  SYSTEM: Start Rt-0
+2020.03.02 10:28:03.902  SYSTEM: Start Rt-1
+2020.03.02 10:28:03.908  SYSTEM: Start WebServer1_80
+2020.03.02 10:28:03.920  SYSTEM: Start Rt-2a
+2020.03.02 10:28:03.961  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:28:03.975  SYSTEM: Start Rt-2
+2020.03.02 10:28:03.989  SYSTEM: Start Rt-Done (0.36 s)
+2020.03.02 10:28:04.003  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:28:12.994  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:28:14.322  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:28:14.344  SYSTEM: Executing AppStop
+2020.03.02 10:28:14.359  SYSTEM: Stop Rt-Pre
+2020.03.02 10:28:14.376  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:28:14.396  SYSTEM: Stop Rt
+2020.03.02 10:28:14.409  SYSTEM: INFO/Statistics = Scripts-Run:31, Scripts-Errors:1, Panels-Open:2, Panels-Close:2, Panels-Refresh:35, Workspace-Open:1, TreePmObject:12
+2020.03.02 10:28:14.425  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:28:14.440  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:28:14.456  SYSTEM: Stop WebServer1_80
+2020.03.02 10:28:14.509  SYSTEM: Stop Rt-0
+2020.03.02 10:28:14.536  SYSTEM: Stop Rt-1
+2020.03.02 10:28:14.764  SYSTEM: Stop Rt-Done
+2020.03.02 10:28:18.370  ERROR: Count:1 Ident:Test script, [19,5] Note:Byl oèekáván pøíznak 'If'.
+2020.03.02 10:28:30.944  ERROR: Count:1 Ident:Test script, [16,5] Note:Byl oèekáván pøíznak 'If'.
+2020.03.02 10:29:00.594  SAVE OBJECT: /Timer
+2020.03.02 10:29:01.616  SYSTEM: Start Rt
+2020.03.02 10:29:01.776  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:29:01.789  SYSTEM: Start Rt-Start
+2020.03.02 10:29:01.825  SYSTEM: Start Rt-0
+2020.03.02 10:29:01.855  SYSTEM: Start Rt-1
+2020.03.02 10:29:01.860  SYSTEM: Start WebServer1_80
+2020.03.02 10:29:01.871  SYSTEM: Start Rt-2a
+2020.03.02 10:29:01.918  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:29:01.934  SYSTEM: Start Rt-2
+2020.03.02 10:29:01.956  SYSTEM: Start Rt-Done (0.39 s)
+2020.03.02 10:29:01.969  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:33:17.869  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:33:17.899  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:33:17.913  SYSTEM: Executing AppStop
+2020.03.02 10:33:17.929  SYSTEM: Stop Rt-Pre
+2020.03.02 10:33:17.946  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:33:17.965  SYSTEM: Stop Rt
+2020.03.02 10:33:17.979  SYSTEM: INFO/Statistics = Scripts-Run:1653, Panels-Open:2, Panels-Close:2, Panels-Refresh:1020, Workspace-Open:1, TreePmObject:2060
+2020.03.02 10:33:17.995  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:33:18.009  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:33:18.026  SYSTEM: Stop WebServer1_80
+2020.03.02 10:33:18.066  SYSTEM: Stop Rt-0
+2020.03.02 10:33:18.109  SYSTEM: Stop Rt-1
+2020.03.02 10:33:18.387  SYSTEM: Stop Rt-Done
+2020.03.02 10:34:51.172  SAVE OBJECT: /Timer
+2020.03.02 10:36:28.611  SAVE OBJECT: /Timer
+2020.03.02 10:36:30.942  SYSTEM: Start Rt
+2020.03.02 10:36:31.061  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:36:31.074  SYSTEM: Start Rt-Start
+2020.03.02 10:36:31.103  SYSTEM: Start Rt-0
+2020.03.02 10:36:31.125  SYSTEM: Start Rt-1
+2020.03.02 10:36:31.131  SYSTEM: Start WebServer1_80
+2020.03.02 10:36:31.138  SYSTEM: Start Rt-2a
+2020.03.02 10:36:31.180  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:36:31.194  SYSTEM: Start Rt-2
+2020.03.02 10:36:31.209  SYSTEM: Start Rt-Done (0.328 s)
+2020.03.02 10:36:31.224  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:37:46.424  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:37:46.453  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:37:46.468  SYSTEM: Executing AppStop
+2020.03.02 10:37:46.483  SYSTEM: Stop Rt-Pre
+2020.03.02 10:37:46.501  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:37:46.524  SYSTEM: Stop Rt
+2020.03.02 10:37:46.542  SYSTEM: INFO/Statistics = Scripts-Run:434, Panels-Open:2, Panels-Close:2, Panels-Refresh:299, Workspace-Open:1, TreePmObject:612
+2020.03.02 10:37:46.557  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:37:46.570  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:37:47.248  SYSTEM: Stop WebServer1_80
+2020.03.02 10:37:47.899  SYSTEM: Stop Rt-0
+2020.03.02 10:37:47.953  SYSTEM: Stop Rt-1
+2020.03.02 10:37:48.203  SYSTEM: Stop Rt-Done
+2020.03.02 10:41:41.074  SAVE OBJECT: /Timer
+2020.03.02 10:41:42.415  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200302_104141_auto
+2020.03.02 10:41:43.314  SYSTEM: Start Rt
+2020.03.02 10:41:43.455  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:41:43.467  SYSTEM: Start Rt-Start
+2020.03.02 10:41:43.494  SYSTEM: Start Rt-0
+2020.03.02 10:41:43.517  SYSTEM: Start Rt-1
+2020.03.02 10:41:43.522  SYSTEM: Start WebServer1_80
+2020.03.02 10:41:43.535  SYSTEM: Start Rt-2a
+2020.03.02 10:41:43.580  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:41:43.593  SYSTEM: Start Rt-2
+2020.03.02 10:41:43.607  SYSTEM: Start Rt-Done (0.343 s)
+2020.03.02 10:41:43.621  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:42:30.487  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:42:31.159  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:42:31.174  SYSTEM: Executing AppStop
+2020.03.02 10:42:31.189  SYSTEM: Stop Rt-Pre
+2020.03.02 10:42:31.207  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:42:31.227  SYSTEM: Stop Rt
+2020.03.02 10:42:31.240  SYSTEM: INFO/Statistics = Scripts-Run:286, Panels-Open:2, Panels-Close:2, Panels-Refresh:184, Workspace-Open:1, TreePmObject:384
+2020.03.02 10:42:31.254  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:42:31.268  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:42:31.283  SYSTEM: Stop WebServer1_80
+2020.03.02 10:42:31.307  SYSTEM: Stop Rt-0
+2020.03.02 10:42:31.374  SYSTEM: Stop Rt-1
+2020.03.02 10:42:31.636  SYSTEM: Stop Rt-Done
+2020.03.02 10:43:41.159  SAVE OBJECT: /Timer
+2020.03.02 10:43:45.624  SYSTEM: Start Rt
+2020.03.02 10:43:45.810  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:43:45.822  SYSTEM: Start Rt-Start
+2020.03.02 10:43:45.872  SYSTEM: Start Rt-0
+2020.03.02 10:43:45.905  SYSTEM: Start Rt-1
+2020.03.02 10:43:45.914  SYSTEM: Start WebServer1_80
+2020.03.02 10:43:45.920  SYSTEM: Start Rt-2a
+2020.03.02 10:43:45.974  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:43:45.989  SYSTEM: Start Rt-2
+2020.03.02 10:43:46.004  SYSTEM: Start Rt-Done (0.438 s)
+2020.03.02 10:43:46.019  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:48:03.289  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:48:03.318  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:48:03.332  SYSTEM: Executing AppStop
+2020.03.02 10:48:03.346  SYSTEM: Stop Rt-Pre
+2020.03.02 10:48:03.364  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:48:03.384  SYSTEM: Stop Rt
+2020.03.02 10:48:03.397  SYSTEM: INFO/Statistics = Scripts-Run:1232, Panels-Open:2, Panels-Close:2, Panels-Refresh:1027, Workspace-Open:1, TreePmObject:2068
+2020.03.02 10:48:03.413  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:48:03.429  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:48:03.445  SYSTEM: Stop WebServer1_80
+2020.03.02 10:48:03.478  SYSTEM: Stop Rt-0
+2020.03.02 10:48:03.531  SYSTEM: Stop Rt-1
+2020.03.02 10:48:03.798  SYSTEM: Stop Rt-Done
+2020.03.02 10:48:40.833  SAVE OBJECT: /Timer
+2020.03.02 10:50:26.775  SAVE OBJECT: /Timer
+2020.03.02 10:50:30.756  SYSTEM: Start Rt
+2020.03.02 10:50:30.905  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:50:30.918  SYSTEM: Start Rt-Start
+2020.03.02 10:50:30.958  SYSTEM: Start Rt-0
+2020.03.02 10:50:30.978  SYSTEM: Start Rt-1
+2020.03.02 10:50:30.983  SYSTEM: Start WebServer1_80
+2020.03.02 10:50:30.996  SYSTEM: Start Rt-2a
+2020.03.02 10:50:31.074  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:50:31.088  SYSTEM: Start Rt-2
+2020.03.02 10:50:31.104  SYSTEM: Start Rt-Done (0.406 s)
+2020.03.02 10:50:31.121  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:52:12.909  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:52:13.566  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:52:13.581  SYSTEM: Executing AppStop
+2020.03.02 10:52:13.597  SYSTEM: Stop Rt-Pre
+2020.03.02 10:52:13.614  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:52:13.633  SYSTEM: Stop Rt
+2020.03.02 10:52:13.647  SYSTEM: INFO/Statistics = Scripts-Run:616, Panels-Open:2, Panels-Close:2, Panels-Refresh:406, Workspace-Open:1, TreePmObject:824
+2020.03.02 10:52:13.663  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:52:13.678  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:52:13.694  SYSTEM: Stop WebServer1_80
+2020.03.02 10:52:13.727  SYSTEM: Stop Rt-0
+2020.03.02 10:52:13.768  SYSTEM: Stop Rt-1
+2020.03.02 10:52:13.997  SYSTEM: Stop Rt-Done
+2020.03.02 10:52:30.222  SAVE OBJECT: /Timer
+2020.03.02 10:52:50.913  SYSTEM: Start Rt
+2020.03.02 10:52:51.056  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:52:51.068  SYSTEM: Start Rt-Start
+2020.03.02 10:52:51.095  SYSTEM: Start Rt-0
+2020.03.02 10:52:51.118  SYSTEM: Start Rt-1
+2020.03.02 10:52:51.124  SYSTEM: Start WebServer1_80
+2020.03.02 10:52:51.143  SYSTEM: Start Rt-2a
+2020.03.02 10:52:51.179  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:52:51.192  SYSTEM: Start Rt-2
+2020.03.02 10:52:51.207  SYSTEM: Start Rt-Done (0.344 s)
+2020.03.02 10:52:51.221  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:53:33.196  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:53:33.226  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:53:33.240  SYSTEM: Executing AppStop
+2020.03.02 10:53:33.255  SYSTEM: Stop Rt-Pre
+2020.03.02 10:53:33.273  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:53:33.292  SYSTEM: Stop Rt
+2020.03.02 10:53:33.306  SYSTEM: INFO/Statistics = Scripts-Run:258, Panels-Open:2, Panels-Close:2, Panels-Refresh:167, Workspace-Open:1, TreePmObject:348
+2020.03.02 10:53:33.321  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:53:33.336  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:53:33.352  SYSTEM: Stop WebServer1_80
+2020.03.02 10:53:33.384  SYSTEM: Stop Rt-0
+2020.03.02 10:53:33.429  SYSTEM: Stop Rt-1
+2020.03.02 10:53:33.680  SYSTEM: Stop Rt-Done
+2020.03.02 10:53:43.245  SAVE OBJECT: /Timer
+2020.03.02 10:53:44.145  SYSTEM: Start Rt
+2020.03.02 10:53:44.247  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:53:44.260  SYSTEM: Start Rt-Start
+2020.03.02 10:53:44.297  SYSTEM: Start Rt-0
+2020.03.02 10:53:44.345  SYSTEM: Start Rt-1
+2020.03.02 10:53:44.359  SYSTEM: Start WebServer1_80
+2020.03.02 10:53:44.365  SYSTEM: Start Rt-2a
+2020.03.02 10:53:44.407  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:53:44.421  SYSTEM: Start Rt-2
+2020.03.02 10:53:44.437  SYSTEM: Start Rt-Done (0.328 s)
+2020.03.02 10:53:44.454  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:53:50.293  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:53:50.322  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:53:50.338  SYSTEM: Executing AppStop
+2020.03.02 10:53:50.353  SYSTEM: Stop Rt-Pre
+2020.03.02 10:53:50.370  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:53:50.390  SYSTEM: Stop Rt
+2020.03.02 10:53:50.403  SYSTEM: INFO/Statistics = Scripts-Run:40, Panels-Open:2, Panels-Close:2, Panels-Refresh:21, Workspace-Open:1, TreePmObject:56
+2020.03.02 10:53:50.419  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:53:51.756  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:53:52.404  SYSTEM: Stop WebServer1_80
+2020.03.02 10:53:52.435  SYSTEM: Stop Rt-0
+2020.03.02 10:53:52.484  SYSTEM: Stop Rt-1
+2020.03.02 10:53:52.703  SYSTEM: Stop Rt-Done
+2020.03.02 10:53:56.748  SAVE OBJECT: /Timer
+2020.03.02 10:53:58.113  SYSTEM: Start Rt
+2020.03.02 10:53:58.232  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:53:58.243  SYSTEM: Start Rt-Start
+2020.03.02 10:53:58.279  SYSTEM: Start Rt-0
+2020.03.02 10:53:58.297  SYSTEM: Start Rt-1
+2020.03.02 10:53:58.302  SYSTEM: Start WebServer1_80
+2020.03.02 10:53:58.311  SYSTEM: Start Rt-2a
+2020.03.02 10:53:58.351  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:53:58.364  SYSTEM: Start Rt-2
+2020.03.02 10:53:58.379  SYSTEM: Start Rt-Done (0.329 s)
+2020.03.02 10:53:58.397  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:54:12.212  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:54:12.241  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:54:12.254  SYSTEM: Executing AppStop
+2020.03.02 10:54:12.268  SYSTEM: Stop Rt-Pre
+2020.03.02 10:54:12.284  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:54:12.304  SYSTEM: Stop Rt
+2020.03.02 10:54:12.318  SYSTEM: INFO/Statistics = Scripts-Run:88, Panels-Open:2, Panels-Close:2, Panels-Refresh:52, Workspace-Open:1, TreePmObject:120
+2020.03.02 10:54:12.334  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:54:12.349  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:54:12.366  SYSTEM: Stop WebServer1_80
+2020.03.02 10:54:12.395  SYSTEM: Stop Rt-0
+2020.03.02 10:54:12.439  SYSTEM: Stop Rt-1
+2020.03.02 10:54:12.685  SYSTEM: Stop Rt-Done
+2020.03.02 10:54:19.220  SAVE OBJECT: /Timer
+2020.03.02 10:54:20.320  SYSTEM: Start Rt
+2020.03.02 10:54:20.426  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:54:20.438  SYSTEM: Start Rt-Start
+2020.03.02 10:54:20.467  SYSTEM: Start Rt-0
+2020.03.02 10:54:20.496  SYSTEM: Start Rt-1
+2020.03.02 10:54:20.501  SYSTEM: Start WebServer1_80
+2020.03.02 10:54:20.514  SYSTEM: Start Rt-2a
+2020.03.02 10:54:20.558  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:54:20.573  SYSTEM: Start Rt-2
+2020.03.02 10:54:20.590  SYSTEM: Start Rt-Done (0.313 s)
+2020.03.02 10:54:20.606  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:54:32.411  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:54:32.441  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:54:32.455  SYSTEM: Executing AppStop
+2020.03.02 10:54:32.470  SYSTEM: Stop Rt-Pre
+2020.03.02 10:54:32.487  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:54:32.507  SYSTEM: Stop Rt
+2020.03.02 10:54:32.520  SYSTEM: INFO/Statistics = Scripts-Run:77, Panels-Open:2, Panels-Close:2, Panels-Refresh:45, Workspace-Open:1, TreePmObject:104
+2020.03.02 10:54:32.536  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:54:32.551  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:54:32.567  SYSTEM: Stop WebServer1_80
+2020.03.02 10:54:32.597  SYSTEM: Stop Rt-0
+2020.03.02 10:54:32.645  SYSTEM: Stop Rt-1
+2020.03.02 10:54:32.893  SYSTEM: Stop Rt-Done
+2020.03.02 10:54:40.699  SAVE OBJECT: /Timer
+2020.03.02 10:54:41.536  SYSTEM: Start Rt
+2020.03.02 10:54:41.651  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:54:41.663  SYSTEM: Start Rt-Start
+2020.03.02 10:54:41.692  SYSTEM: Start Rt-0
+2020.03.02 10:54:41.724  SYSTEM: Start Rt-1
+2020.03.02 10:54:41.733  SYSTEM: Start WebServer1_80
+2020.03.02 10:54:41.748  SYSTEM: Start Rt-2a
+2020.03.02 10:54:41.797  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:54:41.831  SYSTEM: Start Rt-2
+2020.03.02 10:54:41.849  SYSTEM: Start Rt-Done (0.359 s)
+2020.03.02 10:54:41.863  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:55:03.787  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:55:04.437  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:55:04.453  SYSTEM: Executing AppStop
+2020.03.02 10:55:04.468  SYSTEM: Stop Rt-Pre
+2020.03.02 10:55:04.486  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:55:04.506  SYSTEM: Stop Rt
+2020.03.02 10:55:04.520  SYSTEM: INFO/Statistics = Scripts-Run:138, Panels-Open:2, Panels-Close:2, Panels-Refresh:86, Workspace-Open:1, TreePmObject:188
+2020.03.02 10:55:04.535  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:55:04.550  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:55:04.567  SYSTEM: Stop WebServer1_80
+2020.03.02 10:55:04.598  SYSTEM: Stop Rt-0
+2020.03.02 10:55:04.644  SYSTEM: Stop Rt-1
+2020.03.02 10:55:04.874  SYSTEM: Stop Rt-Done
+2020.03.02 10:55:40.875  SAVE OBJECT: /Timer
+2020.03.02 10:55:43.750  SYSTEM: Start Rt
+2020.03.02 10:55:43.920  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:55:43.932  SYSTEM: Start Rt-Start
+2020.03.02 10:55:43.965  SYSTEM: Start Rt-0
+2020.03.02 10:55:43.994  SYSTEM: Start Rt-1
+2020.03.02 10:55:44.000  SYSTEM: Start WebServer1_80
+2020.03.02 10:55:44.009  SYSTEM: Start Rt-2a
+2020.03.02 10:55:44.053  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:55:44.070  SYSTEM: Start Rt-2
+2020.03.02 10:55:44.085  SYSTEM: Start Rt-Done (0.391 s)
+2020.03.02 10:55:44.105  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:56:09.154  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:56:09.184  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:56:09.197  SYSTEM: Executing AppStop
+2020.03.02 10:56:09.211  SYSTEM: Stop Rt-Pre
+2020.03.02 10:56:09.228  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:56:09.248  SYSTEM: Stop Rt
+2020.03.02 10:56:09.261  SYSTEM: INFO/Statistics = Scripts-Run:153, Panels-Open:2, Panels-Close:2, Panels-Refresh:97, Workspace-Open:1, TreePmObject:212
+2020.03.02 10:56:09.277  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:56:09.292  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:56:09.309  SYSTEM: Stop WebServer1_80
+2020.03.02 10:56:09.346  SYSTEM: Stop Rt-0
+2020.03.02 10:56:09.382  SYSTEM: Stop Rt-1
+2020.03.02 10:56:09.645  SYSTEM: Stop Rt-Done
+2020.03.02 10:56:24.523  SAVE OBJECT: /Timer
+2020.03.02 10:56:38.122  SAVE OBJECT: /Timer
+2020.03.02 10:56:41.213  SYSTEM: Start Rt
+2020.03.02 10:56:41.346  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:56:41.359  SYSTEM: Start Rt-Start
+2020.03.02 10:56:41.389  SYSTEM: Start Rt-0
+2020.03.02 10:56:41.410  SYSTEM: Start Rt-1
+2020.03.02 10:56:41.416  SYSTEM: Start WebServer1_80
+2020.03.02 10:56:41.425  SYSTEM: Start Rt-2a
+2020.03.02 10:56:41.468  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:56:41.481  SYSTEM: Start Rt-2
+2020.03.02 10:56:41.503  SYSTEM: Start Rt-Done (0.36 s)
+2020.03.02 10:56:41.517  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:57:35.689  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:57:35.719  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:57:35.733  SYSTEM: Executing AppStop
+2020.03.02 10:57:35.749  SYSTEM: Stop Rt-Pre
+2020.03.02 10:57:35.767  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:57:35.786  SYSTEM: Stop Rt
+2020.03.02 10:57:35.800  SYSTEM: INFO/Statistics = Scripts-Run:426, Panels-Open:2, Panels-Close:2, Panels-Refresh:214, Workspace-Open:1, TreePmObject:444
+2020.03.02 10:57:35.816  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:57:35.857  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:57:35.873  SYSTEM: Stop WebServer1_80
+2020.03.02 10:57:35.906  SYSTEM: Stop Rt-0
+2020.03.02 10:57:35.944  SYSTEM: Stop Rt-1
+2020.03.02 10:57:36.236  SYSTEM: Stop Rt-Done
+2020.03.02 10:57:50.912  SAVE OBJECT: /Timer
+2020.03.02 10:57:52.275  SYSTEM: Backup PRA created (auto): D:\promotic\DtBackup\auto-pivot.pra_080329_20200302_105751_auto
+2020.03.02 10:57:53.722  SYSTEM: Start Rt
+2020.03.02 10:57:53.854  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 10:57:53.866  SYSTEM: Start Rt-Start
+2020.03.02 10:57:53.895  SYSTEM: Start Rt-0
+2020.03.02 10:57:53.919  SYSTEM: Start Rt-1
+2020.03.02 10:57:53.923  SYSTEM: Start WebServer1_80
+2020.03.02 10:57:53.938  SYSTEM: Start Rt-2a
+2020.03.02 10:57:53.979  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 10:57:53.993  SYSTEM: Start Rt-2
+2020.03.02 10:57:54.007  SYSTEM: Start Rt-Done (0.532 s)
+2020.03.02 10:57:54.021  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 10:58:38.440  SYSTEM: Calling Pm.AppStop
+2020.03.02 10:58:38.470  SYSTEM: Calling StopProject: nAction=0
+2020.03.02 10:58:38.484  SYSTEM: Executing AppStop
+2020.03.02 10:58:38.499  SYSTEM: Stop Rt-Pre
+2020.03.02 10:58:38.517  SYSTEM: Stop Rt-Pre2
+2020.03.02 10:58:38.537  SYSTEM: Stop Rt
+2020.03.02 10:58:38.551  SYSTEM: INFO/Statistics = Scripts-Run:305, Panels-Open:2, Panels-Close:2, Panels-Refresh:175, Workspace-Open:1, TreePmObject:368
+2020.03.02 10:58:38.566  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 10:58:38.581  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 10:58:38.596  SYSTEM: Stop WebServer1_80
+2020.03.02 10:58:38.626  SYSTEM: Stop Rt-0
+2020.03.02 10:58:38.661  SYSTEM: Stop Rt-1
+2020.03.02 10:58:38.930  SYSTEM: Stop Rt-Done
+2020.03.02 11:02:07.650  SYSTEM: Start Rt
+2020.03.02 11:02:07.792  SYSTEM: Start Rt-Pre (PmInstance from PRA)
+2020.03.02 11:02:07.804  SYSTEM: Start Rt-Start
+2020.03.02 11:02:07.835  SYSTEM: Start Rt-0
+2020.03.02 11:02:07.855  SYSTEM: Start Rt-1
+2020.03.02 11:02:07.860  SYSTEM: Start WebServer1_80
+2020.03.02 11:02:07.868  SYSTEM: Start Rt-2a
+2020.03.02 11:02:07.909  ERROR: Count:1 Ident:OpenView failed - sObjectPath not valid Note:../MainPanel
+2020.03.02 11:02:07.923  SYSTEM: Start Rt-2
+2020.03.02 11:02:07.937  SYSTEM: Start Rt-Done (0.343 s)
+2020.03.02 11:02:07.951  SYSTEM: CountersRt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 11:02:12.493  SYSTEM: Calling StopProject: nAction=2
+2020.03.02 11:02:12.523  SYSTEM: Executing AppStop
+2020.03.02 11:02:12.537  SYSTEM: Stop Rt-Pre
+2020.03.02 11:02:12.555  SYSTEM: Stop Rt-Pre2
+2020.03.02 11:02:12.574  SYSTEM: Stop Rt
+2020.03.02 11:02:12.588  SYSTEM: INFO/Statistics = Scripts-Run:29, Panels-Open:2, Panels-Close:2, Panels-Refresh:15, Workspace-Open:1, TreePmObject:48
+2020.03.02 11:02:12.604  SYSTEM: INFO/WebClient = Subsystem:WinHttp, Async requests - pool size:1
+2020.03.02 11:02:12.620  SYSTEM: INFO/WebServer1_80 = Nmb Requests Active:0/0, Server type:http internal, WebThreadType:1, SmallTimeout:10, BigTimeout:30
+2020.03.02 11:02:12.636  SYSTEM: Stop WebServer1_80
+2020.03.02 11:02:12.671  SYSTEM: Stop Rt-0
+2020.03.02 11:02:12.725  SYSTEM: Stop Rt-1
+2020.03.02 11:02:12.964  SYSTEM: Stop Rt-Done
+2020.03.02 11:02:13.178  SYSTEM: Close App
+2020.03.02 11:02:13.196  SYSTEM: Close App Done
+
+2020.03.02 11:02:26.141  SYSTEM: Open App | Pm: Promotic8.3.29 (26.11.2018) | OS: Windows 10 | PC: lvt1-s12 (lvt1-s12.spscv.cz)
+2020.03.02 11:02:26.259  SYSTEM: App: Promotic8.3.29 | Licence: 0
+2020.03.02 11:02:26.290  SYSTEM: CountersDt = PmPanel:2, PmTimer:1, PmData:2, PmWeb:1, PmWebInfo:1, PmWorkspace:1, All:8
+2020.03.02 11:02:27.638  SYSTEM: Open App Done (1.516 s)
+2020.03.02 11:11:31.392  SYSTEM: Calling StopProject: nAction=2
+2020.03.02 11:11:31.483  SYSTEM: Close App
+2020.03.02 11:11:31.496  SYSTEM: Close App Done
