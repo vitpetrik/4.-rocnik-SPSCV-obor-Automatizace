@@ -168,7 +168,7 @@ private:
 
 	void addToBuffer14seg(int byte, char startBit, char numOfBits)
 	{
-		static char bitPosition[15] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+		static char bitPosition[15] = {0, 1, 2, 3, 4, 5, 12, 8, 13, 6, 7, 11, 10, 9, 14};
 		for (char i = 0; i < numOfBits; i++)
 		{
 			outputBuffer[startBit + bitPosition[i]] = !!(byte & (1 << i));
@@ -252,7 +252,7 @@ public:
 				else
 				{
 					stringElement = string[1] >= ' ' ? FourteenSegmentASCII[string[1] - ' '] : 0;
-					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
+					addToBuffer14seg(stringElement, 1, 15);
 
 					stringElement = string[3] >= ' ' ? FourteenSegmentASCII[string[3] - ' '] : 0;
 					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
