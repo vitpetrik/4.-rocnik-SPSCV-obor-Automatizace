@@ -1,19 +1,21 @@
-#include <time.h>
 #include <conio.h>
 #include <stdio.h>
 #include <dos.h>
 #include <stdlib.h>
 #include <iostream.h>
 
+//porty
 #define P1 0x300
 #define P2 0x301
 #define P3 0x300
 #define P4 0x301
 
+//specialni klavesy
 #define TAB 9
 #define BACKSPACE 8
 #define ESC 27
 
+//konstanty pro vyber displeje
 #define NUMERIC_DISP 0
 #define ALPHANUMERIC_DISP 1
 
@@ -24,12 +26,6 @@ typedef struct
 	char port;
 	char bit;
 } pin;
-
-//vrati pocet milisekund od startu programu
-unsigned long millis()
-{
-	return (clock() * 1000) / CLOCKS_PER_SEC;
-}
 
 //trida citace, je vyuzit pro generovani taktu
 class Counter
@@ -54,6 +50,7 @@ public:
 		return count;
 	}
 
+	//vyresetovani stavi citace
 	void reset()
 	{
 		count = 0;
@@ -76,6 +73,7 @@ public:
 	}
 };
 
+//trida bit-bangovaneho serivoeho prenosu, jenom Tx
 class SerialTransmit
 {
 private:
@@ -87,20 +85,23 @@ private:
 	char completed;
 
 public:
+	//konstruktor tridy
 	SerialTransmit()
 	{
-		square.setup(4, 0);
+		square.setup(4, 0); //nastaveni citace
 		index = 0;
 		bufferSize = 0;
 		completed = 1;
 	}
 
+	//nastaveni vystupnich pinu
 	void setup(pin Tx_pin, pin Clk_pin)
 	{
 		Tx = Tx_pin;
 		Clk = Clk_pin;
 	}
 
+	//zapis bufferu
 	char write(char *buff, int size)
 	{
 		if (!transmitCompleted())
@@ -112,16 +113,21 @@ public:
 		return 1;
 	}
 
+	//je prenos hotov?
 	char transmitCompleted()
 	{
 		return completed;
 	}
 
+	//metoda, ktera je volana pri kazdem prubehu programu
 	void run()
 	{
+		//pokud neni prenos hotov
 		if (!completed)
 		{
+			//clock
 			PORT[Clk.port] ^= (-(square.getCount() / 2) ^ PORT[Clk.port]) & (1UL << Clk.bit);
+			//pokud je hodinovy signál v 1. ctvrtine nahodime nove dato
 			if (square.getCount() == 1)
 			{
 				PORT[Tx.port] ^= (-(!!(buffer[index] & (1 << 0))) ^ PORT[Tx.port]) & (1UL << Tx.bit);
@@ -129,12 +135,14 @@ public:
 				bufferSize--;
 			}
 			square.run();
+			//pokud je prenos hotov
 			if (!bufferSize && (square.getCount() == 0))
 			{
 				completed = 1;
 				square.reset();
 			}
 		}
+		//pokud je prenos hotov zajistime, ze na pinech bude 0
 		else
 		{
 			PORT[Clk.port] ^= (-0 ^ PORT[Clk.port]) & (1UL << Clk.bit);
@@ -143,6 +151,7 @@ public:
 	}
 };
 
+//trida displeje/posuvneho registru
 class M5451
 {
 private:
@@ -158,6 +167,7 @@ private:
 
 	char outputBuffer[36];
 
+	//prida do bufferu bitovou kombinaci pro 7 segmentovy displej
 	void addToBuffer7seg(char byte, char startBit, char numOfBits)
 	{
 		for (char i = 0; i < numOfBits; i++)
@@ -166,8 +176,13 @@ private:
 		}
 	}
 
+	//prida do bufferu bitovou kombinaci pro 14 segmentovy displej
 	void addToBuffer14seg(int byte, char startBit, char numOfBits)
 	{
+		//kombinace, ktere jsem vzal z githubove repozitare byly docela mimo :)
+		//abych kombinace nemusel otrocky prepisovat, napsal jsem si takovou tu konstrukci
+		//ktera kombinace opravi a na displeji jsou tedy zobrazeny spravne znaky
+		//index pole bufferu, na ktere se ma ulozit dany bit se vezme z tohoto pole
 		static char bitPosition[15] = {0, 1, 2, 3, 4, 5, 12, 8, 13, 6, 7, 11, 10, 9, 14};
 		for (char i = 0; i < numOfBits; i++)
 		{
@@ -176,13 +191,14 @@ private:
 	}
 
 public:
+	//konstruktor tridy
 	M5451(pin Tx_pin, pin Clk_pin, char disp, char *s)
 	{
-		onChange();
-		serial.setup(Tx_pin, Clk_pin);
+		onChange(); //vymazani bufferu
+		serial.setup(Tx_pin, Clk_pin); //nastaveni seriovky
 		displayType = disp;
 		string = s;
-		anodeSwitch = 0;
+		anodeSwitch = 0; //prohazovani anod
 	}
 
 	//nastavení pointeru na stringu
@@ -192,17 +208,20 @@ public:
 		string = s;
 	}
 
+	//zmenu typu displeje
 	void setDisplayType(char disp)
 	{
 		onChange();
 		displayType = disp;
 	}
 
+	//typ displeje?
 	char getDisplayType()
 	{
 		return displayType;
 	}
 
+	//vynulovani bufferu
 	void onChange()
 	{
 		newString = 1;
@@ -212,6 +231,7 @@ public:
 		}
 	}
 
+	//prenos hotov?
 	char transmitCompleted()
 	{
 		return serial.transmitCompleted();
@@ -219,19 +239,22 @@ public:
 
 	void run()
 	{
+		//rozhodnuti podle typu displeje
 		switch (displayType)
 		{
 		case NUMERIC_DISP:
+			//pokud mame novy text a zaroven je dokoncen predchozi prenos
 			if (newString && transmitCompleted())
 			{
 				char stringElement = 0;
-				outputBuffer[0] = 1;
+				outputBuffer[0] = 1;	//start bit
+				//procyklovani textem
 				for (char i = 0; i < 5; i++)
 				{
-					stringElement = string[i] >= ' ' ? SevenSegmentASCII[string[i] - ' '] : 0;
-					addToBuffer7seg(stringElement, (i * 7) + 1, 7);
+					stringElement = string[i] >= ' ' ? SevenSegmentASCII[string[i] - ' '] : 0;	//ziskani kombinace
+					addToBuffer7seg(stringElement, (i * 7) + 1, 7);	//zapsani do bufferu
 				}
-				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));
+				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer)); //poslani bufferu na seriovku
 				newString = 0;
 			}
 			break;
@@ -241,14 +264,16 @@ public:
 				int stringElement = 0;
 				outputBuffer[0] = 1;
 				char help = 0;
+				//jedna anoda
 				if (!anodeSwitch)
 				{
-					stringElement = string[0] >= ' ' ? FourteenSegmentASCII[string[0] - ' '] : 0;
-					addToBuffer14seg(stringElement, 1, 15);
+					stringElement = string[0] >= ' ' ? FourteenSegmentASCII[string[0] - ' '] : 0;	//ziskani kombinace
+					addToBuffer14seg(stringElement, 1, 15);	//zapis do bufferu
 
 					stringElement = string[2] >= ' ' ? FourteenSegmentASCII[string[2] - ' '] : 0;
 					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
 				}
+				//druha anoda
 				else
 				{
 					stringElement = string[1] >= ' ' ? FourteenSegmentASCII[string[1] - ' '] : 0;
@@ -257,11 +282,12 @@ public:
 					stringElement = string[3] >= ' ' ? FourteenSegmentASCII[string[3] - ' '] : 0;
 					addToBuffer14seg(stringElement, (1 * 15) + 1, 15);
 				}
+				//zapis ktera anoda mi byt aktivni
 				outputBuffer[31] = !anodeSwitch;
 				outputBuffer[32] = anodeSwitch;
 
-				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));
-				anodeSwitch = !anodeSwitch;
+				serial.write(outputBuffer, sizeof(outputBuffer) / sizeof(*outputBuffer));	//posalni na seriovku
+				anodeSwitch = !anodeSwitch;	//zmena anody
 			}
 			break;
 		}
@@ -269,6 +295,7 @@ public:
 	}
 };
 
+//definice kombinaci 7-segmentoveho displeje
 const unsigned char M5451::SevenSegmentASCII[96] = {
 	0x00, /* (space) */
 	0x86, /* ! */
@@ -367,6 +394,7 @@ const unsigned char M5451::SevenSegmentASCII[96] = {
 	0x01, /* ~ */
 	0x00, /* (del) */
 };
+//definice kombinaci 14-segmentoveho displeje 
 const unsigned int M5451::FourteenSegmentASCII[96] = {
 	0x0000, /* (space) */
 	0x4006, /* ! */
@@ -484,22 +512,27 @@ int main(void)
 		{
 			switch (getch())
 			{
+				//zapis noveho textu
 			case BACKSPACE:
 				cout << "\n\rZadejte text k zobrazeni: ";
 				gets(inputStr);
 				display.onChange();
 				break;
+				//zmena typu displeje
 			case TAB:
 				display.setDisplayType(!display.getDisplayType());
 				break;
+				//odchod z programu
 			case ESC:
 				exitLoop = 1;
 				break;
 			}
 		}
 
+		//metoda displeje pro chod
 		display.run();
 
+		//nahozeni bytu na port
 		outportb(P1, PORT[0]);
 
 		//pokud zmackneme ESC a je dokonceno vysilani opustime smycku
