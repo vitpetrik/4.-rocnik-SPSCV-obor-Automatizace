@@ -1,0 +1,173 @@
+(saveFormat "7.0")
+(date "Thu 26/Mar/2020 12:46:45 ")
+(veerev "9.33.1811.0201")
+(platform "PC")
+(execMode v6)
+(prefExecMode v9)
+(filterNAN 0)
+(workspaceStackingOrder M)
+(sysconfig)
+(SaveCF no)
+(device 0 ROOTCONTEXT
+(properties
+(variableName Main)
+(variableScope glob)
+(trigMode deg)
+(nextID 7)
+(popupTitleText "Untitled")
+(popupMoveable 1))
+(deviceList
+(device 0 KNOB
+(properties
+(name "R")
+(variableScope cont)
+(enableEditing 1)
+(range 100 1000000)
+(detents 10))
+(interface
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real64
+(data  159060))
+(initValue Real
+(data  0))))
+(device 1 KNOB
+(properties
+(name "L")
+(variableScope cont)
+(enableEditing 1)
+(range 0.1 1.1)
+(detents 0.01))
+(interface
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real64
+(data  1.1))
+(initValue Real
+(data  0))))
+(device 3 KNOB
+(properties
+(name "C")
+(variableScope cont)
+(enableEditing 1)
+(range 1E-009 3E-009)
+(detents 1E-010))
+(interface
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real64
+(data  2E-009))
+(initValue Real
+(data  0))))
+(device 4 TOGLOBAL
+(properties
+(name "Set R")
+(variableScope cont)
+(globalName "R"))
+(interface
+(input 1
+(name "Data")
+(tag "Data")
+(lock name))))
+(device 5 TOGLOBAL
+(properties
+(name "Set L")
+(variableScope cont)
+(globalName "L"))
+(interface
+(input 1
+(name "Data")
+(tag "Data")
+(lock name))))
+(device 6 TOGLOBAL
+(properties
+(name "Set C")
+(variableScope cont)
+(globalName "C"))
+(interface
+(input 1
+(name "Data")
+(tag "Data")
+(lock name))))
+(configuration
+(connect D0:1 D3:1)
+(connect D1:1 D4:1)
+(connect D2:1 D5:1)))
+(contextCarrier
+(wndRestoredOrigin 2 2)
+(wndRestoredExtent 702 385)
+(wndState max)
+(active detail)
+(detail
+(extent 1612 869)
+(anchorPt 2 1)
+(configuration
+(devCarrierFor 0
+(active open)
+(icon
+(extent 13 0))
+(open
+(extent 122 137)
+(layout horizontal)
+(fastmode off))
+(pinCenter 120 120))
+(devCarrierFor 1
+(active open)
+(icon
+(extent 11 0))
+(open
+(extent 122 137)
+(layout horizontal)
+(fastmode off))
+(pinCenter 270 120))
+(devCarrierFor 3
+(active open)
+(icon
+(extent 13 0))
+(open
+(extent 122 137)
+(layout horizontal)
+(fastmode off))
+(pinCenter 420 120))
+(devCarrierFor 4
+(active icon)
+(icon
+(extent 34 15))
+(open
+(extent 54 46))
+(terminals on)
+(pinCenter 120 210))
+(devCarrierFor 5
+(active icon)
+(icon
+(extent 32 15))
+(open
+(extent 54 46))
+(terminals on)
+(pinCenter 270 210))
+(devCarrierFor 6
+(active icon)
+(icon
+(extent 34 15))
+(open
+(extent 54 46))
+(terminals on)
+(pinCenter 420 210))
+(connect D0:1 D3:1
+(points 6 183 120 190 120 190 240 80 240 80 210 100 210))
+(connect D1:1 D4:1
+(points 6 333 120 340 120 340 240 230 240 230 210 251 210))
+(connect D2:1 D5:1
+(points 6 483 120 500 120 500 240 380 240 380 210 400 210)))
+(stackingOrder 0 1 2 3 4 5))
+(numberFormats
+(realFormat standard)
+(realSigDigits 4)
+(realRadixSpec 4)
+(integerBase decimal))))
