@@ -1,5 +1,5 @@
 (saveFormat "7.0")
-(date "Thu 26/Mar/2020 16:28:19 ")
+(date "Sat 28/Mar/2020 19:40:58 ")
 (veerev "9.33.1811.0201")
 (platform "PC")
 (execMode v6)
@@ -13,7 +13,7 @@
 (variableName Main)
 (variableScope glob)
 (trigMode deg)
-(nextID 7)
+(nextID 35)
 (popupTitleText "Untitled")
 (popupMoveable 1))
 (deviceList
@@ -30,7 +30,7 @@
 (lock name constraints)))
 (implementation
 (value Real64
-(data  159060))
+(data  1000000))
 (initValue Real
 (data  0))))
 (device 1 KNOB
@@ -46,7 +46,7 @@
 (lock name constraints)))
 (implementation
 (value Real64
-(data  1.1))
+(data  1.05))
 (initValue Real
 (data  0))))
 (device 3 KNOB
@@ -62,10 +62,72 @@
 (lock name constraints)))
 (implementation
 (value Real64
-(data  2E-009))
+(data  1.5E-009))
 (initValue Real
 (data  0))))
-(device 4 TOGLOBAL
+(device 7 VFUNCTIONGENERATOR
+(properties
+(variableScope cont)
+(function Sine)
+(frequency 6015.163806418059)
+(amplitude 1)
+(dcOffset 0)
+(degRad Deg)
+(phaseShift 0)
+(interval 0.01)
+(numPoints 500))
+(interface
+(input 1
+(name "Frequency")
+(tag "Frequency")
+(requires
+(datatype Real64)
+(shape "Scalar"))
+(lock constraints)
+(optional yes)
+(buffer YES))
+(input 2
+(name "Num Points")
+(tag "Num Points")
+(requires
+(datatype Int32)
+(shape "Scalar"))
+(lock constraints)
+(optional yes)
+(buffer YES))
+(output 1
+(name "Func")
+(lock name constraints))))
+(device 8 CONSTANT
+(properties
+(name "Pocet bodu")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(data  500))
+(initValue Real
+(data  0))))
+(device 14 FORMULA
+(properties
+(name "Vypocet impedance rezonancniho clanku")
+(variableScope cont)
+(expr 2 "Z=1/( 1/R + j(w*C) + 1/(j(w*L)) );" "Zabs=abs(Z);"))
+(interface
+(input 1
+(name "w")
+(optional yes))
+(output 1
+(name "Zabs")
+(optional yes))
+(output 2
+(name "Z")
+(optional yes))))
+(device 15 TOGLOBAL
 (properties
 (name "Set R")
 (variableScope cont)
@@ -75,7 +137,7 @@
 (name "Data")
 (tag "Data")
 (lock name))))
-(device 5 TOGLOBAL
+(device 16 TOGLOBAL
 (properties
 (name "Set L")
 (variableScope cont)
@@ -85,7 +147,7 @@
 (name "Data")
 (tag "Data")
 (lock name))))
-(device 6 TOGLOBAL
+(device 17 TOGLOBAL
 (properties
 (name "Set C")
 (variableScope cont)
@@ -95,18 +157,263 @@
 (name "Data")
 (tag "Data")
 (lock name))))
+(device 19 FORMULA
+(properties
+(name "Vypocet rezonancni frekvence a mez\355")
+(variableScope cont)
+(expr 5 "Fr=1/( 2 * PI * sqrt( L * C ));"
+"Text=(\"Obvod je v rezonanci pri \" + round(Fr*10)/10 + \" Hz\");" "Fd=Fr*0.5;"
+"Fh=Fr*1.5;" ""))
+(interface
+(output 1
+(name "Text")
+(optional yes))
+(output 2
+(name "Fd")
+(optional yes))
+(output 3
+(name "Fh")
+(optional yes))
+(output 4
+(name "Fr")
+(optional yes))))
+(device 20 TEXTDISPLAY
+(properties
+(name "Rezonancni frekvence")
+(variableScope cont))
+(interface
+(input 1
+(name "Data"))))
+(device 21 FORRANGE
+(properties
+(variableScope cont)
+(from 2005.163806418059)
+(thru 6015.491419254176)
+(step 10))
+(interface
+(input 1
+(name "From")
+(tag "From")
+(requires
+(datatype Real64)
+(shape "Scalar"))
+(lock constraints)
+(optional yes)
+(buffer YES))
+(input 2
+(name "Thru")
+(tag "Thru")
+(requires
+(datatype Real64)
+(shape "Scalar"))
+(lock constraints)
+(optional yes)
+(buffer YES))
+(output 1
+(name "Data")
+(lock name constraints))))
+(device 22 FORCOUNT
+(properties
+(variableScope cont)
+(count 500))
+(interface
+(input 1
+(name "Count")
+(tag "Count")
+(requires
+(datatype Int32)
+(shape "Scalar"))
+(lock constraints)
+(optional yes)
+(buffer YES))
+(output 1
+(name "Count")
+(lock name constraints))))
+(device 23 FROMWAVEFORM
+(properties
+(variableScope cont))
+(interface
+(input 1
+(name "Wf Data")
+(requires
+(datatype Waveform))
+(lock name constraints))
+(output 1
+(name "Real64 Ary")
+(lock name constraints))
+(output 2
+(name "Time Span")
+(lock name constraints))))
+(device 25 XYPLOT
+(properties
+(name "Z = f(f)")
+(variableScope cont))
+(interface
+(input 1
+(name "XData")
+(lock constraints))
+(input 2
+(name "YData1")
+(lock constraints)))
+(implementation
+(tracePin 2)
+(graphMode rectangular)
+(autoAutoX)
+(autoAutoY)))
+(device 26 CONSTANT
+(properties
+(name "kondenzator")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(data  2.2E-010))
+(initValue Real
+(data  0))))
+(device 27 FORMULA
+(properties
+(name "Uhlova rychlost")
+(variableScope cont)
+(expr 1 "2*PI*A"))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 28 FORMULA
+(properties
+(name "Vypocat napeti na rezonancnim clanku")
+(variableScope cont)
+(expr 1 "( napeti[i] / (1/j(w*C) + Z) ) * Z"))
+(interface
+(input 1
+(name "napeti")
+(optional yes))
+(input 2
+(name "i")
+(optional yes))
+(input 3
+(name "Z")
+(optional yes))
+(input 4
+(name "C")
+(optional yes))
+(input 5
+(name "w")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 29 COLLECTOR
+(properties
+(variableScope cont)
+(output1D 0))
+(interface
+(input 1
+(name "Data")
+(tag "Data"))
+(input 2
+(type trigger)
+(name "XEQ")
+(lock name constraints))
+(output 1
+(name "Array")
+(tag "Array"))))
+(device 30 FORMULA
+(properties
+(name "max")
+(variableScope cont)
+(expr 1 "max(abs(A))"))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 31 XYPLOT
+(properties
+(name "U = f(f)")
+(variableScope cont))
+(interface
+(input 1
+(name "XData")
+(lock constraints))
+(input 2
+(name "YData1")
+(lock constraints)))
+(implementation
+(tracePin 2)
+(graphMode rectangular)
+(autoAutoX)
+(autoAutoY)))
+(device 33 START25
+(properties
+(variableScope cont)))
+(device 34 YPLOT
+(properties
+(name "Waveform (Time)")
+(variableScope cont))
+(interface
+(input 1
+(name "Trace1")
+(lock constraints)))
+(implementation
+(tracePin 1)
+(graphMode time)
+(autoAutoX)
+(autoAutoY)))
 (configuration
-(connect D0:1 D3:1)
-(connect D1:1 D4:1)
-(connect D2:1 D5:1)))
+(connect D21:0 D0:0)
+(connect D6:0 D1:0)
+(connect D7:0 D2:0)
+(connect D11:1 D3:1)
+(connect D4:1 D3:2)
+(connect D16:1 D5:1)
+(connect D0:1 D6:1)
+(connect D1:1 D7:1)
+(connect D2:1 D8:1)
+(connect D8:0 D9:0)
+(connect D9:1 D10:1)
+(connect D9:2 D11:1)
+(connect D9:3 D11:2)
+(connect D3:0 D12:0)
+(connect D4:1 D12:1)
+(connect D3:1 D13:1)
+(connect D11:1 D14:1)
+(connect D5:1 D14:2)
+(connect D11:1 D16:1)
+(connect D13:1 D17:1)
+(connect D12:1 D17:2)
+(connect D5:2 D17:3)
+(connect D15:1 D17:4)
+(connect D16:1 D17:5)
+(connect D17:1 D18:1)
+(connect D12:0 D18:2)
+(connect D18:1 D19:1)
+(connect D11:1 D20:1)
+(connect D19:1 D20:2)
+(connect D3:1 D22:1)))
 (contextCarrier
 (wndRestoredOrigin 2 2)
 (wndRestoredExtent 702 385)
 (wndState max)
 (active detail)
 (detail
-(extent 1612 869)
-(anchorPt 2 1)
+(extent 1893 869)
+(anchorPt 99 61)
 (configuration
 (devCarrierFor 0
 (active open)
@@ -125,7 +432,7 @@
 (extent 122 137)
 (layout horizontal)
 (fastmode off))
-(pinCenter 270 120))
+(pinCenter 260 120))
 (devCarrierFor 3
 (active open)
 (icon
@@ -134,38 +441,290 @@
 (extent 122 137)
 (layout horizontal)
 (fastmode off))
-(pinCenter 420 120))
-(devCarrierFor 4
+(pinCenter 400 120))
+(devCarrierFor 7
+(active icon)
+(icon
+(extent 115 51)
+(iconImage "virtual.icn"))
+(open
+(extent 190 183))
+(terminals on)
+(pinCenter 300 370))
+(devCarrierFor 8
+(active icon)
+(icon
+(extent 68 15))
+(open
+(extent 104 29)
+(showFormat real))
+(pinCenter 160 470))
+(devCarrierFor 14
+(active open)
+(icon
+(extent 245 0))
+(open
+(extent 224 66))
+(terminals on)
+(pinCenter 365 570))
+(devCarrierFor 15
 (active icon)
 (icon
 (extent 34 15))
 (open
-(extent 54 46))
+(extent 73 51))
 (terminals on)
 (pinCenter 120 210))
-(devCarrierFor 5
+(devCarrierFor 16
 (active icon)
 (icon
 (extent 32 15))
 (open
-(extent 54 46))
+(extent 73 51))
 (terminals on)
-(pinCenter 270 210))
-(devCarrierFor 6
+(pinCenter 260 210))
+(devCarrierFor 17
 (active icon)
 (icon
 (extent 34 15))
 (open
-(extent 54 46))
+(extent 73 51))
 (terminals on)
-(pinCenter 420 210))
-(connect D0:1 D3:1
+(pinCenter 400 210))
+(devCarrierFor 19
+(active open)
+(icon
+(extent 218 0))
+(open
+(extent 374 106))
+(terminals on)
+(pinCenter 735 90))
+(devCarrierFor 20
+(active open)
+(icon
+(extent 132 0))
+(open
+(extent 284 46))
+(pinCenter 1190 60))
+(devCarrierFor 21
+(active open)
+(icon
+(iconImage "loop.icn"))
+(open
+(extent 99 79))
+(pinCenter 110 360))
+(devCarrierFor 22
+(active open)
+(icon
+(iconImage "loop.icn"))
+(open
+(extent 95 31))
+(pinCenter 300 470))
+(devCarrierFor 23
+(active icon)
+(icon
+(extent 112 51)
+(iconImage "unbuild.icn"))
+(open
+(extent 12 50))
+(terminals on)
+(pinCenter 450 370))
+(devCarrierFor 25
+(active open)
+(icon
+(extent 68 0)
+(iconImage "display.icn"))
+(open
+(extent 464 326)
+(displayMode 47)
+(graphType cartesian)
+(gridType grid)
+(scale 0
+(name "Z (ohm)")
+(domainName "f (Hz)")
+(Yspacing 1)
+(Xspacing 2)
+(scaleColor "Dark Gray")
+(show 1)
+(range 0 1000000 4 linear))
+(domain 2000 6500 4 linear)
+(trace 0 onScale 0
+(name "YData1")
+(traceColor "Purple")
+(lineType 12)
+(pointType 0))
+(marker 0 onTrace 0)
+(markerInterpolate 1)
+(displayBg "HighlightText")
+(markerColor "Black"))
+(titleFont "Arial" 12)
+(pinCenter 900 380))
+(devCarrierFor 26
+(active icon)
+(icon
+(extent 73 15))
+(open
+(extent 155 29)
+(showFormat real))
+(pinCenter 500 720))
+(devCarrierFor 27
+(active icon)
+(icon
+(extent 94 24))
+(open
+(extent 104 46))
+(terminals on)
+(pinCenter 120 570))
+(devCarrierFor 28
+(active open)
+(icon
+(extent 229 45))
+(open
+(extent 204 106))
+(terminals on)
+(pinCenter 780 700))
+(devCarrierFor 29
+(active icon)
+(icon
+(extent 53 25))
+(open
+(extent 95 54))
+(terminals on)
+(pinCenter 1040 710))
+(devCarrierFor 30
+(active icon)
+(icon
+(extent 27 15))
+(open
+(extent 145 50))
+(terminals on)
+(pinCenter 1120 710))
+(devCarrierFor 31
+(active open)
+(icon
+(extent 68 0)
+(iconImage "display.icn"))
+(open
+(extent 504 326)
+(displayMode 47)
+(graphType cartesian)
+(gridType grid)
+(scale 0
+(name "U (V)")
+(domainName "f (Hz)")
+(Yspacing 1)
+(Xspacing 2)
+(scaleColor "Dark Gray")
+(show 1)
+(range 0 6 4 linear))
+(domain 2000 6500 4 linear)
+(trace 0 onScale 0
+(name "YData1")
+(traceColor "Darkest Teal")
+(lineType 12)
+(pointType 0))
+(marker 0 onTrace 0)
+(markerInterpolate 1)
+(displayBg "HighlightText")
+(markerColor "Black"))
+(pinCenter 1440 380))
+(devCarrierFor 33
+(active open)
+(icon)
+(open
+(extent 134 54))
+(title off)
+(bg "Red")
+(fg "HighlightText")
+(font "Comic Sans MS" 28 bold)
+(pinCenter 120 -10))
+(devCarrierFor 34
+(active open)
+(icon
+(iconImage "display.icn"))
+(open
+(extent 494 194)
+(displayMode 0)
+(graphType cartesian)
+(gridType axis)
+(scale 0
+(name "Mag")
+(domainName "Time")
+(Yspacing 1)
+(Xspacing 2)
+(scaleColor "Dark Gray")
+(show 1)
+(range -1 1 4 linear))
+(domain 0 0.01 4 linear)
+(trace 0 onScale 0
+(name "Trace1")
+(traceColor "Yellow")
+(lineType 12)
+(pointType 0))
+(markerColor "White"))
+(title off)
+(pinCenter 1450 670))
+(connect D21:0 D0:0
+(points 2 120 19 120 31))
+(connect D6:0 D1:0
+(points 6 120 220 120 260 500 260 500 0 260 0 260 31))
+(connect D7:0 D2:0
+(points 6 260 220 260 250 490 250 490 10 400 10 400 31))
+(connect D11:1 D3:1
+(points 2 162 360 240 360))
+(connect D4:1 D3:2
+(points 4 196 470 220 470 220 380 240 380))
+(connect D16:1 D5:1
+(points 2 169 570 220 570))
+(connect D0:1 D6:1
 (points 6 183 120 190 120 190 240 80 240 80 210 100 210))
-(connect D1:1 D4:1
-(points 6 333 120 340 120 340 240 230 240 230 210 251 210))
-(connect D2:1 D5:1
-(points 6 483 120 500 120 500 240 380 240 380 210 400 210)))
-(stackingOrder 0 1 2 3 4 5))
+(connect D1:1 D7:1
+(points 6 323 120 330 120 330 240 220 240 220 210 241 210))
+(connect D2:1 D8:1
+(points 6 463 120 480 120 480 240 360 240 360 210 380 210))
+(connect D8:0 D9:0
+(points 8 400 220 400 230 470 230 470 110 480 110 480 -10 740 -10 740 16))
+(connect D9:1 D10:1
+(points 2 964 60 1045 60))
+(connect D9:2 D11:1
+(points 8 964 80 980 80 980 170 650 170 650 270 40 270 40 340 58 340))
+(connect D9:3 D11:2
+(points 8 964 100 990 100 990 180 660 180 660 280 30 280 30 380 58 380))
+(connect D3:0 D12:0
+(points 2 300 398 300 434))
+(connect D4:1 D12:1
+(points 2 196 470 250 470))
+(connect D3:1 D13:1
+(points 2 360 370 391 370))
+(connect D11:1 D14:1
+(points 4 162 360 220 360 220 300 665 300))
+(connect D5:1 D14:2
+(points 4 519 550 540 550 540 460 665 460))
+(connect D11:1 D16:1
+(points 6 162 360 180 360 180 420 50 420 50 570 70 570))
+(connect D13:1 D17:1
+(points 4 508 360 560 360 560 660 625 660))
+(connect D12:1 D17:2
+(points 4 350 470 570 470 570 680 625 680))
+(connect D5:2 D17:3
+(points 4 519 590 550 590 550 700 625 700))
+(connect D15:1 D17:4
+(points 2 539 720 625 720))
+(connect D16:1 D17:5
+(points 4 169 570 200 570 200 740 625 740))
+(connect D17:1 D18:1
+(points 2 934 700 1011 700))
+(connect D12:0 D18:2
+(points 7 300 488 300 500 550 500 550 570 950 570 950 720 1011 720))
+(connect D18:1 D19:1
+(points 2 1069 710 1104 710))
+(connect D11:1 D20:1
+(points 8 162 360 220 360 220 300 650 300 650 590 1150 590 1150 300 1185 300))
+(connect D19:1 D20:2
+(points 4 1136 710 1160 710 1160 460 1185 460))
+(connect D3:1 D22:1
+(points 8 360 370 380 370 380 420 580 420 580 580 960 580 960 670 1200 670)))
+(stackingOrder 0 1 6 7 2 8 11 3 13 14 9 10 5 4 16 21 17 12 20 18 19 22 15))
 (numberFormats
 (realFormat standard)
 (realSigDigits 4)
