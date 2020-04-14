@@ -106,6 +106,11 @@ namespace euler_power
             Console.Write("\nNapište hodnotu mocniny kterou pocitame ");
             double x = Double.Parse(Console.ReadLine());
 
+            for(int i = 0; i < 30;i++)
+            {
+                Console.WriteLine(Exponential_stack(i, 10));
+            }
+            return;
             int iteration = 0;
             while(true)
             {
